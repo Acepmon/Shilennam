@@ -1,0 +1,4 @@
+url - www.shilennam.mn
+ip - 208.91.198.24/cpanel
+username - shilecnv
+password - 8E3U8u6@aB5~

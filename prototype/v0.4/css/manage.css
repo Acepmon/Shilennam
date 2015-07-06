@@ -1,0 +1,12 @@
+.editor-group .tab-content .tab-pane {
+	padding: 20px;
+	padding-bottom: none;
+	border: 1px solid lightgray;
+	border-top: none;
+}
+.editor-group .financial_list {
+	margin-top: 20px;
+}
+.add_button {
+	margin-top: 10px;
+}

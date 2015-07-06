@@ -1,0 +1,14 @@
+Website: www.shilennam.mn
+IP: 208.91.198.24
+
+FTP Username: shilecnv
+FTP Password: 8E3U8u6@aB5~
+
+Database: shilecnv_prototype
+User: shilecnv_p_dev
+Pass: prototypedev
+
+Database: shilecnv_prototype
+User: shilecnv_dev
+Pass: x*O@ydWDvHo,
+

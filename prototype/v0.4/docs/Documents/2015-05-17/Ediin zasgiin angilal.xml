@@ -1,0 +1,2428 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>ebi</Author>
+  <LastAuthor>JAVA M2</LastAuthor>
+  <Created>2015-04-10T15:16:41Z</Created>
+  <LastSaved>2015-04-10T15:17:31Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>7755</WindowHeight>
+  <WindowWidth>20400</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="594" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Index="2" ss:Width="35.25"/>
+   <Column ss:Width="972.75"/>
+   <Row ss:Index="3">
+    <Cell ss:Index="2"><Data ss:Type="String">A</Data></Cell>
+    <Cell><Data ss:Type="String">ХЄДЄЄ АЖ АХУЙ, ОЙН АЖ АХУЙ, ЗАГАС БАРИЛТ, АН АГНУУР</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A01</Data></Cell>
+    <Cell><Data ss:Type="String">Газар тариалан, мал аж ахуйн їйлдвэрлэл, ан агнуур болон тїїнд холбогдох туслах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A011</Data></Cell>
+    <Cell><Data ss:Type="String">Нэг наст ургамлын тариалалт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A0111</Data></Cell>
+    <Cell><Data ss:Type="String">Їр тариа (цагаан будааг оруулахгїйгээр), буурцагт болон тосны ургамал тариалалт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A0112</Data></Cell>
+    <Cell><Data ss:Type="String">Цагаан будаа тариалалт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A0113</Data></Cell>
+    <Cell><Data ss:Type="String">Хїнсний ногоо болон амтат гуа, їндэст болон булцуут ургамал тариалалт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A0114</Data></Cell>
+    <Cell><Data ss:Type="String">Чихрийн нишингэ тариалалт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A0115</Data></Cell>
+    <Cell><Data ss:Type="String">Тамхины ургамал тариалалт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A0116</Data></Cell>
+    <Cell><Data ss:Type="String">Хєвєнгийн ургамал тариалалт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A0119</Data></Cell>
+    <Cell><Data ss:Type="String">Нэг наст бусад тєрлийн ургамал тариалалт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A012</Data></Cell>
+    <Cell><Data ss:Type="String">Олон наст ургамал тариалалт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A0121</Data></Cell>
+    <Cell><Data ss:Type="String">Усан їзэм тариалалт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A0122</Data></Cell>
+    <Cell><Data ss:Type="String">Халуун, дулаан орны жимсний ургамал тариалалт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A0123</Data></Cell>
+    <Cell><Data ss:Type="String">Жїржийн тєрлийн жимсний тариалалт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A0124</Data></Cell>
+    <Cell><Data ss:Type="String">Яст болон їрт жимсний тариалалт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A0125</Data></Cell>
+    <Cell><Data ss:Type="String">Жимсний ургамал, жимсний сєєг, самар болон бусад жимс тариалалт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A0126</Data></Cell>
+    <Cell><Data ss:Type="String">Тослог жимс тариалалт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A0127</Data></Cell>
+    <Cell><Data ss:Type="String">Ундааны ургамал тариалалт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A0128</Data></Cell>
+    <Cell><Data ss:Type="String">Їнэр, амт оруулагч болон эм, эмчилгээний ургамал тариалалт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A0129</Data></Cell>
+    <Cell><Data ss:Type="String">Олон наст бусад ургамал тариалалт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A0130</Data></Cell>
+    <Cell><Data ss:Type="String">Ургамал тарих, ургуулах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A014</Data></Cell>
+    <Cell><Data ss:Type="String">Мал, амьтан єсгєх, їржїїлэх аж ахуйн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A0141</Data></Cell>
+    <Cell><Data ss:Type="String">Їхэр, сарлаг єсгєх їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A0142</Data></Cell>
+    <Cell><Data ss:Type="String">Адуу (адууны тєрлийн бусад амьтан) єсгєх їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A0143</Data></Cell>
+    <Cell><Data ss:Type="String">Тэмээ (тэмээний тєрлийн амьтан) єсгєх їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A0144</Data></Cell>
+    <Cell><Data ss:Type="String">Хонь, ямаа єсгєх їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A0145</Data></Cell>
+    <Cell><Data ss:Type="String">Гахайн аж ахуйн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A0146</Data></Cell>
+    <Cell><Data ss:Type="String">Шувууны аж ахуйн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A0149</Data></Cell>
+    <Cell><Data ss:Type="String">Бусад мал, амьтан єсгєх їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A0150</Data></Cell>
+    <Cell><Data ss:Type="String">Газар тариалан, мал амьтны ашиг шимийг авах їйл ажиллагааг хослон эрхэлдэг аж ахуйн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A016</Data></Cell>
+    <Cell><Data ss:Type="String">Хєдєє аж ахуй болон ургац хураалтын дараах шатны їйл ажиллагааг дэмжсэн туслах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A0161</Data></Cell>
+    <Cell><Data ss:Type="String">Газар тариалангийн їйлдвэрлэлийг дэмжсэн туслах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A0162</Data></Cell>
+    <Cell><Data ss:Type="String">Мал, амьтны ашиг шимийг авахад туслах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A0163</Data></Cell>
+    <Cell><Data ss:Type="String">Ургац хураалтын їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A0164</Data></Cell>
+    <Cell><Data ss:Type="String">Їрсэлгээний їр боловсруулах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A0170</Data></Cell>
+    <Cell><Data ss:Type="String">Ан агнуур, тїїнд холбогдох їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A02</Data></Cell>
+    <Cell><Data ss:Type="String">Ойн аж ахуй, мод бэлтгэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A0210</Data></Cell>
+    <Cell><Data ss:Type="String">Мод тарих болон ойн аж ахуй бусад їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A0220</Data></Cell>
+    <Cell><Data ss:Type="String">Мод бэлтгэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A0230</Data></Cell>
+    <Cell><Data ss:Type="String">Ойн дагалт нєєцийг тїїх їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A0240</Data></Cell>
+    <Cell><Data ss:Type="String">Ойн аж ахуйн туслах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A03</Data></Cell>
+    <Cell><Data ss:Type="String">Загас барих, їржїїлэх</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A031</Data></Cell>
+    <Cell><Data ss:Type="String">Загас барих</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A0311</Data></Cell>
+    <Cell><Data ss:Type="String">Далайн загас барих</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A0312</Data></Cell>
+    <Cell><Data ss:Type="String">Цэнгэг усны загас барих</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A032</Data></Cell>
+    <Cell><Data ss:Type="String">Загас їржїїлэг</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A0321</Data></Cell>
+    <Cell><Data ss:Type="String">Далайн загас їржїїлэг</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">A0322</Data></Cell>
+    <Cell><Data ss:Type="String">Цэнгэг усны загас їржїїлэг</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">B</Data></Cell>
+    <Cell><Data ss:Type="String">УУЛ УУРХАЙ, ОЛБОРЛОЛТ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">B05</Data></Cell>
+    <Cell><Data ss:Type="String">Чулуун, хїрэн нїїрс олборлолт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">B0510</Data></Cell>
+    <Cell><Data ss:Type="String">Чулуун нїїрс олборлолт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">B0520</Data></Cell>
+    <Cell><Data ss:Type="String">Хїрэн нїїрс олборлолт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">B06</Data></Cell>
+    <Cell><Data ss:Type="String">Газрын тос, байгалийн хий олборлолт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">B0610</Data></Cell>
+    <Cell><Data ss:Type="String">Газрын тос олборлолт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">B0620</Data></Cell>
+    <Cell><Data ss:Type="String">Байгалийн хий олборлолт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">B07</Data></Cell>
+    <Cell><Data ss:Type="String">Металлын хїдэр олборлолт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">B0710</Data></Cell>
+    <Cell><Data ss:Type="String">Тємрийн хїдэр олборлолт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">B072</Data></Cell>
+    <Cell><Data ss:Type="String">Єнгєт тємєрлєгийн хїдэр олборлолт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">B0721</Data></Cell>
+    <Cell><Data ss:Type="String">Уран, торийн хїдэр олборлолт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">B0729</Data></Cell>
+    <Cell><Data ss:Type="String">Єнгєт металлын бусад хїдэр олборлолт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">B08</Data></Cell>
+    <Cell><Data ss:Type="String">Бусад ашигт малтмал олборлолт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">B0810</Data></Cell>
+    <Cell><Data ss:Type="String">Чулуу, элс, шороо олборлолт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">B089</Data></Cell>
+    <Cell><Data ss:Type="String">Дээрх ангилалд ороогїй бусад ашигт малтмалын олборлолт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">B0891</Data></Cell>
+    <Cell><Data ss:Type="String">Химийн болон бордооны бусад эрдсийн хїдэр олборлолт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">B0892</Data></Cell>
+    <Cell><Data ss:Type="String">Хїлэр цуглуулах, олборлох їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">B0893</Data></Cell>
+    <Cell><Data ss:Type="String">Давс, шїї олборлолт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">B0899</Data></Cell>
+    <Cell><Data ss:Type="String">Дээрх ангид ороогїй бусад ашигт малтмалын олборлолт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">B09</Data></Cell>
+    <Cell><Data ss:Type="String">Уул уурхайн олборлолтын туслах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">B0910</Data></Cell>
+    <Cell><Data ss:Type="String">Газрын тос, байгалын хий олборлолттой холбогдох туслах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">B0990</Data></Cell>
+    <Cell><Data ss:Type="String">Уул уурхай, олборлолтын туслах бусад їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C</Data></Cell>
+    <Cell><Data ss:Type="String">БОЛОВСРУУЛАХ ЇЙЛДВЭРЛЭЛ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C10</Data></Cell>
+    <Cell><Data ss:Type="String">Хїнсний бїтээгдэхїїний їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1010</Data></Cell>
+    <Cell><Data ss:Type="String">Мах, махан бїтээгдэхїїний їйлдвэрлэл болон хадгалалт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1020</Data></Cell>
+    <Cell><Data ss:Type="String">Загас, загасан бїтээгдэхїїний їйлдвэрлэл болон хадгалалт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1030</Data></Cell>
+    <Cell><Data ss:Type="String">Жимс болон хїнсний ногооны боловсруулалт, хадгалалт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1040</Data></Cell>
+    <Cell><Data ss:Type="String">Ургамлын болон амьтны гаралтай тос їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1050</Data></Cell>
+    <Cell><Data ss:Type="String">Сїї, сїїн бїтээгдэхїїний їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C106</Data></Cell>
+    <Cell><Data ss:Type="String">Їр тарианы гурил, цардуул, цардууллаг бїтээгдэхїїний їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1061</Data></Cell>
+    <Cell><Data ss:Type="String">Їр тарианы гурилын їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1062</Data></Cell>
+    <Cell><Data ss:Type="String">Цардуул, цардууллаг бїтээгдэхїїний їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C107</Data></Cell>
+    <Cell><Data ss:Type="String">Хїнсний бусад бїтээгдэхїїний їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1071</Data></Cell>
+    <Cell><Data ss:Type="String">Талх, нарийн боов їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1072</Data></Cell>
+    <Cell><Data ss:Type="String">Элсэн чихрийн їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1073</Data></Cell>
+    <Cell><Data ss:Type="String">Какао, шоколад, чихэр їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1074</Data></Cell>
+    <Cell><Data ss:Type="String">Гоймон, кускус болон энэ тєрлийн гурилан бїтээгдэхїїний їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1075</Data></Cell>
+    <Cell><Data ss:Type="String">Бэлэн хїнс, хоол їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1079</Data></Cell>
+    <Cell><Data ss:Type="String">Дээрх ангид ороогїй хїнсний бусад бїтээгдэхїїний їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1080</Data></Cell>
+    <Cell><Data ss:Type="String">Малын тэжээлийн їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C110</Data></Cell>
+    <Cell><Data ss:Type="String">Ундааны їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1101</Data></Cell>
+    <Cell><Data ss:Type="String">Спиртийн їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1102</Data></Cell>
+    <Cell><Data ss:Type="String">Дарсны їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1103</Data></Cell>
+    <Cell><Data ss:Type="String">Шар айрагны їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1104</Data></Cell>
+    <Cell><Data ss:Type="String">Хийжїїлсэн ундаа, савласан рашаан болон бусад усны їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1200</Data></Cell>
+    <Cell><Data ss:Type="String">Тамхины їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C13</Data></Cell>
+    <Cell><Data ss:Type="String">Нэхмэлийн  їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C131</Data></Cell>
+    <Cell><Data ss:Type="String">Нэхмэл утас ороох, ээрэх болон бэлтгэх їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1311</Data></Cell>
+    <Cell><Data ss:Type="String">Нэхмэл утсыг бэлтгэх, ээрэх їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1312</Data></Cell>
+    <Cell><Data ss:Type="String">Нэхмэл даавууг нэхэх їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1313</Data></Cell>
+    <Cell><Data ss:Type="String">Нэхмэл эдлэлийн эцсийн шатны боловсруулалтын їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C139</Data></Cell>
+    <Cell><Data ss:Type="String">Бусад нэхмэл эдлэл їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1391</Data></Cell>
+    <Cell><Data ss:Type="String">Сїлжмэл, нэхмэл эдлэл їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1392</Data></Cell>
+    <Cell><Data ss:Type="String">Нэхмэл, сїлжмэл хувцаснаас бусад нэхмэл, сїлжмэл эдлэл їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1393</Data></Cell>
+    <Cell><Data ss:Type="String">Хивс, хивсэнцэр їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1394</Data></Cell>
+    <Cell><Data ss:Type="String">Уяа, олс, татлага, оосор, тор їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1399</Data></Cell>
+    <Cell><Data ss:Type="String">Дээр дурдсан ангид ороогїй нэхмэл бусад эдлэл їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C14</Data></Cell>
+    <Cell><Data ss:Type="String">Хувцас їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1410</Data></Cell>
+    <Cell><Data ss:Type="String">Їслэг, арьсан хувцаснаас бусад хувцас їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1420</Data></Cell>
+    <Cell><Data ss:Type="String">Їслэг, арьсан эдлэл їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1430</Data></Cell>
+    <Cell><Data ss:Type="String">Нэхмэл болон сїлжмэл хувцас їйлдвэрлэл </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C15</Data></Cell>
+    <Cell><Data ss:Type="String">Арьс, арьсан бїтээгдэхїїн їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C151</Data></Cell>
+    <Cell><Data ss:Type="String">Арьс шир элдэх, боловсруулах; аяны цїнх, гар цїнх, богц болон бэхэлгээ їйлдвэрлэл; їслэг арьс боловсруулах, будах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1511</Data></Cell>
+    <Cell><Data ss:Type="String">Арьс шир элдэх, засварлах, їслэг арьс боловсруулах, будах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1512</Data></Cell>
+    <Cell><Data ss:Type="String">Аяны цїнх, гар цїнх, богц, бэхэлгээний тєрлийн бїтээгдэхїїний їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1520</Data></Cell>
+    <Cell><Data ss:Type="String">Гутал їйлдвэрлэл </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C16</Data></Cell>
+    <Cell><Data ss:Type="String">Тавилгаас бусад мод болон модон бїтээгдэхїїний їйлдвэрлэл; сїрэл, дэрсэн эдлэл їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1610</Data></Cell>
+    <Cell><Data ss:Type="String">Мод хєрєєдєх, харуулдах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C162</Data></Cell>
+    <Cell><Data ss:Type="String">Мод, їйсэн, їртэс болон холтсон бїтээгдэхїїний їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1621</Data></Cell>
+    <Cell><Data ss:Type="String">Банзан хавтан, фанер, бусад хавтан їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1622</Data></Cell>
+    <Cell><Data ss:Type="String">Мужааны зориулалттай модон материал, эд анги їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1623</Data></Cell>
+    <Cell><Data ss:Type="String">Модон сав їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1629</Data></Cell>
+    <Cell><Data ss:Type="String">Модон бусад бїтээгдэхїїний їйлдвэрлэл; їйсэн, холтсон, сїлжсэн материалан жижиг эдлэл їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C170</Data></Cell>
+    <Cell><Data ss:Type="String">Цаас болон цаасан бїтээгдэхїїний їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1701</Data></Cell>
+    <Cell><Data ss:Type="String">Цаасны зутан, цаас болон картонон бїтээгдэхїїний їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1702</Data></Cell>
+    <Cell><Data ss:Type="String">Атираат цаас, цаасан болон картонон сав їйлдвэрлэл </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1709</Data></Cell>
+    <Cell><Data ss:Type="String">Цаас, картонон бусад зїйлс їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C18</Data></Cell>
+    <Cell><Data ss:Type="String">Хэвлэх, дуу бичлэгийн хувилах, дахин їйлдвэрлэх їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C181</Data></Cell>
+    <Cell><Data ss:Type="String">Хэвлэх болон тїїнд туслах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1811</Data></Cell>
+    <Cell><Data ss:Type="String">Хэвлэх їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1812</Data></Cell>
+    <Cell><Data ss:Type="String">Хэвлэлийн туслах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1820</Data></Cell>
+    <Cell><Data ss:Type="String">Дуу бичлэг хуулбарлах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C19</Data></Cell>
+    <Cell><Data ss:Type="String">Кокс болон газрын тосны боловсруулсан бїтээгдэхїїний їйлдвэрлэл  </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1910</Data></Cell>
+    <Cell><Data ss:Type="String">Коксын зууханд боловсруулсан бїтээгдэхїїний їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C1920</Data></Cell>
+    <Cell><Data ss:Type="String">Газрын тосны бїтээгдэхїїний їйлдвэрлэл </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C20</Data></Cell>
+    <Cell><Data ss:Type="String">Хими, химийн тєрлийн бїтээгдэхїїний їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C201</Data></Cell>
+    <Cell><Data ss:Type="String">Химийн їндсэн материал, бордоо, азотын холимог, анхдагч хэлбэртэй хуванцар, нийлэг, резин їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2011</Data></Cell>
+    <Cell><Data ss:Type="String">Химийн їндсэн бодис їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2012</Data></Cell>
+    <Cell><Data ss:Type="String">Бордоо, азотын холимог нэгдлийн бодис їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2013</Data></Cell>
+    <Cell><Data ss:Type="String">Анхдагч хэлбэртэй хуванцар, нийлэг резин їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C202</Data></Cell>
+    <Cell><Data ss:Type="String">Химийн бусад бїтээгдэхїїний їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2021</Data></Cell>
+    <Cell><Data ss:Type="String">Бусад хєдєє аж ахуйн бїтээгдэхїїн  болон хортон шавьжтай тэмцэх бїтээгдэхїїн їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2022</Data></Cell>
+    <Cell><Data ss:Type="String">Будаг, лак болон їїнтэй ижил тєстэй будаг, хэвлэлийн бэх ба давирхайны їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2023</Data></Cell>
+    <Cell><Data ss:Type="String">Саван, ариутгагч бодис, цэвэрлэгээний болон єнгєлгєєний бэлдмэлїїд, сїрчиг ба ариун цэврийн єрєєний бэлдмэл їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2029</Data></Cell>
+    <Cell><Data ss:Type="String">Химийн бусад бїтээгдэхїїний їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2030</Data></Cell>
+    <Cell><Data ss:Type="String">Гар аргаар боловсруулсан утас їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2100</Data></Cell>
+    <Cell><Data ss:Type="String">Эм, эм бэлдмэл, химийн болон ургамлын гаралтай  эмийн бїтээгдэхїїний їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C22</Data></Cell>
+    <Cell><Data ss:Type="String">Резинэн болон хуванцар бїтээгдэхїїний їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C221</Data></Cell>
+    <Cell><Data ss:Type="String">Резинэн бїтээгдэхїїний їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2211</Data></Cell>
+    <Cell><Data ss:Type="String">Резинэн дугуй, хоолой їйлдвэрлэл, резинэн дугуйг засварлах, дахин боловсруулах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2219</Data></Cell>
+    <Cell><Data ss:Type="String">Резинэн бусад бїтээгдэхїїний їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2220</Data></Cell>
+    <Cell><Data ss:Type="String">Хуванцар бїтээгдэхїїний їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C23</Data></Cell>
+    <Cell><Data ss:Type="String">Тємєрлєг бус эрдэс бодисоор хийсэн эдлэл їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2310</Data></Cell>
+    <Cell><Data ss:Type="String">Шил бол шилэн бїтээгдэхїїний  їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C239</Data></Cell>
+    <Cell><Data ss:Type="String">Тємєрлєг бус бусад эрдэс бодисоор хийсэн эдлэл їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2391</Data></Cell>
+    <Cell><Data ss:Type="String">Галд тэсвэртэй материал бїхий бїтээгдэхїїн їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2392</Data></Cell>
+    <Cell><Data ss:Type="String">Барилгын шавран материалын їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2393</Data></Cell>
+    <Cell><Data ss:Type="String">Шаазан болон керамик бїтээгдэхїїний їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2394</Data></Cell>
+    <Cell><Data ss:Type="String">Цемент, шохой болон гипс їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2395</Data></Cell>
+    <Cell><Data ss:Type="String">Бетон, цемент болон гипсээр хийсэн материал эдлэл їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2396</Data></Cell>
+    <Cell><Data ss:Type="String">Чулуу засах, єнгєлєх, зїсэх, тэгшлэх їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2399</Data></Cell>
+    <Cell><Data ss:Type="String">Металл бус эрдэс бодисоор хийсэн бусад бїтээгдэхїїний їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C24</Data></Cell>
+    <Cell><Data ss:Type="String">Металл їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2410</Data></Cell>
+    <Cell><Data ss:Type="String">Тємєр болон ган їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2420</Data></Cell>
+    <Cell><Data ss:Type="String">Їнэт болон тємєрлєг бус бусад металлын їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C243</Data></Cell>
+    <Cell><Data ss:Type="String">Тємрийн цутгамал їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2431</Data></Cell>
+    <Cell><Data ss:Type="String">Тємєр болон гангийн цутгамал їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2432</Data></Cell>
+    <Cell><Data ss:Type="String">Тємєрлєг бус металл цутгамал їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C25</Data></Cell>
+    <Cell><Data ss:Type="String">Машин, тоног тєхєєрємжєєс бусад металл бїтээгдэхїїний їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C251</Data></Cell>
+    <Cell><Data ss:Type="String">Барилгын зориулалттай металл бїтээгдэхїїн, хадгалах сав, уурын їїсгїїр зэрэг тємєр хийц їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2511</Data></Cell>
+    <Cell><Data ss:Type="String">Барилгын металл хийцийн їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2512</Data></Cell>
+    <Cell><Data ss:Type="String">Цистерн, хадгалах тємєр сав, чингэлгийн їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2513</Data></Cell>
+    <Cell><Data ss:Type="String">Тєвийн халаалтын халуун усны бойлороос бусад уурын їїсгїїр їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2520</Data></Cell>
+    <Cell><Data ss:Type="String">Зэр зэвсэг, сум їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C259</Data></Cell>
+    <Cell><Data ss:Type="String">Бусад металл эдлэл їйлдвэрлэл; металл эдлэл їйлдвэрлэхэд туслах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2591</Data></Cell>
+    <Cell><Data ss:Type="String">Тємрийг давтах, дагтаршуулах, цутгах болон ороох; нунтаг металлург</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2592</Data></Cell>
+    <Cell><Data ss:Type="String">Машин механизм; тємєр єнгєлєх, боловсруулах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2593</Data></Cell>
+    <Cell><Data ss:Type="String">Хутга, шєвєг, багаж хэрэгсэл, ерєнхий зориулалтын тємєр хэрэгслийн їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2599</Data></Cell>
+    <Cell><Data ss:Type="String">Бусад металл эдлэлийн їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C26</Data></Cell>
+    <Cell><Data ss:Type="String">Компьютер, электроник болон хараа зїйн бїтээгдэхїїний їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2610</Data></Cell>
+    <Cell><Data ss:Type="String">Электроникийн эд анги, самбар їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2620</Data></Cell>
+    <Cell><Data ss:Type="String">Компьютер, тїїний гадаад тоног тєхєєрємжийн эд анги їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2630</Data></Cell>
+    <Cell><Data ss:Type="String">Холбооны тоног тєхєєрємж їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2640</Data></Cell>
+    <Cell><Data ss:Type="String">Хэрэглээний цахилгаан хэрэгсэл їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C265</Data></Cell>
+    <Cell><Data ss:Type="String">Хэмжих, шалгах, тохируулах, хянах тоног тєхєєрємж болон бугуйн цаг, цаг їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2651</Data></Cell>
+    <Cell><Data ss:Type="String">Хэмжих, шалгах, тохируулах, хянах тоног тєхєєрємж їйлдвэрлэл </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2652</Data></Cell>
+    <Cell><Data ss:Type="String">Бугуйн цаг, цаг їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2660</Data></Cell>
+    <Cell><Data ss:Type="String">Цацраг туяа ялгаруулагч тєхєєрємж, цахилгаан эмчилгээ, заслын тоног тєхєєрємжийн їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2670</Data></Cell>
+    <Cell><Data ss:Type="String">Оптик багаж хэрэгсэл, тоног тєхєєрємжийн їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2680</Data></Cell>
+    <Cell><Data ss:Type="String">Соронзон болон оптик мэдээллийн хэрэгслийн їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C27</Data></Cell>
+    <Cell><Data ss:Type="String">Цахилгаан тоног тєхєєрємжийн їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2710</Data></Cell>
+    <Cell><Data ss:Type="String">Цахилгаан хєдєлгїїр, їїсгїїр, хувиргагч, цахилгаан эрчим хїчийг хуваарилах болон хянах аппарат хэрэгсэл їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2720</Data></Cell>
+    <Cell><Data ss:Type="String">Батерей (зай хураагуур) болон аккумлятор їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C273</Data></Cell>
+    <Cell><Data ss:Type="String">Цахилгаан утас, кабель болон утас бїхий хэрэгслийн їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2731</Data></Cell>
+    <Cell><Data ss:Type="String">Шилэн кабель їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2732</Data></Cell>
+    <Cell><Data ss:Type="String">Бусад электрон болон цахилгаан утас, кабель їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2733</Data></Cell>
+    <Cell><Data ss:Type="String">Утас бїхий хэрэгсэл їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2740</Data></Cell>
+    <Cell><Data ss:Type="String">Цахилгаан гэрэлтїїлгийн хэрэгсэл їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2750</Data></Cell>
+    <Cell><Data ss:Type="String">Гэр ахуйн цахилгаан хэрэгсэл їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2790</Data></Cell>
+    <Cell><Data ss:Type="String">Цахилгаан бусад тоног тєхєєрємж їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C28</Data></Cell>
+    <Cell><Data ss:Type="String">Дээрх дэд салбарт ороогїй бусад машин, тоног тєхєєрємжийн їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C281</Data></Cell>
+    <Cell><Data ss:Type="String">Ерєнхий зориулалтын машин їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2811</Data></Cell>
+    <Cell><Data ss:Type="String">Онгоц, автомашин, мотоциклийн хєдєлгїїр, турбин їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2812</Data></Cell>
+    <Cell><Data ss:Type="String">Хийн болон шингэн эрчим хїчээр ажиллах тоног тєхєєрємж їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2813</Data></Cell>
+    <Cell><Data ss:Type="String">Шахуурга, компрессор, цорго, хавхлаг зэрэг бусад тєхєєрємж їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2814</Data></Cell>
+    <Cell><Data ss:Type="String">Холхивч, араа, дамжуулах, холбох эд анги їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2815</Data></Cell>
+    <Cell><Data ss:Type="String">Зуух, плитка, хийн зуух їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2816</Data></Cell>
+    <Cell><Data ss:Type="String">Єргєх, ачих, буулгах тоног тєхєєрємж їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2817</Data></Cell>
+    <Cell><Data ss:Type="String">Албан тасалгааны машин, тоног тєхєєрємж їйлдвэрлэл (компьютер, тїїний хадгалах тоног тєхєєрємж орохгїй)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2818</Data></Cell>
+    <Cell><Data ss:Type="String">Гар удирдлагатай багаж хэрэгсэл їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2819</Data></Cell>
+    <Cell><Data ss:Type="String">Ерєнхий зориулалтын бусад машин їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C282</Data></Cell>
+    <Cell><Data ss:Type="String">Тусгай зориулалтын машин їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2821</Data></Cell>
+    <Cell><Data ss:Type="String">Хєдєє аж ахуй, ойн аж ахуйн машин їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2822</Data></Cell>
+    <Cell><Data ss:Type="String">Металл боловсруулах машин, багаж хэрэгсэл їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2823</Data></Cell>
+    <Cell><Data ss:Type="String">Металлургийн машин, тоног тєхєєрємж їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2824</Data></Cell>
+    <Cell><Data ss:Type="String">Уул уурхайн болон барилгын машин, тоног тєхєєрємж їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2825</Data></Cell>
+    <Cell><Data ss:Type="String">Хїнс, ундаа, тамхины їйлдвэрийн машин, тоног тєхєєрємж їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2826</Data></Cell>
+    <Cell><Data ss:Type="String">Нэхмэл, хувцас, арьс ширэн бїтээгдэхїїн боловсруулах машин, тоног тєхєєрємж їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2829</Data></Cell>
+    <Cell><Data ss:Type="String">Тусгай зориулалтын бусад машин їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C29</Data></Cell>
+    <Cell><Data ss:Type="String">Моторт авто тээврийн хэрэгсэл, чиргїїл, хагас чиргїїл їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2910</Data></Cell>
+    <Cell><Data ss:Type="String">Моторт авто тээврийн хэрэгсэл їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2920</Data></Cell>
+    <Cell><Data ss:Type="String">Моторт тээврийн хэрэгслийн гадар бие болон тэвш їйлдвэрлэл; чиргїїл ба хагас чиргїїл їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C2930</Data></Cell>
+    <Cell><Data ss:Type="String">Моторт тээврийн хэрэгслийн сэлбэг, эд анги їйлдвэрлэл </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C30</Data></Cell>
+    <Cell><Data ss:Type="String">Тээврийн хэрэгслийн бусад тоног тєхєєрємж їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C301</Data></Cell>
+    <Cell><Data ss:Type="String">Усан онгоц, завь їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C3011</Data></Cell>
+    <Cell><Data ss:Type="String">Усан онгоц, завь їйлдвэрлэл </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C3012</Data></Cell>
+    <Cell><Data ss:Type="String">Аялал, зугаалгын болон спортын зориулалттай завь їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C3020</Data></Cell>
+    <Cell><Data ss:Type="String">Тємєр замын зїтгїїр ба хєдлєх эд анги їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C3030</Data></Cell>
+    <Cell><Data ss:Type="String">Агаарын болон сансрын хєлєг, тїїнтэй холбогдох тоног тєхєєрємж їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C3040</Data></Cell>
+    <Cell><Data ss:Type="String">Байлдааны тээврийн хэрэгсэл їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C309</Data></Cell>
+    <Cell><Data ss:Type="String">Тээврийн хэрэгслийн тоног тєхєєрємж їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C3091</Data></Cell>
+    <Cell><Data ss:Type="String">Мотоцикл їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C3092</Data></Cell>
+    <Cell><Data ss:Type="String">Унадаг дугуй болон хєгжлийн бэрхшээлтэй иргэдийн тэргэнцэр їйлдвэрлэл </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C3099</Data></Cell>
+    <Cell><Data ss:Type="String">Дээрх ангид ороогїй тээврийн бусад хэрэгслийн тоног тєхєєрємж їйлдвэрлэл </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C3100</Data></Cell>
+    <Cell><Data ss:Type="String">Тавилга їйлдвэрлэл </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C32</Data></Cell>
+    <Cell><Data ss:Type="String">Бусад боловсруулах їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C321</Data></Cell>
+    <Cell><Data ss:Type="String">Їнэт эдлэл, гоёл чимэглэлийн зїйлс, холбогдох эдлэл їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C3211</Data></Cell>
+    <Cell><Data ss:Type="String">Їнэт эдлэл, гоёл чимэглэлийн зїйлс, холбогдох эдлэл їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C3212</Data></Cell>
+    <Cell><Data ss:Type="String">Дуураймал гоёл чигмэглэл, холбогдох эд зїйлс їйлдвэрлэл </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C3220</Data></Cell>
+    <Cell><Data ss:Type="String">Хєгжмийн зэмсэг їйлдвэрлэл </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C3230</Data></Cell>
+    <Cell><Data ss:Type="String">Спортын бараа їйлдвэрлэл </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C3240</Data></Cell>
+    <Cell><Data ss:Type="String">Тоглоом їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C3250</Data></Cell>
+    <Cell><Data ss:Type="String">Эмнэлгийн болон шїдний эмчилгээний багаж хэрэгсэл їйлдвэрлэл </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C3290</Data></Cell>
+    <Cell><Data ss:Type="String">Боловсруулах їйлдвэрийн бусад бїтээгдэхїїн їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C33</Data></Cell>
+    <Cell><Data ss:Type="String">Машин, тоног тєхєєрємжийг угсрах, суурилуулах, холбогдох засвар, їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C331</Data></Cell>
+    <Cell><Data ss:Type="String">Машин, тоног тєхєєрємж, їйлдвэрлэсэн металл хийцийг угсрах, суурилуулах холбогдох засвар, їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C3311</Data></Cell>
+    <Cell><Data ss:Type="String">Металл хийцийн  засвар, їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C3312</Data></Cell>
+    <Cell><Data ss:Type="String">Тоног тєхєєрємжийн засвар, їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C3313</Data></Cell>
+    <Cell><Data ss:Type="String">Цахилгаан болон хараа зїйн тоног тєхєєрємжийн засвар, їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C3314</Data></Cell>
+    <Cell><Data ss:Type="String">Цахилгаан тоног тєхєєрємжийн засвар їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C3315</Data></Cell>
+    <Cell><Data ss:Type="String">Моторт тээврийн хэрэгслийн оруулахгїйгээр  тээврийн хэрэгслийн засварын їйл ажиллагаа </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C3319</Data></Cell>
+    <Cell><Data ss:Type="String">Бусад тоног тєхєєрємжийн засвар їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C3320</Data></Cell>
+    <Cell><Data ss:Type="String">Аж їйлдвэрийн машин, тоног тєхєєрємжийг угсрах, суурилуулах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">D</Data></Cell>
+    <Cell><Data ss:Type="String">ЦАХИЛГААН, ХИЙ, УУР, АГААРЖУУЛАЛТ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">D35</Data></Cell>
+    <Cell><Data ss:Type="String">Цахилгаан, хий, уур, агааржуулалт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">D3510</Data></Cell>
+    <Cell><Data ss:Type="String">Цахилгаан эрчим хїч їйлдвэрлэх, дамжуулах, тїгээх їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">D3520</Data></Cell>
+    <Cell><Data ss:Type="String">Хийн аж ахуй, хийн тїлшийг хуваарилах їйл ажиллагаа </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">D3530</Data></Cell>
+    <Cell><Data ss:Type="String">Уур, агааржуулагчийн хангамжийн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">УС ХАНГАМЖ; БОХИР УС ЗАЙЛУУЛАХ СИСТЕМ, ХОГ, ХАЯГДЛЫН МЕНЕЖМЕНТ БОЛОН ЦЭВЭРЛЭХ ЇЙЛ АЖИЛЛАГАА</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">E3600</Data></Cell>
+    <Cell><Data ss:Type="String">Ус цуглуулах, ариутгах, ус хангамж</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">E3700</Data></Cell>
+    <Cell><Data ss:Type="String">Бохир ус цуглуулах, цэвэршїїлэх, ариутгах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">E38</Data></Cell>
+    <Cell><Data ss:Type="String">Хог хаягдлыг цуглуулах, ариутгах, боловсруулах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">E381</Data></Cell>
+    <Cell><Data ss:Type="String">Хог хаягдлыг цуглуулах їйл ажиллагаа </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">E3811</Data></Cell>
+    <Cell><Data ss:Type="String">Аюулгїй хог хаягдлыг цуглуулах їйл ажиллагаа </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">E3812</Data></Cell>
+    <Cell><Data ss:Type="String">Аюултай хог хаягдлыг цуглуулах їйл ажиллагаа </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">E382</Data></Cell>
+    <Cell><Data ss:Type="String">Хог хаягдлыг ариутгах, боловсруулах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">E3821</Data></Cell>
+    <Cell><Data ss:Type="String">Аюулгїй хог хаягдлыг ариутгах, боловсруулах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">E3822</Data></Cell>
+    <Cell><Data ss:Type="String">Аюултай хог хаягдлыг ариутгах, боловсруулах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">E3830</Data></Cell>
+    <Cell><Data ss:Type="String">Хог хаягдлаас хоёрдогч тїїхий эд, материал гарган авах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">E3900</Data></Cell>
+    <Cell><Data ss:Type="String">Хог, хаягдлын менежментийн бусад болон цэвэрлэх їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">F</Data></Cell>
+    <Cell><Data ss:Type="String">БАРИЛГА</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">F4100</Data></Cell>
+    <Cell><Data ss:Type="String">Барилга угсралт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">F42</Data></Cell>
+    <Cell><Data ss:Type="String">Иргэний зориулалттай инженерийн байгууламжийн угсралтын їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">F4210</Data></Cell>
+    <Cell><Data ss:Type="String">Тємєр зам болон авто замын байгууламж барих їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">F4220</Data></Cell>
+    <Cell><Data ss:Type="String">Нийтийн аж ахуйн барилга угсралт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">F4290</Data></Cell>
+    <Cell><Data ss:Type="String">Иргэний инженерийн бусад байгууламж їйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">F43</Data></Cell>
+    <Cell><Data ss:Type="String">Барилгын тусгай їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">F431</Data></Cell>
+    <Cell><Data ss:Type="String">Буулгах/нураах ба барилгын талбай бэлтгэх їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">F4311</Data></Cell>
+    <Cell><Data ss:Type="String">Барилгыг буулгах/нураах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">F4312</Data></Cell>
+    <Cell><Data ss:Type="String">Барилгын талбай бэлтгэх їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">F432</Data></Cell>
+    <Cell><Data ss:Type="String">Цахилгааны, ус дамжуулах хоолойн болон барилгын бусад суурилуулах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">F4321</Data></Cell>
+    <Cell><Data ss:Type="String">Цахилгааны байгууламж суурилуулах їйл ажиллагаа </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">F4322</Data></Cell>
+    <Cell><Data ss:Type="String">Ус, дулааны шугам сїлжээ, агааржуулагч суурилуулах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">F4329</Data></Cell>
+    <Cell><Data ss:Type="String">Барилгын бусад суурилуулах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">F4330</Data></Cell>
+    <Cell><Data ss:Type="String">Барилгыг дуусгах шатны ажил</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">F4390</Data></Cell>
+    <Cell><Data ss:Type="String">Барилгын бусад тусгай їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G</Data></Cell>
+    <Cell><Data ss:Type="String">БЄЄНИЙ БОЛОН ЖИЖИГЛЭН ХУДАЛДАА; МАШИН, МОТОЦИКЛИЙН ЗАСВАР ЇЙЛЧИЛГЭЭ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G45</Data></Cell>
+    <Cell><Data ss:Type="String">Моторт тээврийн хэрэгсэл, мотоциклийн бєєний болон жижиглэн худалдаа, засвар їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4510</Data></Cell>
+    <Cell><Data ss:Type="String">Моторт тээврийн хэрэгслийн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4520</Data></Cell>
+    <Cell><Data ss:Type="String">Моторт тээврийн хэрэгслийн засвар, їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4530</Data></Cell>
+    <Cell><Data ss:Type="String">Моторт тээврийн хэрэгслийн сэлбэг, эд ангийн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4540</Data></Cell>
+    <Cell><Data ss:Type="String">Мотоцикл, тїїний эд анги, сэлбэг хэрэгслийн худалдаа, засвар, їйлчилгээ  </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G46</Data></Cell>
+    <Cell><Data ss:Type="String">Машин, мотоциклээс бусад барааны бєєний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4610</Data></Cell>
+    <Cell><Data ss:Type="String">Тєлбєр эсвэл гэрээний їндсэн дээр хийгдэх бєєний худалдаа </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4620</Data></Cell>
+    <Cell><Data ss:Type="String">Хєдєє аж ахуйн тїїхий эд болон мал, амьтдын бєєний худалдаа </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4630</Data></Cell>
+    <Cell><Data ss:Type="String">Хїнс, ундаа, тамхины бєєний  худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G464</Data></Cell>
+    <Cell><Data ss:Type="String">Гэр ахуйн барааны бєєний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4641</Data></Cell>
+    <Cell><Data ss:Type="String">Нэхмэл, нэхмэл бїтээгдэхїїн, гутал, хувцасны бєєний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4649</Data></Cell>
+    <Cell><Data ss:Type="String">Гэр ахуйн бусад барааны бєєний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G465</Data></Cell>
+    <Cell><Data ss:Type="String">Машин, тоног тєхєєрємж, тэдгээрийн дагалдах хэрэгсэл тєхєєрємжийн бєєний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4651</Data></Cell>
+    <Cell><Data ss:Type="String">Компьютер, тїїний дагалдах тоног тєхєєрємж ба програм хангамжийн бєєний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4652</Data></Cell>
+    <Cell><Data ss:Type="String">Электрон ба холбооны тоног тєхєєрємж, тэдгээрийн сэлбэг хэрэгслийн бєєний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4653</Data></Cell>
+    <Cell><Data ss:Type="String">Хєдєє аж ахуйн машин, тоног тєхєєрємж, тїїнд дагалдах тоног тєхєєрємжийн  бєєний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4659</Data></Cell>
+    <Cell><Data ss:Type="String">Машин, тоног тєхєєрємжийн бусад бєєний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G466</Data></Cell>
+    <Cell><Data ss:Type="String">Tусгайлсан бусад бїтээгдэхїїний бєєний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4661</Data></Cell>
+    <Cell><Data ss:Type="String">Хатуу, шингэн, хийн тїлш, тїїнтэй адил тєстэй бїтээгдэхїїний бєєний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4662</Data></Cell>
+    <Cell><Data ss:Type="String">Тємєр, тємрийн хїдрийн бєєний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4663</Data></Cell>
+    <Cell><Data ss:Type="String">Барилгын материал, техник,  сантехник, халаалт, ус тїгээх тєхєєрємж болон тэдгээрийн туслах тєхєєрємжийн бєєний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4669</Data></Cell>
+    <Cell><Data ss:Type="String">Хог, хаягдал болон єєр ангид ороогїй бусад бїтээгдэхїїний бєєний худалдаа </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4690</Data></Cell>
+    <Cell><Data ss:Type="String">Тєрєлжсєн бус барааны  бєєний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G47</Data></Cell>
+    <Cell><Data ss:Type="String">Машин, мотоциклээс бусад барааны жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G471</Data></Cell>
+    <Cell><Data ss:Type="String">Тєрєлжсєн бус барааны жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4711</Data></Cell>
+    <Cell><Data ss:Type="String">Хїнс, ундаа, тамхи  голлосон тєрєлжсєн бус барааны жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4719</Data></Cell>
+    <Cell><Data ss:Type="String">Тєрєлжсєн бус барааны бусад  дэлгїїрийн  жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G472</Data></Cell>
+    <Cell><Data ss:Type="String">Хїнс, ундаа, тамхины тєрєлжсєн дэлгїїрийн жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4721</Data></Cell>
+    <Cell><Data ss:Type="String">Хїнсний тєрєлжсєн дэлгїїрийн жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4722</Data></Cell>
+    <Cell><Data ss:Type="String">Ундааны тєрєлжсєн дэлгїїрийн жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4723</Data></Cell>
+    <Cell><Data ss:Type="String">Тамхины тєрєлжсєн дэлгїїрийн жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4730</Data></Cell>
+    <Cell><Data ss:Type="String">Шатахууны жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G474</Data></Cell>
+    <Cell><Data ss:Type="String">Мэдээлэл, холбооны тоног тєхєєрємжийн тєрєлжсєн дэлгїїрийн жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4741</Data></Cell>
+    <Cell><Data ss:Type="String">Компьютер, тїїний дагалдах хэрэгсэл, програм хангамж, харилцаа холбооны  тоног тєхєєрємжийн  тєрєлжсєн дэлгїїрийн жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4742</Data></Cell>
+    <Cell><Data ss:Type="String">Аудио, видео тєхєєрємжийн тєрєлжсєн дэлгїїрийн  жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G475</Data></Cell>
+    <Cell><Data ss:Type="String">Гэр ахуйн бусад тоног тєхєєрємжийн тєрєлжсєн дэлгїїрийн жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4751</Data></Cell>
+    <Cell><Data ss:Type="String">Даавуу, бєс барааны тєрєлжсєн дэлгїїрийн бєєний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4752</Data></Cell>
+    <Cell><Data ss:Type="String">Тєхєєрємж, зураг, шилний тєрєлжсєн дэлгїїрийн  жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4753</Data></Cell>
+    <Cell><Data ss:Type="String">Хивс, хивсэнцэр, ханын цаас, шалны бїрээсний тєрєлжсєн дэлгїїрийн жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4759</Data></Cell>
+    <Cell><Data ss:Type="String">Гэр ахуйн цахилгаан хэрэгсэл, гэрийн тавилга, гэрэлтїїлэх тєхєєрємж болон гэр ахуйн бусад барааны тєрєлжсєн дэлгїїрийн жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G476</Data></Cell>
+    <Cell><Data ss:Type="String">Соёл, амралтын барааны тєрєлжсєн дэлгїїрийн жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4761</Data></Cell>
+    <Cell><Data ss:Type="String">Ном, сонин болон бичиг хэрэгслийн барааны тєрєлжсєн дэлгїїрийн  жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4762</Data></Cell>
+    <Cell><Data ss:Type="String">Хєгжим, видео бичлэгийн тєрєлжсєн дэлгїїрийн жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4763</Data></Cell>
+    <Cell><Data ss:Type="String">Спортын тоног тєхєєрємж, багаж хэрэгслийн тєрєлжсєн дэлгїїрийн жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4764</Data></Cell>
+    <Cell><Data ss:Type="String">Тоглоомны тєрєлжсєн дэлгїїрийн жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G477</Data></Cell>
+    <Cell><Data ss:Type="String">Бусад барааны тєрєлжсєн дэлгїїрийн жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4771</Data></Cell>
+    <Cell><Data ss:Type="String">Хувцас, гутал, савхин болон эсгий эдлэлийн тєрєлжсєн барааны жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4772</Data></Cell>
+    <Cell><Data ss:Type="String">Эм, гоо сайхан, ариун цэврийн барааны тєрєлжсєн дэлгїїрийн жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4773</Data></Cell>
+    <Cell><Data ss:Type="String">Шинэ бусад барааны тєрєлжсєн дэлгїїрийн жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4774</Data></Cell>
+    <Cell><Data ss:Type="String">Хуучин барааны жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G478</Data></Cell>
+    <Cell><Data ss:Type="String">Захиалга, загвар танилцуулгаар хийдэг жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4781</Data></Cell>
+    <Cell><Data ss:Type="String">Захиалга, загвар танилцуулгаар  хийгддэг хїнс, ундаа, тамхины жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4782</Data></Cell>
+    <Cell><Data ss:Type="String">Захиалга, загвар танилцуулгаар хийгддэг нэхмэл, нэхмэл бїтээгдэхїїн хувцас, гутлын   жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4789</Data></Cell>
+    <Cell><Data ss:Type="String">Захиалга, загвар танилцуулгаар хийгддэг  бусад барааны жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G479</Data></Cell>
+    <Cell><Data ss:Type="String">Дэлгїїр, их дэлгїїр, захаар дамжин хийгддэггїй жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4791</Data></Cell>
+    <Cell><Data ss:Type="String">Шуудан болон интернэтийн захиалгаар хийгддэг жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G4799</Data></Cell>
+    <Cell><Data ss:Type="String">Дэлгїїр, их дэлгїїр, захаар дэмжин хийгддэггїй бусад бїтээгдэхїїний жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">H</Data></Cell>
+    <Cell><Data ss:Type="String">ТЭЭВЭР БА АГУУЛАХЫН ЇЙЛ АЖИЛЛАГАА</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">H49</Data></Cell>
+    <Cell><Data ss:Type="String">Хуурай замын болон хий дамжуулах хоолойн тээвэрлэлт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">H491</Data></Cell>
+    <Cell><Data ss:Type="String">Тємєр замын тээвэр</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">H4911</Data></Cell>
+    <Cell><Data ss:Type="String">Тємєр замын зорчигч тээвэр</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">H4912</Data></Cell>
+    <Cell><Data ss:Type="String">Тємєр замын ачаа тээвэр</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">H492</Data></Cell>
+    <Cell><Data ss:Type="String">Хуурай замын бусад тээвэр</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">H4921</Data></Cell>
+    <Cell><Data ss:Type="String">Хотын болон хот орчмын хуурай замын зорчигч тээвэр</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">H4922</Data></Cell>
+    <Cell><Data ss:Type="String">Хуурай замын зорчигч тээврийн бусад тєрлийн їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">H4923</Data></Cell>
+    <Cell><Data ss:Type="String">Хуурай замаар хийгдэх ачаа тээвэр</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">H4930</Data></Cell>
+    <Cell><Data ss:Type="String">Хий /шатахуун/ дамжуулах хоолойн тээвэр</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">H50</Data></Cell>
+    <Cell><Data ss:Type="String">Усан замын тээвэр</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">H501</Data></Cell>
+    <Cell><Data ss:Type="String">Тэнгисийн, далайн эрэг орчмын тээвэр</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">H5011</Data></Cell>
+    <Cell><Data ss:Type="String">Далайн эрэг орчим болон тэнгисийн зорчигч тээвэр</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">H5012</Data></Cell>
+    <Cell><Data ss:Type="String">Далайн эрэг орчим болон тэнгисийн ачаа тээвэр</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">H502</Data></Cell>
+    <Cell><Data ss:Type="String">Эх газрын дундах усан тээвэр</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">H5021</Data></Cell>
+    <Cell><Data ss:Type="String">Эх газрын дундах усан замын зорчигч тээвэрлэлт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">H5022</Data></Cell>
+    <Cell><Data ss:Type="String">Эх газрын дундах усан замын ачаа тээвэр</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">H51</Data></Cell>
+    <Cell><Data ss:Type="String">Агаарын тээвэр</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">H5110</Data></Cell>
+    <Cell><Data ss:Type="String">Агаарын зорчигч тээвэр</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">H5120</Data></Cell>
+    <Cell><Data ss:Type="String">Агаарын ачаа тээвэр</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">H52</Data></Cell>
+    <Cell><Data ss:Type="String">Агуулахын болон тээврийн туслах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">H5210</Data></Cell>
+    <Cell><Data ss:Type="String">Агуулахын їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">H522</Data></Cell>
+    <Cell><Data ss:Type="String">Тээврийн туслах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">H5221</Data></Cell>
+    <Cell><Data ss:Type="String">Хуурай замын тээврийн туслах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">H5222</Data></Cell>
+    <Cell><Data ss:Type="String">Усан замын тээврийн туслах їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">H5223</Data></Cell>
+    <Cell><Data ss:Type="String">Агаарын тээврийн туслах їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">H5224</Data></Cell>
+    <Cell><Data ss:Type="String">Каргоны їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">H5229</Data></Cell>
+    <Cell><Data ss:Type="String">Тээврийн бусад туслах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">H53</Data></Cell>
+    <Cell><Data ss:Type="String">Шуудан, зарлага, элчийн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">H5310</Data></Cell>
+    <Cell><Data ss:Type="String">Шуудангийн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">H5320</Data></Cell>
+    <Cell><Data ss:Type="String">Буухиа шуудангийн їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">I</Data></Cell>
+    <Cell><Data ss:Type="String">ЗОЧИД БУУДАЛ, БАЙР, СУУЦ БОЛОН НИЙТИЙН ХООЛНЫ ЇЙЛЧИЛГЭЭ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">I55</Data></Cell>
+    <Cell><Data ss:Type="String">Зочид буудал, байр, сууцаар їйлчлэх їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">I5510</Data></Cell>
+    <Cell><Data ss:Type="String">Богино хугацаагаар байр, сууцаар хангах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">I5520</Data></Cell>
+    <Cell><Data ss:Type="String">Автомашины зогсоол бїхий зуслан, чєлєєт цаг єнгєрєєх хоноглох байраар хангах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">I5590</Data></Cell>
+    <Cell><Data ss:Type="String">Бусад тєрлийн байраар хангах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">I56</Data></Cell>
+    <Cell><Data ss:Type="String">Нийтийн хоолны їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">I5610</Data></Cell>
+    <Cell><Data ss:Type="String">Ресторан, хїнсний явуулын їйлчилгээ </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">I562</Data></Cell>
+    <Cell><Data ss:Type="String">Тусгай їйлчилгээ ба хоол бэлтгэх бусад їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">I5621</Data></Cell>
+    <Cell><Data ss:Type="String">Тусгай захиалгат хоолоор їйлчлэх їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">I5629</Data></Cell>
+    <Cell><Data ss:Type="String">Хоол хїнсээр їйлчлэх бусад їйл ажиллагаа </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">I5630</Data></Cell>
+    <Cell><Data ss:Type="String">Ундаагаар їйлчлэх їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">J</Data></Cell>
+    <Cell><Data ss:Type="String">МЭДЭЭЛЭЛ, ХОЛБОО</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">J58</Data></Cell>
+    <Cell><Data ss:Type="String">Эх бэлтгэх, нийтлэх їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">J581</Data></Cell>
+    <Cell><Data ss:Type="String">Ном, сонин, сэтгїїл болон хэвлэлийн зїйлсийн эх бэлтгэх, нийтлэх їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">J5811</Data></Cell>
+    <Cell><Data ss:Type="String">Номын эх бэлтгэх, нийтлэх їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">J5812</Data></Cell>
+    <Cell><Data ss:Type="String">Лавлагаа, хаягийн жагсаалтын эх бэлтгэх, нийтлэх їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">J5813</Data></Cell>
+    <Cell><Data ss:Type="String">Сонин, сэтгїїлийн болон тогтмол хэвлэлийн эх бэлтгэх, нийтлэх їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">J5819</Data></Cell>
+    <Cell><Data ss:Type="String">Дээр тусгагдсанаас бусад материалын эх бэлтгэх, нийтлэх їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">J5820</Data></Cell>
+    <Cell><Data ss:Type="String">Програм хангамж хэвлэх їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">J59</Data></Cell>
+    <Cell><Data ss:Type="String">Кино, видео, телевизийн хєтєлбєрийн їйлдвэрлэл, бичлэг хийх болон хєгжим, ая їйлдвэрлэх їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">J591</Data></Cell>
+    <Cell><Data ss:Type="String">Кино зураг, видео дїрс бичлэг, телевизийн хєтєлбєрийн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">J5911</Data></Cell>
+    <Cell><Data ss:Type="String">Кино зураг, видео дїрс бичлэг, телевизийн хєтєлбєр бэлтгэх їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">J5912</Data></Cell>
+    <Cell><Data ss:Type="String">Кино зураг, видео дїрс бичлэг, телевизийн хєтєлбєрийг дахин боловсруулсны дараах шатны їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">J5913</Data></Cell>
+    <Cell><Data ss:Type="String">Кино зураг, дїрс бичлэг, телевизийн хєтєлбєрийг хуваарилан тархаах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">J5914</Data></Cell>
+    <Cell><Data ss:Type="String">Кино зургийг дэлгэцэн дээр їзїїлэх їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">J5920</Data></Cell>
+    <Cell><Data ss:Type="String">Дуу бичлэг, хєгжмийн эх бэлтгэх їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">J60</Data></Cell>
+    <Cell><Data ss:Type="String">Єргєн нэвтрїїлэг бэлтгэх, дамжуулах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">J6010</Data></Cell>
+    <Cell><Data ss:Type="String">Радио нэвтрїїлгийг дамжуулах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">J6020</Data></Cell>
+    <Cell><Data ss:Type="String">Телевизийн єргєн нэвтрїїлэг бэлтгэх болон дамжуулах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">J61</Data></Cell>
+    <Cell><Data ss:Type="String">Цахилгаан холбоо</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">J6110</Data></Cell>
+    <Cell><Data ss:Type="String">Утсан холбоо</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">J6120</Data></Cell>
+    <Cell><Data ss:Type="String">Утасгїй холбоо</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">J6130</Data></Cell>
+    <Cell><Data ss:Type="String">Сансрын холбоо</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">J6190</Data></Cell>
+    <Cell><Data ss:Type="String">Цахилгаан холбооны бусад їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">J620</Data></Cell>
+    <Cell><Data ss:Type="String">Компьютер програмчлал, зєвлєгєє болон тїїнд холбогдох їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">J6201</Data></Cell>
+    <Cell><Data ss:Type="String">Компьютер програмчлалын їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">J6202</Data></Cell>
+    <Cell><Data ss:Type="String">Компьютерын зєвлєгєє єгєх болон компьютерын  системийн чиглэлээр иж бїрэн їйлчилгээ їзїїлэх їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">J6209</Data></Cell>
+    <Cell><Data ss:Type="String">Мэдээллийн технологи болон компьютерын бусад їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">J63</Data></Cell>
+    <Cell><Data ss:Type="String">Мэдээллээр їйлчлэх їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">J631</Data></Cell>
+    <Cell><Data ss:Type="String">Єгєгдєл/мэдээлэл боловсруулах, байршуулах, тїїнтэй холбоотой їйл ажиллагаа; вэб гарц</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">J6311</Data></Cell>
+    <Cell><Data ss:Type="String">Єгєгдєл/мэдээлэл боловсруулах, байршуулах, тїїнтэй холбоотой їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">J6312</Data></Cell>
+    <Cell><Data ss:Type="String">Вэб гарцын їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">J639</Data></Cell>
+    <Cell><Data ss:Type="String">Мэдээллийн бусад їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">J6391</Data></Cell>
+    <Cell><Data ss:Type="String">Мэдээллийн агентлагийн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">J6399</Data></Cell>
+    <Cell><Data ss:Type="String">Бусад мэдээллийн їйлчилгээний їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">K</Data></Cell>
+    <Cell><Data ss:Type="String">САНХЇЇГИЙН БОЛОН ДААТГАЛЫН ЇЙЛ АЖИЛЛАГАА</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">K64</Data></Cell>
+    <Cell><Data ss:Type="String">Даатгалын болон тэтгэврийн санхїїжилтийн їйл ажиллагаанаас бусад санхїїгийн їйлчилгээний їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">K641</Data></Cell>
+    <Cell><Data ss:Type="String">Санхїїгийн зуучлал</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">K6411</Data></Cell>
+    <Cell><Data ss:Type="String">Тєв банкны їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">K6419</Data></Cell>
+    <Cell><Data ss:Type="String">Мєнгєний зуучлалын бусад їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">K6420</Data></Cell>
+    <Cell><Data ss:Type="String">Холдинг компаний їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">K6430</Data></Cell>
+    <Cell><Data ss:Type="String">Итгэлцэл, сангууд болон бусад ижил тєстэй санхїїгийн байгууллагуудын їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">K649</Data></Cell>
+    <Cell><Data ss:Type="String">Даатгал, тэтгэврийн сангийн їйл ажиллагаанаас бусад санхїїгийн їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">K6491</Data></Cell>
+    <Cell><Data ss:Type="String">Санхїїгийн лизингийн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">K6492</Data></Cell>
+    <Cell><Data ss:Type="String">Зээл олгох бусад їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">K6499</Data></Cell>
+    <Cell><Data ss:Type="String">Дээрх ангид ороогїй даатгал, тэтгэврээс бусад санхїїгийн їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">K65</Data></Cell>
+    <Cell><Data ss:Type="String">Албан журмын нийгмийн даатгалаас бусад даатгал, давхар даатгал, тэтгэврийн санхїїжилтын їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">K651</Data></Cell>
+    <Cell><Data ss:Type="String">Даатгалын їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">K6511</Data></Cell>
+    <Cell><Data ss:Type="String">Амьдралын даатгалын їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">K6512</Data></Cell>
+    <Cell><Data ss:Type="String">Амьдралын бус даатгалын їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">K6520</Data></Cell>
+    <Cell><Data ss:Type="String">Давхар даатгалын їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">K6530</Data></Cell>
+    <Cell><Data ss:Type="String">Тэтгэврийн сангийн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">K66</Data></Cell>
+    <Cell><Data ss:Type="String">Санхїїгийн бусад їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">K661</Data></Cell>
+    <Cell><Data ss:Type="String">Даатгал ба тэтгэврийн сангийн їйл ажиллагаанаас бусад санхїїгийн нэмэлт їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">K6611</Data></Cell>
+    <Cell><Data ss:Type="String">Санхїїгийн зах зээлийн удирдлага</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">K6612</Data></Cell>
+    <Cell><Data ss:Type="String">Їнэт цаас болон бараа бїтээгдэхїїний брокерийн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">K6619</Data></Cell>
+    <Cell><Data ss:Type="String">Санхїїгийн бїтээгдэхїїн, їйлчилгээнд туслах бусад їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">K662</Data></Cell>
+    <Cell><Data ss:Type="String">Даатгал ба тэтгэврийн сангийн туслах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">K6621</Data></Cell>
+    <Cell><Data ss:Type="String">Эрсдэл ба хохирлын їнэлгээ єгєх їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">K6622</Data></Cell>
+    <Cell><Data ss:Type="String">Даатгалын тєлєєлєгч, зуучлагчийн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">K6629</Data></Cell>
+    <Cell><Data ss:Type="String">Даатгал ба тэтгэврийн санхїїжилтын бусад туслах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">K6630</Data></Cell>
+    <Cell><Data ss:Type="String">Хєрєнгє оруулалтын сангийн удирдлагын їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">L</Data></Cell>
+    <Cell><Data ss:Type="String">ЇЛ ХЄДЛЄХ ХЄРЄНГИЙН ЇЙЛ АЖИЛЛАГАА</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">L68</Data></Cell>
+    <Cell><Data ss:Type="String">Їл хєдлєх хєрєнгийн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">L6810</Data></Cell>
+    <Cell><Data ss:Type="String">Єєрийн болон лизингийн їл хєдлєх хєрєнгийн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">L6820</Data></Cell>
+    <Cell><Data ss:Type="String">Тєлбєр эсвэл гэрээний їндсэн дээр хийгддэг їл хєдлєх хєрєнгийн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">M</Data></Cell>
+    <Cell><Data ss:Type="String">МЭРГЭЖЛИЙН, ШИНЖЛЭХ УХААН БОЛОН ТЕХНИКИЙН ЇЙЛ АЖИЛЛАГАА</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">M69</Data></Cell>
+    <Cell><Data ss:Type="String">Хуулийн болон бїртгэлийн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">M6910</Data></Cell>
+    <Cell><Data ss:Type="String">Хуулийн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">M6920</Data></Cell>
+    <Cell><Data ss:Type="String">Бїртгэл, нягтлан бодох бїртгэл болон аудитын їйл ажиллагаа; татварын асуудлаар зєвлєгєє єгєх </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">M70</Data></Cell>
+    <Cell><Data ss:Type="String">Аж ахуйн нэгжийн удирдах дээд байгууллагын їйл ажиллагаа; менежментийн зєвлєгєє єгєх їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">M7010</Data></Cell>
+    <Cell><Data ss:Type="String">Аж ахуйн нэгжийн удирдах дээд байгууллагын їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">M7020</Data></Cell>
+    <Cell><Data ss:Type="String">Менежментийн зєвлєгєє єгєх їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">M71</Data></Cell>
+    <Cell><Data ss:Type="String">Архитектур болон инженерийн їйл ажиллагаа; техникийн туршилт, шинжилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">M7110</Data></Cell>
+    <Cell><Data ss:Type="String">Архитектур, инженерийн їйл ажиллагаа болон холбогдох техникийн зєвлєх їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">M7120</Data></Cell>
+    <Cell><Data ss:Type="String">Техникийн туршилт, шинжилгээний ажил</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">M72</Data></Cell>
+    <Cell><Data ss:Type="String">Шинжлэх ухааны эрдэм шинжилгээ, ололт, судалгааны їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">M7210</Data></Cell>
+    <Cell><Data ss:Type="String">Байгалийн ухааны эрдэм шинжилгээ, туршилт, судалгааны ажил</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">M7220</Data></Cell>
+    <Cell><Data ss:Type="String">Нийгмийн ухаан, эрдэм шинжилгээ, туршилт, судалгааны ажил</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">M73</Data></Cell>
+    <Cell><Data ss:Type="String">Сурталчилгааны ажил, зах зээлийн судалгаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">M7310</Data></Cell>
+    <Cell><Data ss:Type="String">Зар, сурталчилгааны ажил</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">M7320</Data></Cell>
+    <Cell><Data ss:Type="String">Зах зээлийн болон социологийн судалгаатай холбогдох їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">M74</Data></Cell>
+    <Cell><Data ss:Type="String">Мэргэжлийн, шинжлэх ухаан, техникийн ажлын бусад їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">M7410</Data></Cell>
+    <Cell><Data ss:Type="String">Мэргэжлийн дизайны їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">M7420</Data></Cell>
+    <Cell><Data ss:Type="String">Гэрэл зургийн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">M7490</Data></Cell>
+    <Cell><Data ss:Type="String">Дээрх ангиудад ороогїй мэргэжлийн, шинжлэх ухааны болон техникийн бусад їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">M7500</Data></Cell>
+    <Cell><Data ss:Type="String">Мал эмнэлгийн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">УДИРДЛАГЫН БОЛОН ДЭМЖЛЭГ ЇЗЇЇЛЭХ ЇЙЛ АЖИЛЛАГАА</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N77</Data></Cell>
+    <Cell><Data ss:Type="String">Тїрээс, лизингийн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N7710</Data></Cell>
+    <Cell><Data ss:Type="String">Моторт тээврийн хэрэгслийн тїрээс болон лизингийн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N772</Data></Cell>
+    <Cell><Data ss:Type="String">Хувийн болон єрхийн хэрэглээний барааны тїрээс болон лизингийн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N7721</Data></Cell>
+    <Cell><Data ss:Type="String">Амралт зугаалгын болон спортын барааны тїрээс, лизингийн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N7722</Data></Cell>
+    <Cell><Data ss:Type="String">Видео хуурцаг, дискний тїрээсийн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N7723</Data></Cell>
+    <Cell><Data ss:Type="String">Орон сууцны тїрээсийн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N7729</Data></Cell>
+    <Cell><Data ss:Type="String">Хувийн болон єрхийн хэрэглээний дээр дурдсан ангид ороогїй бусад барааны тїрээсийн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N7730</Data></Cell>
+    <Cell><Data ss:Type="String">Дээрх бїлэгт ороогїй бусад биет материаллаг хєрєнгє, машин, тоног тєхєєрємжийн тїрээс, лизингийн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N7740</Data></Cell>
+    <Cell><Data ss:Type="String">Эрх нь хамгаалагдсан зохиогчийн бїтээлээс бусад оюуны ємчийн бїтээгдэхїїний лизингийн їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N78</Data></Cell>
+    <Cell><Data ss:Type="String">Хєдєлмєр эрхлэлтийн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N7810</Data></Cell>
+    <Cell><Data ss:Type="String">Хєдєлмєр эрхлэлтийг зохицуулалтын албаны їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N7820</Data></Cell>
+    <Cell><Data ss:Type="String">Ажил тїр эрхлїїлэх агентлагийн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N7830</Data></Cell>
+    <Cell><Data ss:Type="String">Хїний нєєцєєр хангах болон хїний нєєцийн менежментийн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N79</Data></Cell>
+    <Cell><Data ss:Type="String">Аялал, жуулчлалын агентлаг, аяллын оператор болон захиалгат бусад їйлчилгээний їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N791</Data></Cell>
+    <Cell><Data ss:Type="String">Аялал, жуулчлалын агентлаг, аяллын операторын їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N7911</Data></Cell>
+    <Cell><Data ss:Type="String">Аялал, жуулчлалын агентлагийн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N7912</Data></Cell>
+    <Cell><Data ss:Type="String">Аяллын операторын їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N7990</Data></Cell>
+    <Cell><Data ss:Type="String">Захиалгаар хийгдэх їйлчилгээ болон тїїний туслах їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N80</Data></Cell>
+    <Cell><Data ss:Type="String">Аюулгїйн хамгаалал, мєрдєх їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N8010</Data></Cell>
+    <Cell><Data ss:Type="String">Хувийн харуул хамгаалалтын їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N8020</Data></Cell>
+    <Cell><Data ss:Type="String">Хамгаалалтын системээр хангах їйл ажиллагаа </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N8030</Data></Cell>
+    <Cell><Data ss:Type="String">Мєрдєх їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N81</Data></Cell>
+    <Cell><Data ss:Type="String">Байшин, барилга болон цэцэрлэг, газрын гадаргыг арчлах, хамгаалах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N8110</Data></Cell>
+    <Cell><Data ss:Type="String">Байгууллагын їйл ажиллагаанд туслах їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N812</Data></Cell>
+    <Cell><Data ss:Type="String">Цэвэрлэгээний їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N8121</Data></Cell>
+    <Cell><Data ss:Type="String">Байшин, барилгын дотор цэвэрлэгээний їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N8129</Data></Cell>
+    <Cell><Data ss:Type="String">Байшин, барилга, їйлдвэрийн газрын гадна цэвэрлэгээний їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N8130</Data></Cell>
+    <Cell><Data ss:Type="String">Газар хамгаалах, арчлах їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N82</Data></Cell>
+    <Cell><Data ss:Type="String">Албан байгууллагын удирдлагын болон туслах їйл ажиллагаа, бизнесийн бусад туслах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N821</Data></Cell>
+    <Cell><Data ss:Type="String">Албан газрын удирдлагын болон туслах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N8211</Data></Cell>
+    <Cell><Data ss:Type="String">Албан газрын удирдлагын болон туслах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N8219</Data></Cell>
+    <Cell><Data ss:Type="String">Зураг олшруулах, баримт бэлтгэх болон албан газрын їйл ажиллагааг дэмжсэн бусад тусгай їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N8220</Data></Cell>
+    <Cell><Data ss:Type="String">Утасны дуудлагын тєвийн їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N8230</Data></Cell>
+    <Cell><Data ss:Type="String">Хурал, цуглаан болон худалдааны їзїїлбэр/шоу зохион байгуулах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N829</Data></Cell>
+    <Cell><Data ss:Type="String">Дээрх бїлэгт ороогїй бизнесийн туслах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N8291</Data></Cell>
+    <Cell><Data ss:Type="String">Єр барагдуулах алба, зээлийн товчооны їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N8292</Data></Cell>
+    <Cell><Data ss:Type="String">Савлах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N8299</Data></Cell>
+    <Cell><Data ss:Type="String">Дээрх ангид ороогїй бизнесийн бусад туслах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">O</Data></Cell>
+    <Cell><Data ss:Type="String">ТЄРИЙН УДИРДЛАГА БА БАТЛАН ХАМГААЛАХ ЇЙЛ АЖИЛЛАГАА, АЛБАН ЖУРМЫН НИЙГМИЙН ХАМГААЛАЛ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">O84</Data></Cell>
+    <Cell><Data ss:Type="String">Тєрийн удирдлага ба батлан хамгаалах їйл ажиллагаа, албан журмын нийгмийн хамгаалал</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">O841</Data></Cell>
+    <Cell><Data ss:Type="String">Тєрийн удирдлага  болон орон нутгийн эдийн засаг, нийгмийн бодлогын їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">O8411</Data></Cell>
+    <Cell><Data ss:Type="String">Тєрийн удирдлагын їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">O8412</Data></Cell>
+    <Cell><Data ss:Type="String">Нийгмийн хамгааллаас бусад эрїїл мэнд, боловсрол, соёл урлагийн їйлчилгээ болон нийгмийн бусад їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">O8413</Data></Cell>
+    <Cell><Data ss:Type="String">Бизнесийг їр ашигтай эрхлэн явуулахад дэмжлэг їзїїлэх, удирдан зохицуулах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">O842</Data></Cell>
+    <Cell><Data ss:Type="String">Нийгэмд їзїїлэх їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">O8421</Data></Cell>
+    <Cell><Data ss:Type="String">Гадаад харилцааны їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">O8422</Data></Cell>
+    <Cell><Data ss:Type="String">Батлан хамгаалах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">O8423</Data></Cell>
+    <Cell><Data ss:Type="String">Нийгмийн хэв журам, аюулгїй байдлын їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">O8430</Data></Cell>
+    <Cell><Data ss:Type="String">Нийгмийн зайлшгїй хамгааллын їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">P</Data></Cell>
+    <Cell><Data ss:Type="String">БОЛОВСРОЛ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">P85</Data></Cell>
+    <Cell><Data ss:Type="String">Боловсрол</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">P8510</Data></Cell>
+    <Cell><Data ss:Type="String">Сургуулийн ємнєх болон бага боловсрол олгох їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">P852</Data></Cell>
+    <Cell><Data ss:Type="String">Дунд боловсрол олгох їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">P8521</Data></Cell>
+    <Cell><Data ss:Type="String">Суурь болон бїрэн дунд боловсрол олгох їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">P8522</Data></Cell>
+    <Cell><Data ss:Type="String">Техник, мэргэжлийн дунд боловсрол олгох їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">P8530</Data></Cell>
+    <Cell><Data ss:Type="String">Дээд боловсрол олгох їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">P854</Data></Cell>
+    <Cell><Data ss:Type="String">Бусад боловсрол олгох їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">P8541</Data></Cell>
+    <Cell><Data ss:Type="String">Спорт, чєлєєт цагаа єнгєрїїлэхэд зориулсан боловсрол олгох їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">P8542</Data></Cell>
+    <Cell><Data ss:Type="String">Соёлын боловсрол олгох їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">P8549</Data></Cell>
+    <Cell><Data ss:Type="String">Боловсролын бусад їйл ажиллагаа </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">P8550</Data></Cell>
+    <Cell><Data ss:Type="String">Боловсролын туслах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Q</Data></Cell>
+    <Cell><Data ss:Type="String">ХЇНИЙ ЭРЇЇЛ МЭНД БА НИЙГМИЙН ХАЛАМЖИЙН ЇЙЛ АЖИЛЛАГАА</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Q86</Data></Cell>
+    <Cell><Data ss:Type="String">Хїний эрїїл мэндийн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Q8610</Data></Cell>
+    <Cell><Data ss:Type="String">Эмнэлгийн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Q8620</Data></Cell>
+    <Cell><Data ss:Type="String">Шїдний болон эмнэлгийн бусад їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Q8690</Data></Cell>
+    <Cell><Data ss:Type="String">Хїний эрїїл мэндийн бусад їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Q87</Data></Cell>
+    <Cell><Data ss:Type="String">Оршин суугчдад їзїїлэх нийгмийн халамжийн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Q8710</Data></Cell>
+    <Cell><Data ss:Type="String">Асаргаа, сувилгааны їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Q8720</Data></Cell>
+    <Cell><Data ss:Type="String">Оюун ухааны хєгжлийн бэрхшээлтэй болон архи, мансууруулах бодист донтсон хїмїїст зориулсан тєрєлжсєн асрамжийн  їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Q8730</Data></Cell>
+    <Cell><Data ss:Type="String">Ахмад настан ба хєгжлийн бэрхшээлтэй иргэдийг асран хамгаалах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Q8790</Data></Cell>
+    <Cell><Data ss:Type="String">Дээрх ангид ороогїй оршин суугчдад їзїїлэх асаргаа, сувилгааны їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Q88</Data></Cell>
+    <Cell><Data ss:Type="String">Зориулалтын байргїйгээр ахмад настан, хєгжлийн бэрхшээлтэй иргэдэд їзїїлэх нийгмийн тусламжийн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Q8810</Data></Cell>
+    <Cell><Data ss:Type="String">Зориулалтын байргїйгээр ахмад настан, хєгжлийн бэрхшээлтэй хїмїїст їзїїлэх нийгмийн тусламжийн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Q8890</Data></Cell>
+    <Cell><Data ss:Type="String">Зориулалтын байргїйгээр їзїїлэх нийгмийн тусламжийн бусад їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">R</Data></Cell>
+    <Cell><Data ss:Type="String">УРЛАГ, ЇЗВЭР, ТОГЛООМ НААДАМ </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">R9000</Data></Cell>
+    <Cell><Data ss:Type="String">Бїтээл туурвих, урлаг, їзвэр їйлчилгээний їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">R910</Data></Cell>
+    <Cell><Data ss:Type="String">Номын сан, архив, музей болон бусад соёлын їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">R9101</Data></Cell>
+    <Cell><Data ss:Type="String">Номын сан, архивын їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">R9102</Data></Cell>
+    <Cell><Data ss:Type="String">Музей ба тїїхийн дурсгалт газар, байшин барилга їзїїлэх їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">R9103</Data></Cell>
+    <Cell><Data ss:Type="String">Ургамлын болон амьтны хїрээлэнгїїд, байгалийн їзэсгэлэнт газар, дархан цаазат газрын їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">R9200</Data></Cell>
+    <Cell><Data ss:Type="String">Мєрийтэй тоглоомын газрын їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">R93</Data></Cell>
+    <Cell><Data ss:Type="String">Спорт, зугаа цэнгэл, чєлєєт цагийн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">R931</Data></Cell>
+    <Cell><Data ss:Type="String">Спортын їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">R9311</Data></Cell>
+    <Cell><Data ss:Type="String">Спортын тоног, тєхєєрємжєєр хангах їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">R9312</Data></Cell>
+    <Cell><Data ss:Type="String">Спортын клубын їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">R9319</Data></Cell>
+    <Cell><Data ss:Type="String">Спортын бусад їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">R932</Data></Cell>
+    <Cell><Data ss:Type="String">Зугаа цэнгэл болон амралтын бусад їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">R9321</Data></Cell>
+    <Cell><Data ss:Type="String">Цэнгэлдэх хїрээлэн болон цэцэрлэгт хїрээлэнгийн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">R9329</Data></Cell>
+    <Cell><Data ss:Type="String">Дээрх ангид ороогїй цэнгэлдэх хїрээлэн, амралт, зугаа цэнгэлийн бусад їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">S</Data></Cell>
+    <Cell><Data ss:Type="String">ЇЙЛЧИЛГЭЭНИЙ БУСАД ЇЙЛ АЖИЛЛАГАА</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">S94</Data></Cell>
+    <Cell><Data ss:Type="String">Гишїїнчлэл бїхий байгууллагын їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">S941</Data></Cell>
+    <Cell><Data ss:Type="String">Бизнесийн ажил олгогчийн болон мэргэжлийн гишїїнчлэл бїхий байгууллагын їйл ажиллагаа </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">S9411</Data></Cell>
+    <Cell><Data ss:Type="String">Бизнесийн ажил олгогчийн гишїїнчлэл бїхий байгууллагын їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">S9412</Data></Cell>
+    <Cell><Data ss:Type="String">Мэргэжлийн гишїїнчлэл бїхий байгууллагуудын їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">S9420</Data></Cell>
+    <Cell><Data ss:Type="String">Їйлдвэрчний эвлэлийн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">S949</Data></Cell>
+    <Cell><Data ss:Type="String">Гишїїнчлэл бїхий бусад байгууллагын їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">S9491</Data></Cell>
+    <Cell><Data ss:Type="String">Шашны байгууллагын їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">S9492</Data></Cell>
+    <Cell><Data ss:Type="String">Улс тєрийн байгууллагын їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">S9499</Data></Cell>
+    <Cell><Data ss:Type="String">Дээрх ангид ороогїй гишїїнчлэл бїхий бусад байгууллагын їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">S95</Data></Cell>
+    <Cell><Data ss:Type="String">Хувийн болон єрхийн хэрэглээний зориулалттай бараа, компьютерын засвар, їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">S951</Data></Cell>
+    <Cell><Data ss:Type="String">Харилцаа, холбооны тоног тєхєєрємж болон компьютер, тїїний дагалдах хэрэгслийн засвар, їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">S9511</Data></Cell>
+    <Cell><Data ss:Type="String">Компьютер, тїїнийг дагалдах тоног тєхєєрємжийн  засвар, їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">S9512</Data></Cell>
+    <Cell><Data ss:Type="String">Холбооны тоног тєхєєрємжийн засвар, їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">S952</Data></Cell>
+    <Cell><Data ss:Type="String">Хувийн болон єрхийн хэрэглээний зориулалттай барааны засвар, їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">S9521</Data></Cell>
+    <Cell><Data ss:Type="String">Цахилгаан хэрэгслийн засвар, їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">S9522</Data></Cell>
+    <Cell><Data ss:Type="String">Ахуйн, цэцэрлэгжїїлэлтийн тоног тєхєєрємж болон єрхийн хэрэглээний цахилгаан хэрэгслийн засвар, їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">S9523</Data></Cell>
+    <Cell><Data ss:Type="String">Гутал, арьс, ширэн барааны  засвар, їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">S9524</Data></Cell>
+    <Cell><Data ss:Type="String">Ахуйн хэрэгсэл, тавилгын засвар, їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">S9529</Data></Cell>
+    <Cell><Data ss:Type="String">Дээрх ангиудад тусгагдаагїй хувийн болон єрхийн зориулалттай барааны  засвар, їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">S960</Data></Cell>
+    <Cell><Data ss:Type="String">Хувийн їйлчилгээний бусад їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">S9601</Data></Cell>
+    <Cell><Data ss:Type="String">Арьс, ширэн болон їслэг эдлэлийн хими цэвэрлэгээ </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">S9602</Data></Cell>
+    <Cell><Data ss:Type="String">Їсчин, гоо сайхны салоны бусад їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">S9603</Data></Cell>
+    <Cell><Data ss:Type="String">Оршуулга, тїїнд холбогдох їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">S9609</Data></Cell>
+    <Cell><Data ss:Type="String">Дээрх ангид ороогїй хувийн болон єрхийн хэрэглээний барааны засвар, їйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">T</Data></Cell>
+    <Cell><Data ss:Type="String">ХЇН ХЄЛСЛЄН АЖИЛЛУУЛДАГ ЄРХИЙН ЇЙЛ АЖИЛЛАГАА; ЄРХИЙН ЄЄРИЙН ХЭРЭГЛЭЭНД ЗОРИУЛАН ЇЙЛДВЭРЛЭСЭН, НЭР ТЄРЛЄЄР НЬ САЛГАЖ ТОДОРХОЙЛОХ БОЛОМЖГЇЙ БЇТЭЭГДЭХЇЇН, ЇЙЛЧИЛГЭЭ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">T9700</Data></Cell>
+    <Cell><Data ss:Type="String">Хїн хєлслєн ажиллуулдаг єрхийн їйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">T98</Data></Cell>
+    <Cell><Data ss:Type="String">Єрхийн єєрийн хэрэглээнд зориулсан, нэр тєрлєєр нь салгаж тодорхойлох боломжгїй бараа, їйлчилгээний їйлдвэрлэлт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">T9810</Data></Cell>
+    <Cell><Data ss:Type="String">Єрх єєрийн хэрэглээндээ зориулан їйлдвэрлэсэн, нэр тєрлєєр нь салгаж тодорхойлох боломжгїй бараа їйлдвэрлэлт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">T9820</Data></Cell>
+    <Cell><Data ss:Type="String">Єрх єєрийн хэрэглээндээ зориулсан,  нэр тєрлийг нь тодорхойлох боломжгїй їйлчилгээний їйлдвэрлэлт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">U</Data></Cell>
+    <Cell><Data ss:Type="String">ОЛОН УЛСЫН БАЙГУУЛЛАГА, СУУРИН ТЄЛЄЄЛЄГЧИЙН ЇЙЛ АЖИЛЛАГАА</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">U9900</Data></Cell>
+    <Cell><Data ss:Type="String">Олон улсын байгууллага, суурин тєлєєлєгчийн їйл ажиллагаа</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

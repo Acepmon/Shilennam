@@ -1,0 +1,4327 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Uyanga</Author>
+  <LastAuthor>JAVA M2</LastAuthor>
+  <Created>2015-04-10T05:25:42Z</Created>
+  <LastSaved>2015-04-10T14:24:13Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8220</WindowHeight>
+  <WindowWidth>17955</WindowWidth>
+  <WindowTopX>720</WindowTopX>
+  <WindowTopY>345</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16" ss:Name="Hyperlink">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0000FF"
+    ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s17">
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9" ss:Color="#252525"/>
+  </Style>
+  <Style ss:ID="s18">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9" ss:Color="#252525"/>
+  </Style>
+  <Style ss:ID="s19">
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#252525"/>
+  </Style>
+  <Style ss:ID="s20">
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s21">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9" ss:Color="#252525"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s22">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s23">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9" ss:Color="#252525"/>
+  </Style>
+  <Style ss:ID="s24">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s25">
+   <Alignment ss:Horizontal="Justify" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s26">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s27">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s28">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s29">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s30">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s31">
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9" ss:Color="#252525"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s32">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9" ss:Color="#252525"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s33">
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9" ss:Color="#252525"/>
+   <Interior ss:Color="#92D050" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s34">
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s35">
+   <Interior ss:Color="#92D050" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s36">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9" ss:Color="#000000"/>
+   <Interior ss:Color="#92D050" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s37">
+   <Interior/>
+  </Style>
+  <Style ss:ID="s38">
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s40">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9" ss:Color="#000000"/>
+   <Interior ss:Color="#FF0000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s41">
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#252525"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s42">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s43">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s44">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s45">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s46">
+   <Alignment ss:Horizontal="Justify" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s47">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s48">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9" ss:Color="#FF0000"/>
+  </Style>
+  <Style ss:ID="s49">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s50">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s51">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9" ss:Color="#252525"/>
+   <Interior ss:Color="#FF0000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s52">
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9" ss:Color="#252525"/>
+   <Interior ss:Color="#FF0000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s53">
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9" ss:Color="#252525"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s54">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9" ss:Color="#252525"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s55">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9" ss:Color="#000000"/>
+   <Interior ss:Color="#FF0000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s56">
+   <Alignment ss:Horizontal="Justify" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9" ss:Color="#000000"/>
+   <Interior ss:Color="#FF0000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s57">
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#FF0000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s58">
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#252525"/>
+   <Interior ss:Color="#FF0000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s59">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9" ss:Color="#252525"/>
+   <Interior ss:Color="#FF0000" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="605" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Index="2" ss:Width="120.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="61.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="75"/>
+   <Column ss:Width="234.75"/>
+   <Row>
+    <Cell><Data ss:Type="String">Ids</Data></Cell>
+    <Cell><Data ss:Type="String">Companies</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">sector code</Data></Cell>
+    <Cell><Data ss:Type="String">Sector name</Data></Cell>
+    <Cell><Data ss:Type="String">Org</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">258</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">4 хараа ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:Index="6"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">413</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">5 толгой нисэх буудал ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:Index="5"><Data ss:Type="String">агаарын тээвэр</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">228</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">CBXZ ХХК </Data></Cell>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">36</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">Get center ХХК</Data></Cell>
+    <Cell ss:StyleID="s31"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">205</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Жи мобайл ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">J6120</Data></Cell>
+    <Cell><Data ss:Type="String">Утасгүй холбоо</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">259</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">GSMM нөхөрлөл</Data></Cell>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">504</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Life time investment ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">M7020</Data></Cell>
+    <Cell><Data ss:Type="String">Менежментийн зөвлөлгөө өгөх үйл ажиллагаа</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">459</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">MIH 499125409</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">M7020</Data></Cell>
+    <Cell><Data ss:Type="String">Менежментийн зөвлөлгөө өгөх үйл ажиллагаа</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">502</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">MNCS ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">97</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">NIP ХХК</Data></Cell>
+    <Cell ss:StyleID="s31"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">443</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">SG дреллинг ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:Index="5"><Data ss:Type="String">Өрөмдлөг</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">163</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Sky Over ХХК</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">254</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">West Energy ХХК  </Data></Cell>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">XL-TA ХХК</Data></Cell>
+    <Cell ss:StyleID="s31"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">565</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Авзага трейд ХХК</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell><Data ss:Type="String">F4100</Data></Cell>
+    <Cell><Data ss:Type="String">Барилга угсралт</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">249</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Агар Дөлгөөн ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">F4330</Data></Cell>
+    <Cell><Data ss:Type="String">Барилгыг дуусгах шатны ажил</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">242</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Азиа Петролиум</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">218</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Азийн бамбар ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4753</Data></Cell>
+    <Cell><Data ss:Type="String">Хивс хивсэнцэр, ханын цаас, шалны бүрээсний төрөлжсөн дэлгүүрийн жижиглэнгийн худалдаа</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">226</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Азийн бамбар ХХК </Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4753</Data></Cell>
+    <Cell><Data ss:Type="String">Хивс хивсэнцэр, ханын цаас, шалны бүрээсний төрөлжсөн дэлгүүрийн жижиглэнгийн худалдаа</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">98</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">Азийн өндөр даваа ХХК</Data></Cell>
+    <Cell ss:StyleID="s31"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">239</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">АИКГ ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">C1103</Data></Cell>
+    <Cell><Data ss:Type="String">Шар айрагны үйлдвэрлэл</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">342</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Алс ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">B0990</Data></Cell>
+    <Cell><Data ss:Type="String">Уул уурхайн олборлолтын бусад үйл ажиллагаа</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">331</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Алтан аураг констракшн</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">C2395</Data></Cell>
+    <Cell><Data ss:Type="String">Бетон, цемент болон гипсээр хийсэн материал эдлэл үйлдвэрлэл</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">90</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Алтан орд ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">A0113</Data></Cell>
+    <Cell><Data ss:Type="String">Хүнсний ногоо болон амтат гуа, үндэст болон булцуут ургамлын тариалалт</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">535</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Алтан тариа ХХК</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell><Data ss:Type="String">C1061</Data></Cell>
+    <Cell><Data ss:Type="String">Үр тариа гурилын үйлдвэр</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">29</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Алтанбосго ХХК</Data></Cell>
+    <Cell ss:StyleID="s33"/>
+    <Cell><Data ss:Type="String">G4610</Data></Cell>
+    <Cell><Data ss:Type="String">Төлбөр эсвэл гэрээний үндсэн дээр хийгдэх бөөний худалдаа</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">Алтанбошго</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">541</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Алхана трейд ХХК</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell><Data ss:Type="String">G4730</Data></Cell>
+    <Cell><Data ss:Type="String">Шатахууны жижиглэн худалдаа</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">503</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">АМ.ЗО.ЧА ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">238</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Амгалан Уртуу ХХК </Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">H4923</Data></Cell>
+    <Cell><Data ss:Type="String">Хуурай замаар хийгдэх ачаа тээвэр</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">187</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Амида ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">122</Data></Cell>
+    <Cell ss:StyleID="s57"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">Амин</Font><Font
+       html:Face="Vrinda" x:Family="Swiss" html:Color="#000000"> </Font><Font
+       html:Color="#000000">уураг</Font><Font html:Face="Vrinda" x:Family="Swiss"
+       html:Color="#000000"> ХХ</Font><Font html:Color="#000000">К</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s34"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">298</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Анремо ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">C1071</Data></Cell>
+    <Cell><Data ss:Type="String">Талх, нарийн боовны үйлдвэр</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">215</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Ану сервис ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">C2513</Data></Cell>
+    <Cell><Data ss:Type="String">Төвийн халаалтын халуун усны бойлороос бусад уурын үүсгүүрийн үйлдвэрлэл</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s35">
+    <Cell><Data ss:Type="Number">419</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">Анун ХХК</Data></Cell>
+    <Cell ss:StyleID="s36"/>
+    <Cell><Data ss:Type="String">G4772</Data></Cell>
+    <Cell><Data ss:Type="String">Эм, гоо сайхан, ариун цэврийн барааны жижиглэн худалдаа</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">Анунгоо</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">263</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Анунгоо ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">G4772</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">Эм, гоо сайхан, ариун цэврийн барааны жижиглэн худалдаа</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">308</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Анунгоо ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">G4772</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">Эм, гоо сайхан, ариун цэврийн барааны жижиглэн худалдаа</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">347</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Анунгоо ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">G4772</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">Эм, гоо сайхан, ариун цэврийн барааны жижиглэн худалдаа</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">576</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Апгрейд ХХК</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:Index="5" ss:StyleID="s37"><Data ss:Type="String">Гадаад худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">560</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">АПУ ХК                                                                                                      </Data></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell><Data ss:Type="String">C1101</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">Спиртийн үйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">130</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">АПУ</Font><Font
+       html:Face="Vrinda" x:Family="Swiss" html:Color="#000000"> ХХК</Font><Font
+       html:Color="#000000"> </Font></ss:Data></Cell>
+    <Cell ss:StyleID="s20"/>
+    <Cell><Data ss:Type="String">C1101</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">Спиртийн үйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Ар жанар ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">G4610</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">Төлбөр эсвэл гэрээний үндсэн дээр хийгдэх бөөний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">320</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Арван Ундрага ХХК</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="String">C1102</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">Дарсны үйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">216</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Аргамаг Хурд ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">460</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Ард  АН Говьсүмбэр </Data></Cell>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:Index="5"><Data ss:Type="String">Улс төр</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="String">ТББ олон нийтийн байгууллага</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">59</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Ард даатгал ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">K6511</Data></Cell>
+    <Cell><Data ss:Type="String">Амьдралын даатгалын үйл ажиллагаа</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">184</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Арц суврага</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">F4100</Data></Cell>
+    <Cell><Data ss:Type="String">Барилга угсралт</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">230</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">АСУ дисковери ХХК </Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">J6209</Data></Cell>
+    <Cell><Data ss:Type="String">Мэдээллийн технологи болон компьютерийн бусад үйлчилгээ</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Атар Өргөө ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">C1071</Data></Cell>
+    <Cell><Data ss:Type="String">Талх, нарийн боовны үйлдвэр</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">127</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">Атар</Font><Font
+       html:Face="Vrinda" x:Family="Swiss" html:Color="#000000"> </Font><Font
+       html:Color="#000000">өргөө</Font><Font html:Face="Vrinda" x:Family="Swiss"
+       html:Color="#000000"> ХХ</Font><Font html:Color="#000000">К</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s20"/>
+    <Cell><Data ss:Type="String">C1071</Data></Cell>
+    <Cell><Data ss:Type="String">Талх, нарийн боовны үйлдвэр</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">240</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">АУМ ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">C2824</Data></Cell>
+    <Cell><Data ss:Type="String">Уул уурхай болон барилгын машины үйлдвэрлэл</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">291</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Ах трейд ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"/>
+    <Cell><Data ss:Type="String">G471</Data></Cell>
+    <Cell><Data ss:Type="String">Төрөлжсөн бус барааны жижиглэн худалдаа</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">Ахан дүүс трэйд</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Ахиц трэйд</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">168</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Аэро монголиа ХХК</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell><Data ss:Type="String">H5110</Data></Cell>
+    <Cell><Data ss:Type="String">Агаарын зорчигч тээвэр</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">133</Data></Cell>
+    <Cell ss:StyleID="s17"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#252525">Аянгат</Font><Font
+       html:Face="Vrinda" x:Family="Swiss" html:Color="#333333"> </Font><Font
+       html:Color="#333333">луу</Font><Font html:Face="Vrinda" x:Family="Swiss"
+       html:Color="#333333"> </Font><Font html:Color="#333333">ХХК</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">G4719</Data></Cell>
+    <Cell><Data ss:Type="String">Төрөлжсөн бус барааны жижиглэн худалдаа</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">498</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Бадрах од өгөөж</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">O8421</Data></Cell>
+    <Cell><Data ss:Type="String">Гадаад харилцааны үйл ажиллагаа</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">324</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Байгаль үр ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row ss:Height="24.75">
+    <Cell><Data ss:Type="Number">492</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Барилга архитектур корпораци</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">M7220</Data></Cell>
+    <Cell><Data ss:Type="String">Нийгмийн ухаан, эрдэм шинжилгээний, туршилт, судалгааны ажил</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">334</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Бат бэх бийт констракшн</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">F4330</Data></Cell>
+    <Cell><Data ss:Type="String">Барилгыг дуусгах шатны ажил</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">144</Data></Cell>
+    <Cell ss:StyleID="s52"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#252525">Бат</Font><Font
+       html:Face="Vrinda" x:Family="Swiss" html:Color="#333333"> </Font><Font
+       html:Color="#333333">үе</Font><Font html:Face="Vrinda" x:Family="Swiss"
+       html:Color="#333333"> </Font><Font html:Color="#333333">ХХК</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s31"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">279</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Батнаяд ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:Index="5"><Data ss:Type="String">Худалдаа үйлчилгээ, шувууны аж ахуй</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">227</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Баттрипел ХХК </Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">B0990</Data></Cell>
+    <Cell><Data ss:Type="String">Уул уурхайн олборлолтын бусад үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">329</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Баянбулаг групп</Data></Cell>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">463</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">БЭД аннад ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4630</Data></Cell>
+    <Cell><Data ss:Type="String">Хүнс, ундаа, тамхины бөөний худалдаа</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">БЗД биш</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">509</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Би трейд ХХК </Data></Cell>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">140</Data></Cell>
+    <Cell ss:StyleID="s17"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#252525">Би</Font><Font
+       html:Face="Vrinda" x:Family="Swiss" html:Color="#333333"> </Font><Font
+       html:Color="#333333">Эм</Font><Font html:Face="Vrinda" x:Family="Swiss"
+       html:Color="#333333"> </Font><Font html:Color="#333333">интернэйшнл</Font><Font
+       html:Face="Vrinda" x:Family="Swiss" html:Color="#333333"> </Font><Font
+       html:Color="#333333">ХХК</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:Height="24.75">
+    <Cell><Data ss:Type="Number">251</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Би Эн Кэй Эй Монголиа ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">G4711</Data></Cell>
+    <Cell><Data ss:Type="String">Хүнс, ундаа, тамхи голлосон жижиглэнгийн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">551</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Биг кастел ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4663</Data></Cell>
+    <Cell><Data ss:Type="String">Барилгын материал сантехникийн төрөлжсөн бөөний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">117</Data></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Бизнесийн холбоо</Data></Cell>
+    <Cell ss:StyleID="s41"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">333</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Билгүүн трейд ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">F4390</Data></Cell>
+    <Cell><Data ss:Type="String">Барилгын бусад тусгай үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">148</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Билгүүнтуяа ХХК</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell><Data ss:Type="String">G4719</Data></Cell>
+    <Cell><Data ss:Type="String">Төрөлжсөн бус барааны жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">189</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">БИТ-ТНН ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4649</Data></Cell>
+    <Cell><Data ss:Type="String">Гэр ахуйн барааны бөөний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">118</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Бишрэлт ХХК</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+    <Cell><Data ss:Type="String">C3012</Data></Cell>
+    <Cell ss:StyleID="s38"><Data ss:Type="String">Аялал зугаалгын болон спортын зориулалттай завины үйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">486</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">БМБХ  ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:Index="5"><Data ss:Type="String">utas 22562</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">374</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Боди автомотив ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">C2930</Data></Cell>
+    <Cell><Data ss:Type="String">Моторт тээврийн хэрэгслийн сэлбэг эд ангийн үйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">212</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Боди автомотив ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">C2930</Data></Cell>
+    <Cell><Data ss:Type="String">Моторт тээврийн хэрэгслийн сэлбэг эд ангийн үйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">209</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Бодь Интернэшнл ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">K6630</Data></Cell>
+    <Cell><Data ss:Type="String">Хөрөнгө оруулалтын сангийн удирдлагын үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">378</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Бодь интернэшнл ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">K6630</Data></Cell>
+    <Cell><Data ss:Type="String">Хөрөнгө оруулалтын сангийн удирдлагын үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">376</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Бодь пропертиз ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">L6810</Data></Cell>
+    <Cell><Data ss:Type="String">Өөрийн болон лизингийн үл хөдлөх хөрөнгийн үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">213</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Бодь Пропертийз ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">L6810</Data></Cell>
+    <Cell><Data ss:Type="String">Өөрийн болон лизингийн үл хөдлөх хөрөнгийн үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">210</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Бодь Цамхаг ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:Index="5"><Data ss:Type="String">ytas 312335 313356</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">379</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Бодь цамхаг ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">211</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Бодь Электроникс ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">G4651</Data></Cell>
+    <Cell><Data ss:Type="String">Компьютер түүний дагалдах тоног төхөөрөмж ба програм хангамжийн бөөний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">380</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Бодь электроникс ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4651</Data></Cell>
+    <Cell><Data ss:Type="String">Компьютер түүний дагалдах тоног төхөөрөмж ба програм хангамжийн бөөний худалдаа</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+    <Cell ss:StyleID="s34"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">Болд</Font><Font
+       html:Face="Vrinda" x:Family="Swiss" html:Color="#000000"> </Font><Font
+       html:Color="#000000">софт</Font><Font html:Face="Vrinda" x:Family="Swiss"
+       html:Color="#000000"> ХХ</Font><Font html:Color="#000000">К</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="Number">2882973</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Худалдаа </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">539</Data></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="String">Болд төмөр ерөө гол ХХК</Data></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="Number">2855119</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Уул уурхай</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">519</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">БООШ</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">I5590</Data></Cell>
+    <Cell><Data ss:Type="String">Бусад төрлийн байраар хангах үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">493</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Боса ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4630</Data></Cell>
+    <Cell><Data ss:Type="String">Хүнс, ундаа, тамхины бөөний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">494</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Боса ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4630</Data></Cell>
+    <Cell><Data ss:Type="String">Хүнс, ундаа, тамхины бөөний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">527</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Бридж ресорс сек</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">L6810</Data></Cell>
+    <Cell><Data ss:Type="String">Өөрийн болон лизингийн үл хөдлөх хөрөнгийн үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">124</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">Бридж</Font><Font
+       html:Face="Vrinda" x:Family="Swiss" html:Color="#000000"> ХХ</Font><Font
+       html:Color="#000000">К</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s20"/>
+    <Cell><Data ss:Type="String">G4510</Data></Cell>
+    <Cell><Data ss:Type="String">Моторт тээврийн хэрэгслийн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">566</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Бридж ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4510</Data></Cell>
+    <Cell><Data ss:Type="String">Моторт тээврийн хэрэгслийн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">198</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Бриж ХХК /Эн Ай Ти ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4510</Data></Cell>
+    <Cell><Data ss:Type="String">Моторт тээврийн хэрэгслийн худалдаа</Data></Cell>
+    <Cell><Data ss:Type="String">Эн Ай Ти ХХК </Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">J5820</Data></Cell>
+    <Cell><Data ss:Type="String">Програм хангамж, хэвлэх үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">142</Data></Cell>
+    <Cell ss:StyleID="s17"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#252525">Броад</Font><Font
+       html:Face="Vrinda" x:Family="Swiss" html:Color="#333333"> </Font><Font
+       html:Color="#333333">Бэнд</Font><Font html:Face="Vrinda" x:Family="Swiss"
+       html:Color="#333333"> </Font><Font html:Color="#333333">ХХК</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">N7911</Data></Cell>
+    <Cell><Data ss:Type="String">Аялал, зуучлалын агентлагын үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">БСМАСургууль</Data></Cell>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:Index="5"><Data ss:Type="String">Боловсрол</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">Буман түрүү ХХК</Data></Cell>
+    <Cell ss:StyleID="s31"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">295</Data></Cell>
+    <Cell ss:StyleID="s23"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#252525">Бурхан халдун</Font><Font
+       html:Face="Vrinda" x:Family="Swiss" html:Color="#333333"> </Font><Font
+       html:Color="#333333">групп</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">B0990</Data></Cell>
+    <Cell><Data ss:Type="String">Уул уурхай, олборлолтын туслах бусад үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Буудайн зам ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">G4719</Data></Cell>
+    <Cell><Data ss:Type="String">Төрөлжсөн бус барааны жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">602</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Буян пэл ХХК </Data></Cell>
+    <Cell ss:StyleID="s28"/>
+    <Cell><Data ss:Type="String">F4390</Data></Cell>
+    <Cell><Data ss:Type="String">Барилгын бусад тусгай үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">171</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Бүжин ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">395</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">БҮНИ ХХК</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">578</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Бүрэн гургалтай ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">353</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">БФМ ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:Index="5"><Data ss:Type="String">Оёдол, гадаад худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Бэрэн групп</Data></Cell>
+    <Cell ss:StyleID="s31"/>
+    <Cell><Data ss:Type="String">G4630</Data></Cell>
+    <Cell><Data ss:Type="String">Хүнс, ундаа, тамхины бөөний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">339</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Баян дарь ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">K6492</Data></Cell>
+    <Cell><Data ss:Type="String">Зээл олгох бусад үйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">409</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">БЯЦО ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">O8421</Data></Cell>
+    <Cell><Data ss:Type="String">Гадаад харилцааны үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">170</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Венс ХХК</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">289</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Видү ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">178</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Визит Монголиа ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">506</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Витафит трейд ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">C1104</Data></Cell>
+    <Cell><Data ss:Type="String">Хийжүүлсэн ундаа, савласан рашаан болон бусад усны үйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">252</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Вэндэкс терминал ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">G4610</Data></Cell>
+    <Cell><Data ss:Type="String">Төлбөр эсвэл гэрээний үндсэн дээр хийгдэх бөөний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">462</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Гадя ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">2855895</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Гадаад худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">425</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Гайданбат ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">5087759</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Гадаад худалдаа, түрээсийн үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">505</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Гамма флаш ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:Index="5"><Data ss:Type="String">Хэвлэлийн эх бэлтгэх, рекламны зураг авах</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">499</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Гамма фото хэвлэл</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:Index="5"><Data ss:Type="String">utas 99118445</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">149</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">Ган Инж ХХК</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="Number">2601486</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">үйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">55</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Гангажаргалан ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">N7710</Data></Cell>
+    <Cell><Data ss:Type="String">Моторт тээврийнм хэрэгслийн түрээс болон лизингийн үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">407</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Ганган хэлхээ ХХК</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">273</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Гангар инвест ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">F4329</Data></Cell>
+    <Cell><Data ss:Type="String">Барилгын бусад суурилуулах үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">275</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Гангар орд ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">N8129</Data></Cell>
+    <Cell><Data ss:Type="String">Байшин, барилга, үйлдвэрийн газрын гадна цэвэрлэгээний үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">188</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">ГБТ трейдинг ХХК </Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">2577127</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Газар шим дэлгүүр</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">78</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">ГДЖЭ ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Георесурс ХХК</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s21"><Data ss:Type="String">C1392</Data></Cell>
+    <Cell><Data ss:Type="String">Нэхмэл, сүлжмэл хувцаснаас бусад нэхмэл, сүлжлэл эдлэлийн үйлдвэр</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">284</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Гете сургууль</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:Index="5"><Data ss:Type="String">Боловсрол</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">414</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Гламур ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4651</Data></Cell>
+    <Cell><Data ss:Type="String">Компьютер, түүний дагалдах тоног төхөөрөмж ба програм хангамжийн бөөний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">426</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Гламур ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4651</Data></Cell>
+    <Cell><Data ss:Type="String">Компьютер, түүний дагалдах тоног төхөөрөмж ба програм хангамжийн бөөний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">452</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Гламур ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4651</Data></Cell>
+    <Cell><Data ss:Type="String">Компьютер, түүний дагалдах тоног төхөөрөмж ба програм хангамжийн бөөний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">71</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">Гобисс ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">179</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Говь Хангай Мебель ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">C3100</Data></Cell>
+    <Cell><Data ss:Type="String">Тавилгын үйлдвэр</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">571</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Говь ХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">C1391</Data></Cell>
+    <Cell><Data ss:Type="String">Сүлжмэл, нэхмэлийн үйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">513</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Говь-Алтай АНАТХ</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">363</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Гоёо ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">C1313</Data></Cell>
+    <Cell><Data ss:Type="String">Нэхмэл эдлэлийн эцсийн шатны борлуулалтын үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">433</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Гоёо ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">C1313</Data></Cell>
+    <Cell><Data ss:Type="String">Нэхмэл эдлэлийн эцсийн шатны борлуулалтын үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">603</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="String">Голден хүүп ХХК </Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="String">5303117</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Бие бялдарын үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">550</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Гранд мэншн ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4711</Data></Cell>
+    <Cell><Data ss:Type="String">Хүнс, ундаа, тамхи голлосон жижиглэнгийн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">554</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Гранд принц ХХК</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell><Data ss:Type="String">I5510</Data></Cell>
+    <Cell><Data ss:Type="String">Богино хугацаагаар байр сууцаар хангах үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row ss:Height="24">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Гранд Хаан Айриш Паб ХХК</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell><Data ss:Type="String">I5610</Data></Cell>
+    <Cell><Data ss:Type="String">Ресторан, хүнсний явуулын үйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">552</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Грандмед ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">Q8610</Data></Cell>
+    <Cell><Data ss:Type="String">Эмнэлгийн үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">417</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Грийн катеринг ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">5229553</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Гадаад худалдаа зоогийн газар</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">431</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Грийн катеринг ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">5229553</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Гадаад худалдаа зоогийн газар</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">487</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Грийт Соплеер ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">301</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Гэрлүг ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">I5610</Data></Cell>
+    <Cell><Data ss:Type="String">Ресторан, хүнсний явуулын үйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Гэрэгэ принт ХХК</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">5172102</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Хэвлэлийн үйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">145</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Гэрэлтүүлэг чимэглэл ХХК</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell><Data ss:Type="String">C2740</Data></Cell>
+    <Cell><Data ss:Type="String">Цахилгаан гэрэлтүүлгийн хэрэгслэл үйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">323</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Гял цал ХХК</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">341</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Давхар Түрүү ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">O8421</Data></Cell>
+    <Cell><Data ss:Type="String">Гадаад харилцааны үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">138</Data></Cell>
+    <Cell ss:StyleID="s17"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#252525">Далайн</Font><Font
+       html:Face="Vrinda" x:Family="Swiss" html:Color="#333333"> </Font><Font
+       html:Color="#333333">хөх</Font><Font html:Face="Vrinda" x:Family="Swiss"
+       html:Color="#333333"> </Font><Font html:Color="#333333">морь</Font><Font
+       html:Face="Vrinda" x:Family="Swiss" html:Color="#333333"> </Font><Font
+       html:Color="#333333">ХХК</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">N7911</Data></Cell>
+    <Cell><Data ss:Type="String">Аялал, жуулчлалын агентлагийн үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">515</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Дархан АНАТХ</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">112</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Дархан нэхий ХК</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+    <Cell><Data ss:Type="String">C1511</Data></Cell>
+    <Cell><Data ss:Type="String">Арьс ширэн эдлэл засварлах, үслэг арьс боловсруулах үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="34.5">
+    <Cell><Data ss:Type="Number">601</Data></Cell>
+    <Cell ss:StyleID="s44"><Data ss:Type="String">Дархан Сэлэнгийн цахилгаан түгээх сүлжээ ХК</Data></Cell>
+    <Cell ss:StyleID="s29"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">219</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Дасон ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">2839016</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Баар</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">52</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Датаком ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">G4791</Data></Cell>
+    <Cell><Data ss:Type="String">Шуудан болон интернэтийн захиалгаар хийггдэг жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">Десофт Медиа студи</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">352</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Ди Ди Си ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">2722151</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">График дизайны үйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">520</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Ди эйл эл </Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row ss:Height="24.75">
+    <Cell><Data ss:Type="Number">517</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Ди эйл эл глобал форваринг</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">193</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Ди Эйч Эл ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">2096102</Data></Cell>
+    <Cell><Data ss:Type="String"> </Data></Cell>
+    <Cell><Data ss:Type="String">Олон улсын буухиа шуудан</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">533</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Ди Эл Өү ХХК</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+    <Cell><Data ss:Type="String">Q8610</Data></Cell>
+    <Cell><Data ss:Type="String">Эмнэлгийн үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">79</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">Ди Эф ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">280</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">ДМШУҮТ ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">387</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Долгион-Од ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">2678926</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Барилга угсралт, автосервис</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">39</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Долоон бар ХХК</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">2106051</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Тээвэр дулаан</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">110</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Долоон бар ХХК</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">2106051</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Тээвэр дулаан</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">575</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Домог интернэшнл ХХК</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell><Data ss:Type="String">G4610</Data></Cell>
+    <Cell><Data ss:Type="String">Төлбөр эсвэл гэрээний үндсэн дээр хийгдэх бөөний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">545</Data></Cell>
+    <Cell ss:StyleID="s45"><Data ss:Type="String">Дорнын говь ХХК</Data></Cell>
+    <Cell ss:StyleID="s45"><Data ss:Type="Number">2010259</Data></Cell>
+    <Cell><Data ss:Type="String">C1010</Data></Cell>
+    <Cell><Data ss:Type="String">Мах, махан бүтээгдэхүүний үйлдвэрлэл болон хадгалалт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">111</Data></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="String">ДСЦТС ХК</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">143</Data></Cell>
+    <Cell ss:StyleID="s52"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#252525">ДУАЗ</Font><Font
+       html:Face="Vrinda" x:Family="Swiss" html:Color="#333333"> </Font><Font
+       html:Color="#333333">ХХК</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">508</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">ДШЛ” ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">2603381</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Зоогийн газар баар</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Дээд цэг ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">50747029</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Гадаад худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">404</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">ЁБЦЭ ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">C1080</Data></Cell>
+    <Cell><Data ss:Type="String">Малын тэжээлийн үйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">223</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">ЕВ </Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">510</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Евро ази</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">197</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Жаст ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4730</Data></Cell>
+    <Cell><Data ss:Type="String">Шатахууны жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">540</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Женерал импекс ХХК</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell><Data ss:Type="String">G4651</Data></Cell>
+    <Cell><Data ss:Type="String">Компьютер, түүний дагалдах тоног төхөөрөмж програм хангамжийн худалдаа</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">128</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">Женерал</Font><Font
+       html:Face="Vrinda" x:Family="Swiss" html:Color="#000000"> </Font><Font
+       html:Color="#000000">Тек</Font><Font html:Face="Vrinda" x:Family="Swiss"
+       html:Color="#000000"> ХХ</Font><Font html:Color="#000000">К</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s20"/>
+    <Cell><Data ss:Type="String">G4721</Data></Cell>
+    <Cell><Data ss:Type="String">Хүнсний төрөлжсөн дэлгүүрийн жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row ss:Height="24">
+    <Cell><Data ss:Type="Number">77</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">Женерал экспресс ложистик ХХК</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">174</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Жи Зэт Капитал ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">103</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Жи мобайл ХХК</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+    <Cell><Data ss:Type="String">J6120</Data></Cell>
+    <Cell><Data ss:Type="String">Утасгүй холбоо</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">585</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">ЖИ ЭЛ ТИ ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">5177472</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Автомашины дугаарын хэвлэлт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">549</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Жигүүр гранд групп ХХК</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell><Data ss:Type="String">F4100</Data></Cell>
+    <Cell><Data ss:Type="String">Барилга угсралт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">580</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Жигүүр дэл ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">475</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Жи мобайл ХХК</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell><Data ss:Type="String">J6120</Data></Cell>
+    <Cell><Data ss:Type="String">Утасгүй холбоо</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">337</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Жимэкс</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">151</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Жинсолон ХХК</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell><Data ss:Type="String">I5629</Data></Cell>
+    <Cell><Data ss:Type="String">Хоол хүнсээр үйлчлэх бусад үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">236</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Жишээлбэл ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">464</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Жоб садро ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">152</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Жонбээс ХХК</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell><Data ss:Type="String">P8550</Data></Cell>
+    <Cell><Data ss:Type="String">Боловсролын туслах үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">220</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">ЖЭЙ ЭМ ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">514</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Завхан АНАТХ</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">340</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Завхан Бум ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">181</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Завхан хүнс групп ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">C1010</Data></Cell>
+    <Cell><Data ss:Type="String">Мах, махан бүтээгдэхүүний үйлдвэрлэл болон хадгалалт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">393</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Заг ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">F4100</Data></Cell>
+    <Cell><Data ss:Type="String">Барилга угсралт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">Залач ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">38</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">Заниса ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">153</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Заниса ХХК</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">302</Data></Cell>
+    <Cell ss:StyleID="s45"><Data ss:Type="String">Зогсолтгүй эргэлт  ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4630</Data></Cell>
+    <Cell><Data ss:Type="String">Хүнс, ундаа, тамхины бөөний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">402</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Золотой штамп ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">G4630</Data></Cell>
+    <Cell><Data ss:Type="String">Хүнс, ундаа, тамхины бөөний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">405</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">Зохимж ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">P8530</Data></Cell>
+    <Cell><Data ss:Type="String">Дээд боловсрол олгох үйл ажиллагаа</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">125</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">Идэр</Font><Font
+       html:Face="Vrinda" x:Family="Swiss" html:Color="#000000"> </Font><Font
+       html:Color="#000000">холдинг</Font><Font html:Face="Vrinda"
+       x:Family="Swiss" html:Color="#000000"> ХХК</Font><Font html:Color="#000000"> </Font></ss:Data></Cell>
+    <Cell ss:StyleID="s20"/>
+    <Cell><Data ss:Type="String">G4719</Data></Cell>
+    <Cell><Data ss:Type="String">Төрөлжсөн бус барааны бусад дэлгүүрийн жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">257</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Ижинхорол ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">593</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Ийст мейвэн ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">K6619</Data></Cell>
+    <Cell><Data ss:Type="String">Санхүүгийн бүтээгдэхүүн, үйлчилгээнд туслах бусад үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">83</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Илч Хангай ХХК</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">2555891</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Эрчим хүчний барилга угсралт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">467</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Индустр ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">2110547</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">utas 95150034</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">56</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">ИнкоЗон ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">G4652</Data></Cell>
+    <Cell><Data ss:Type="String"> Электрон ба холбооны тоног төхөөрөмж тэдгээрийн сэлбэг хэрэгслийн бөөний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">147</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Интер энерги ХХК</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell><Data ss:Type="String">G4659</Data></Cell>
+    <Cell><Data ss:Type="String">Машин, тоног төхөөрөмжийн бусад бөөний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">567</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Интерстандарт нефть ХХК</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell><Data ss:Type="String">B0910</Data></Cell>
+    <Cell><Data ss:Type="String">Газрын тос, байгалийн хий олборлолттой холбогдох туслах үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">548</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Инфинити спэйс ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">B0990</Data></Cell>
+    <Cell><Data ss:Type="String">Уул уурхай, олборлолтын туслах бусад үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">154</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Ирвэсийн хавцал ХХК</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">237</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Итгэлт дайчин ХХК </Data></Cell>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">89</Data></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Их бага хонгор ХХК</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">569</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Их засаг их сургууль</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">P8530</Data></Cell>
+    <Cell><Data ss:Type="String">Дээд боловсрол олгох үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">577</Data></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="String">Их наяд хөгжил ХХК</Data></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="Number">5442311</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Барилга засвар, засал чимэглэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">445</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Ихдэлгэрэх хэт</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">5325587</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Уул уурхайн өрөмдлөг</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">477</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Кайзер флашерай ХХК</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell><Data ss:Type="String">C1010</Data></Cell>
+    <Cell><Data ss:Type="String">Мах, махан бүтээгдэхүүний үйлдвэрлэл болон хадгалалт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">336</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">Капмон ХХК </Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="Number">2696975</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Банк бус санхүүгийн байгууллага</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">512</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Карголэнд ХХК </Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">F4100</Data></Cell>
+    <Cell><Data ss:Type="String">Барилга угсралт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">62</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">Карпат ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">196</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Кашмер Холдинг ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">C1311</Data></Cell>
+    <Cell><Data ss:Type="String">Нэхмэл утсыг бэлтгэх, ээрэх үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">579</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Кликос  ХХК</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell><Data ss:Type="String">G4772</Data></Cell>
+    <Cell><Data ss:Type="String">Эм, гоо сайхан, ариун цэврийн барааны төрөлжсөн дэлгүүрийн жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">285</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Коёота комфорт ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">O8421</Data></Cell>
+    <Cell><Data ss:Type="String">Гадаад харилцааны үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Комит сервис ХХК</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">2734303</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Гадаад, дотоод худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">304</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Кью эф эс ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">479</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Лайф стайл андууд ХХК</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell><Data ss:Type="String">G4799</Data></Cell>
+    <Cell><Data ss:Type="String">Дэлгүүр, их дэлгүүр, захаар дэмжин хийгддэггүй бусад бүтээгдэхүүний жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">ЛЕД ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">183</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Логик фильм ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">M7310</Data></Cell>
+    <Cell><Data ss:Type="String">Зар сурталчилгааны ажил</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">Локол Ложистик ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">234</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Лопос ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row ss:Height="24">
+    <Cell><Data ss:Type="Number">562</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">М СИ ЭС Азиа пасифик брюэри ХХК</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell><Data ss:Type="String">C1101</Data></Cell>
+    <Cell><Data ss:Type="String">Спиртийн үйлдвэр</Data></Cell>
+   </Row>
+   <Row ss:Height="24">
+    <Cell><Data ss:Type="Number">600</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">М СИ ЭС Азиа пасифик брюэри ХХК</Data></Cell>
+    <Cell ss:StyleID="s29"/>
+    <Cell><Data ss:Type="String">C1101</Data></Cell>
+    <Cell><Data ss:Type="String">Спиртийн үйлдвэр</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">311</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">М Си Эс дистрибюшн ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">C1104</Data></Cell>
+    <Cell><Data ss:Type="String">Хийжүүлсэн ундаа, савласан рашаан болон бусад усны үйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">261</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">М СИ ЭС интернэшнл ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">2090007</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">348</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">М СИ ЭС Интернэшнл ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">2090007</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">101</Data></Cell>
+    <Cell ss:StyleID="s41"><Data ss:Type="String">М Си Эс Проперти ХХК</Data></Cell>
+    <Cell ss:StyleID="s41"><Data ss:Type="Number">5040159</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Барилга угсралт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">359</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">М Си Эс Проперти ХХК</Data></Cell>
+    <Cell ss:StyleID="s41"><Data ss:Type="Number">5040159</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Барилга угсралт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">372</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">М Си Эс пропертиз ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">5525926</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">369</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">М Си Эс холдинг ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">2628236</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">344</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">М Си Эс эстэйтс ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">5177375</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Гадаад худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">453</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">М.С холдинг</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">Магсар трейд ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">137</Data></Cell>
+    <Cell ss:StyleID="s52"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#252525">Магсар</Font><Font
+       html:Face="Vrinda" x:Family="Swiss" html:Color="#333333"> </Font><Font
+       html:Color="#333333">трейд</Font><Font html:Face="Vrinda" x:Family="Swiss"
+       html:Color="#333333"> </Font><Font html:Color="#333333">ХХК</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">81</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Макадам ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">F4312</Data></Cell>
+    <Cell><Data ss:Type="String">Барилгын талбай бэлтгэх үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">54</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">МАКС групп</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">2702509</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">195</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Макс Импекс ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">N7723</Data></Cell>
+    <Cell><Data ss:Type="String">Орон сууц, түрээсийн үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">501</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Манагал тэнгэр ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4719</Data></Cell>
+    <Cell><Data ss:Type="String">Төрөлжсөн бус барааны бусад дэлгүүрийн жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">469</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Марал шигтгээ</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">192</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Маргад дээд сургууль</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Мах Импекс ХХК</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">2069229</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Мах махан бүтээгдэхүүн боловсруулах</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">444</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">МГТГ ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">126</Data></Cell>
+    <Cell ss:StyleID="s57"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">Мегаватт</Font><Font
+       html:Face="Vrinda" x:Family="Swiss" html:Color="#000000"> ХХ</Font><Font
+       html:Color="#000000">К</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">583</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Мера  ХХК</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell><Data ss:Type="String">C2824</Data></Cell>
+    <Cell><Data ss:Type="String">Уул уурхайн болон машин тоног төхөөрөмжийн үйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">473</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Меридиан трейд ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">S9602</Data></Cell>
+    <Cell><Data ss:Type="String">Үсчин гоо сайхны салоны бусад үйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">440</Data></Cell>
+    <Cell ss:StyleID="s45"><Data ss:Type="String">Металл майниг ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4649</Data></Cell>
+    <Cell><Data ss:Type="String">Гэр ахуйн бусад барааны бөөний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">406</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Метпром ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">180</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Миг даатгал ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">K6511</Data></Cell>
+    <Cell><Data ss:Type="String">Амьдралын даатгалын үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">383</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Миг даатгал ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">K6511</Data></Cell>
+    <Cell><Data ss:Type="String">Амьдралын даатгалын үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">470</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Миг майнинг ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">136</Data></Cell>
+    <Cell ss:StyleID="s31"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#252525">Мика</Font><Font
+       html:Face="Vrinda" x:Family="Swiss" html:Color="#333333"> </Font><Font
+       html:Color="#333333">ХХК</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">2359634</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">ХЗХ???</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">439</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">МММ холдинг ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">85</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Мон илч ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">2560003</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Эрчим хүч тоног төхөөрөмжийн засвар, угсралт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">511</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Мон лаа</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">C1104</Data></Cell>
+    <Cell><Data ss:Type="String">Хийжүүлсэн ундаа, савласан рашаан болон бусад усны үйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Мон Маг ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">B0990</Data></Cell>
+    <Cell><Data ss:Type="String">Уул уурхай, олборлолтын туслах бусад үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">488</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Мон Мэс ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">Q8610</Data></Cell>
+    <Cell><Data ss:Type="String">Эмнэлгийн үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">109</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Мон Полимет</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+    <Cell><Data ss:Type="String">C2824</Data></Cell>
+    <Cell><Data ss:Type="String">Уул уурхайн болон машин тоног төхөөрөмжийн үйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Мон Тэнгэр ХХК</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">2066866</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">518</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Мон энзим</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">Q8610</Data></Cell>
+    <Cell><Data ss:Type="String">Эмнэлгийн үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">399</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Монакю ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">G4630</Data></Cell>
+    <Cell><Data ss:Type="String">Хүнс, ундаа, тамхины бөөний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">384</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Мон-Алтай групп</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">2067706</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Гадаад худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">392</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Монгол Базальт ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">5112494</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Дулаан туслах материалын үйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">66</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Монгол гэр-Хужирт ХХК</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">2725959</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Монгол гэрийн мод үйлдвэрлэх</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">207</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">Монгол Масс Медиа ХХК</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="Number">2854724</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">381</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">Монгол Масс Медиа ХХК</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="Number">2854724</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">525</Data></Cell>
+    <Cell ss:StyleID="s45"><Data ss:Type="String">Монгол метал бирж</Data></Cell>
+    <Cell ss:StyleID="s45"/>
+    <Cell><Data ss:Type="String">H4923</Data></Cell>
+    <Cell><Data ss:Type="String">Хуурай замаар хийгдэх ачаа тээвэр</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">65</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">Монгол пүүд ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">61</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Монгол шилтгээн</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">2687569</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Зочид буудал</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">63</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Монгол шилтгээн ХК</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">2687569</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">434</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Монголиан айрон групп</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row ss:Height="24.75">
+    <Cell><Data ss:Type="Number">438</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Монголиан металл майнинг групп ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">5481694</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">худалдаа</Data></Cell>
+   </Row>
+   <Row ss:Height="24">
+    <Cell><Data ss:Type="Number">546</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Монголиан транс ложистик ХХК</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell><Data ss:Type="String">H4923</Data></Cell>
+    <Cell><Data ss:Type="String">Хуурай замаар хийгдэх ачаа тээвэр</Data></Cell>
+   </Row>
+   <Row ss:Height="24.75">
+    <Cell><Data ss:Type="Number">424</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Монголиан Юниверсал Дриллинг ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">5435404</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Өрөмдлөг</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">248</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Монголметал ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">534</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Монголын алт МАК ХХК</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell><Data ss:Type="String">B0990</Data></Cell>
+    <Cell><Data ss:Type="String">Уул уурхай, олборлолтын туслах бусад үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row ss:Height="24.75">
+    <Cell><Data ss:Type="Number">233</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Монголын Цахилгаан шат ХХК </Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">5052254</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Цахилгаан шат, лифт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">Моннил тур ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">271</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Моннис моторс ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">G4510</Data></Cell>
+    <Cell><Data ss:Type="String">Моторт тээврийн хэрэгслийн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">199</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Моннис моторс ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4510</Data></Cell>
+    <Cell><Data ss:Type="String">Моторт тээврийн хэрэгслийн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">268</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Моннис моторс ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4510</Data></Cell>
+    <Cell><Data ss:Type="String">Моторт тээврийн хэрэгслийн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">287</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Моннис моторс ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4510</Data></Cell>
+    <Cell><Data ss:Type="String">Моторт тээврийн хэрэгслийн худалдаа</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">294</Data></Cell>
+    <Cell ss:StyleID="s23"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#252525">Моннис моторс</Font><Font
+       html:Face="Vrinda" x:Family="Swiss" html:Color="#333333"> </Font><Font
+       html:Color="#333333">ХХК</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">G4510</Data></Cell>
+    <Cell><Data ss:Type="String">Моторт тээврийн хэрэгслийн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">410</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Моннис моторс ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">G4510</Data></Cell>
+    <Cell><Data ss:Type="String">Моторт тээврийн хэрэгслийн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">592</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Моннис-Интернэшнл</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">C2824</Data></Cell>
+    <Cell><Data ss:Type="String">Уул уурхайн болон барилгын тоног төхөөрөмжийн үйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">49</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Монос Групп ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">O8421</Data></Cell>
+    <Cell><Data ss:Type="String">Гадаад харилцааны үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">312</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Монос Групп ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">O8421</Data></Cell>
+    <Cell><Data ss:Type="String">Гадаад харилцааны үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">51</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Монос косметик ХХК </Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">G4772</Data></Cell>
+    <Cell><Data ss:Type="String">Эм, гоо сайхан, ариун цэврийн барааны төрөлжсөн дэлгүүрийн жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">316</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Монос косметик ХХК </Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4772</Data></Cell>
+    <Cell><Data ss:Type="String">Эм, гоо сайхан, ариун цэврийн барааны төрөлжсөн дэлгүүрийн жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">319</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Монос Тур ХХК</Data></Cell>
+    <Cell ss:StyleID="s40"/>
+    <Cell ss:Index="5"><Data ss:Type="String">utas 99162097 315076</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">315</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Монос Улаанбаатар ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">C2100</Data></Cell>
+    <Cell><Data ss:Type="String">Эм, эм бэлдмэл, химийн болон ургамлын гаралтай эмийн бүтээгдэхүүний үйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">570</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Монос Улаанбаатар ХХК</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell><Data ss:Type="String">C2100</Data></Cell>
+    <Cell><Data ss:Type="String">Эм, эм бэлдмэл, химийн болон ургамлын гаралтай эмийн бүтээгдэхүүний үйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Монос фарм</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:Index="5"><Data ss:Type="String">Эм ханган нийлүүлэх худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">537</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Монос фарм трейд ХХК</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell><Data ss:Type="String">G4772</Data></Cell>
+    <Cell><Data ss:Type="String">Эм, гоо сайхан, ариун цэврийн барааны төрөлжсөн дэлгүүрийн жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">317</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Монос фарм трейд ХХК </Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4772</Data></Cell>
+    <Cell><Data ss:Type="String">Эм, гоо сайхан, ариун цэврийн барааны төрөлжсөн дэлгүүрийн жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">313</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Монос Фарм ХХК</Data></Cell>
+    <Cell ss:StyleID="s45"><Data ss:Type="Number">2670712</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Эм ханган нийлүүлэх худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">314</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Монос Хаусхолд ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4649</Data></Cell>
+    <Cell><Data ss:Type="String">Гэр ахуйн бусад барааны бөөний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">318</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Монос Холдинг ХХК</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="String">G4772</Data></Cell>
+    <Cell><Data ss:Type="String">Эм, гоо сайхан, ариун цэврийн барааны төрөлжсөн дэлгүүрийн жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">322</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Монос ХХК</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="String">C2200</Data></Cell>
+    <Cell><Data ss:Type="String">Эм, эм бэлдмэл, химийн болон ургамлын гаралтай эмийн бүтээгдэхүүний үйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">553</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Монполимент групп</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell><Data ss:Type="String">C2824</Data></Cell>
+    <Cell><Data ss:Type="String">Уул уурхайн болон барилгын тоног төхөөрөмжийн үйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">596</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Монполимет групп</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+    <Cell><Data ss:Type="String">C2824</Data></Cell>
+    <Cell><Data ss:Type="String">Уул уурхайн болон барилгын тоног төхөөрөмжийн үйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">74</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Монроуд ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">F4210</Data></Cell>
+    <Cell><Data ss:Type="String">Төмөр замын болон автозамын байгууламж барих үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">547</Data></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="String">Монтай эрдэнэ ХХК</Data></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="Number">5000858</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Тэсрэх бодисын хамгаалалт</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">135</Data></Cell>
+    <Cell ss:StyleID="s31"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#252525">Монтунгил</Font><Font
+       html:Face="Vrinda" x:Family="Swiss" html:Color="#333333"> </Font><Font
+       html:Color="#333333">ХХК</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">2871408</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Блок үйлдвэр</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">466</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Монфрэш ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4630</Data></Cell>
+    <Cell><Data ss:Type="String">Хүнс, ундаа, тамхины бөөний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">497</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Морин улаач ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">5146909</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Гадаад худалдаа, худалдааны зуучлал</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">338</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Мост спийд ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">H5110</Data></Cell>
+    <Cell><Data ss:Type="String">Агаарын зорчигч тээвэр</Data></Cell>
+   </Row>
+   <Row ss:Height="24.75">
+    <Cell><Data ss:Type="Number">186</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Мөнгөн агт Мон-Японы хамтарсан ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">204</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Мөнгөн Гүүр ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">K6430</Data></Cell>
+    <Cell><Data ss:Type="String">Итгэлцэл, сангууд болон бусад ижил төстэй санхүүгийн байгууллагуудын үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">421</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Мөнх Халдун ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4690</Data></Cell>
+    <Cell><Data ss:Type="String">Төрөлжсөн бус барааны бөөний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Мөнхийн тан ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">2592355</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Солонгос хэлний сургалт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">34</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Мөнхийн тан ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">2592355</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Солонгос хэлний сургалт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">МТТУ ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">МТЭТ ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">G4663</Data></Cell>
+    <Cell><Data ss:Type="String">Барилгын материал, техник, сантехник, халаалт, ус түгээх төхөөрөмж болон тэдгээрийн туслах төхөөрөмжийн бөөний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">206</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Мэйжикнэт ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">G4791</Data></Cell>
+    <Cell><Data ss:Type="String">Шуудан болон интернэтийн захиалгаар хийгддэг жижиглэнгийн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">375</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Мэйжикнэт ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4791</Data></Cell>
+    <Cell><Data ss:Type="String">Шуудан болон интернэтийн захиалгаар хийгддэг жижиглэнгийн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">326</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Мэргэн дуурсах ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4719</Data></Cell>
+    <Cell><Data ss:Type="String">Төрөлжсөн бус барааны бусад дэлгүүрийн жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">42</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">НАНГГА ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">175</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Нар Мон ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">L6820</Data></Cell>
+    <Cell><Data ss:Type="String">Төлбөр эсвэл гэрээний үндсэн дээр хийгдэх үл хөдлөх хөрөнгийн үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">70</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Наран моторс ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">2818612</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Машины худалдаа, засвар үйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">542</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Наран трейд ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4690</Data></Cell>
+    <Cell><Data ss:Type="String">Төрөлжсөн бус барааны бөөний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="String">Наранбулаг ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">M7721</Data></Cell>
+    <Cell><Data ss:Type="String">Амралт зугаалгын болон спортын барааны түрээс, лизингийн үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">391</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Нарт Эрдэнэс ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">Q8610</Data></Cell>
+    <Cell><Data ss:Type="String">Эмнэлгийн үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">229</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">Немон  ХХК </Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">F4330</Data></Cell>
+    <Cell><Data ss:Type="String">Барилгыг дуусгах шатны ажил</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">244</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Номадикхаус ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">F4330</Data></Cell>
+    <Cell><Data ss:Type="String">Барилгыг дуусгах шатны ажил</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">92</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Номин холдинг ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">G4649</Data></Cell>
+    <Cell><Data ss:Type="String">Гэр ахуйн бусад барааны бөөний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">465</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Номин холдинг ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4649</Data></Cell>
+    <Cell><Data ss:Type="String">Гэр ахуйн бусад барааны бөөний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">297</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Нөөлөгт Хайрхан ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">C3290</Data></Cell>
+    <Cell><Data ss:Type="String">Боловсруулах үйлдвэрийн бусад бүтээгдэхүүний үйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">299</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Нүүдлийн катеринг  ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">185</Data></Cell>
+    <Cell ss:StyleID="s45"><Data ss:Type="String">Нүүдэл ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">N7911</Data></Cell>
+    <Cell><Data ss:Type="String">Аялал, жуулчлалын агентлагийн үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Нүүдэлчдийн сэнтий  ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">3738701</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Нийтийн хоолны газар</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">303</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Нүүдэлчдийн хүрээ ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">555</Data></Cell>
+    <Cell ss:StyleID="s55"><Data ss:Type="String">Нью голд майн ХХК</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">495</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Нью жуулчин ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">N7911</Data></Cell>
+    <Cell><Data ss:Type="String">Аялал, жуулчлалын агентлагийн үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">543</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Нью тур сафарис ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">R9000</Data></Cell>
+    <Cell><Data ss:Type="String">Бүтээл туурвих, урлаг, үзвэр үйлчилгээний үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">591</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Ньютур ХХК</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell><Data ss:Type="String">N7911</Data></Cell>
+    <Cell><Data ss:Type="String">Аялал, жуулчлалын агентлагийн үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">594</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Нэйко ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">478</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">Одбилэг ХХК</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">123</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">Одод</Font><Font
+       html:Face="Vrinda" x:Family="Swiss" html:Color="#000000"> ХХК</Font><Font
+       html:Color="#000000"> </Font></ss:Data></Cell>
+    <Cell ss:StyleID="s20"/>
+    <Cell><Data ss:Type="String">R9329</Data></Cell>
+    <Cell><Data ss:Type="String">Дээрх ангилалд ороогүй цэнгэлдэх хүрээлэн, амралт, зугаалга, цэнгэлийн бусад ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">105</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Ойн бирж ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">G4730</Data></Cell>
+    <Cell><Data ss:Type="String">Шатахууны жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">241</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Олд Чех ХХК </Data></Cell>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">561</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Ораметалл ХХК</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell><Data ss:Type="String">C2431</Data></Cell>
+    <Cell><Data ss:Type="String">Төмөр болон гангийн цутгамал үйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">332</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Оргил зуурмаг ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">5374499</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Барилгын засал чимэглэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">482</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">Орхон буур ХХК</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">2078767</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Хүнсний худалдаа</Data></Cell>
+   </Row>
+   <Row ss:Height="24">
+    <Cell><Data ss:Type="Number">588</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Оюуны ундраа технологи ХХК</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell><Data ss:Type="String">G4651</Data></Cell>
+    <Cell><Data ss:Type="String">Компьютер, түүний дагалдах тоног төхөөрөмж ба програм хангамжийн бөөний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">587</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Оюуны ундраа ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4690</Data></Cell>
+    <Cell><Data ss:Type="String">Төрөлжсөн бус барааны бөөний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="String">Өгөөмөр Монгол ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">C1079</Data></Cell>
+    <Cell><Data ss:Type="String">Дээрх ангилалд ороогүй хүнсний бусад бүтээгдэхүүний үйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">532</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Өег мебель ХХК</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+    <Cell><Data ss:Type="String">G4649</Data></Cell>
+    <Cell><Data ss:Type="String">Гэр ахуйн бусад барааны бөөний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">476</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Өег ХХК</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell><Data ss:Type="String">O8421</Data></Cell>
+    <Cell><Data ss:Type="String">Гадаад харилцааны үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">396</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">Өлзийт булаг ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">N7730</Data></Cell>
+    <Cell><Data ss:Type="String">Дээрх бүлэгт ороогүй бусад биет материаллаг хөрөнгө, машин тоног төхөөрөмжийн түрээсийн үйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">590</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Өрмөн уул групп</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">B0990</Data></Cell>
+    <Cell><Data ss:Type="String">Уул уурхай, олборлолтын туслах үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">416</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Паблик сервиз ХХК</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="Number">3614263</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Нийтийн ахуй үйлчилгээ</Data></Cell>
+    <Cell><Data ss:Type="String">Цогтцэций</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">428</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Паблик сервиз ХХК</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="Number">3614263</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Нийтийн ахуй үйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">349</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Паблик сервиз ХХК</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="Number">3614263</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Нийтийн ахуй үйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">361</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Паблик сервиз ХХК</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="Number">3614263</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Нийтийн ахуй үйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">290</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Парамакс Холдинг ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">516</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Паспорт экспресс</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">M7020</Data></Cell>
+    <Cell><Data ss:Type="String">Менежментийн зөвлөлгөө өгөх үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Пик-Урал ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">H5221</Data></Cell>
+    <Cell><Data ss:Type="String">Хуурай замын тээврийн туслах үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">277</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Поливит ХХК </Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">A0240</Data></Cell>
+    <Cell><Data ss:Type="String">Ойн аж ахуйн туслах үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">286</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Престиж ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">2027666</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">398</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Пример виндоу ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">F4390</Data></Cell>
+    <Cell><Data ss:Type="String">Барилгын бусад тусгай үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">202</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Проджи ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">I5610</Data></Cell>
+    <Cell><Data ss:Type="String">Ресторан, хүнсний явуулын үйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">217</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Промимпорт ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">F4100</Data></Cell>
+    <Cell><Data ss:Type="String">Барилга угсралт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">208</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Просет Рийл Эстэйт ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">N7820</Data></Cell>
+    <Cell><Data ss:Type="String">Ажил түр эрхлэх агентлагийн үйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">377</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Просет Рийл Эстэйт ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">N7820</Data></Cell>
+    <Cell><Data ss:Type="String">Ажил түр эрхлэх агентлагийн үйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">67</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Раашбулаг ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">N7723</Data></Cell>
+    <Cell><Data ss:Type="String">Орон сууц, түрээсийн үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">256</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Рем капитал ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">335</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Ремикон  ХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">C2395</Data></Cell>
+    <Cell><Data ss:Type="String">Бетон, цемент болон гипсээр хийсэн материал эдлэлийн үйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">507</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Рэс ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">F4322</Data></Cell>
+    <Cell><Data ss:Type="String">Ус, дулааны шугам сүлжээ, агааржуулагч суурилуулах үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">43</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Сайхан булган ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">2044749</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Барилга угсралт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">155</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">Саксесфактор</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">5348072</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Дотоод хөдөлмөр эрхлэхэд зуучлах</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">351</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Саммит Ком/Тех ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">2789655</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Цахилгаан барааны худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">222</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Сандэй </Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">95</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Санни хаус ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">2833573</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Татан буугдсан</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">119</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Сансар кабель ХХК</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+    <Cell><Data ss:Type="String">G5911</Data></Cell>
+    <Cell><Data ss:Type="String">Кино зураг, видео дүрс бичлэг, телевизийн хөтөлбөр бэлтгэх үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">146</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Сансар кабель ХХК</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell><Data ss:Type="String">G5911</Data></Cell>
+    <Cell><Data ss:Type="String">Кино зураг, видео дүрс бичлэг, телевизийн хөтөлбөр бэлтгэх үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">194</Data></Cell>
+    <Cell ss:StyleID="s45"><Data ss:Type="String">Санширо ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">C1313</Data></Cell>
+    <Cell><Data ss:Type="String"> Нэхмэл эдлэлийн эцсийн шатны боловсруулалтын үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">524</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Сарбин </Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">I5929</Data></Cell>
+    <Cell><Data ss:Type="String">Хоол хүнсээр үйлчлэх бусад үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">457</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">СББ ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">C1101</Data></Cell>
+    <Cell><Data ss:Type="String">Спиртийн үйлдвэр</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">373</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">СББ ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">C1101</Data></Cell>
+    <Cell><Data ss:Type="String">Спиртийн үйлдвэр</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">572</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">СИ БИ ЭМ ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">5027276</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Гадаад худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">53</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Синосат Монголиа</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">G4719</Data></Cell>
+    <Cell><Data ss:Type="String">Төрөлжсөн бус барааны бусад дэлгүүрийн жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">69</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Сити рийл Эстэйт ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">N7723</Data></Cell>
+    <Cell><Data ss:Type="String">Орон сууцны түрээсийн үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">116</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Сити ХХК</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+    <Cell><Data ss:Type="String">H4923</Data></Cell>
+    <Cell><Data ss:Type="String">Хуурай замаар хийгдэх ачаа тээвэр</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">176</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Скайрезорт ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">C3012</Data></Cell>
+    <Cell><Data ss:Type="String">Аялал зугаалын болон спортын зориулалттай завь үйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">350</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">СкайрезортХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">C3012</Data></Cell>
+    <Cell><Data ss:Type="String">Аялал зугаалын болон спортын зориулалттай завь үйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">191</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Смарт карт ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">5447259</Data></Cell>
+    <Cell><Data ss:Type="String">A0125</Data></Cell>
+    <Cell><Data ss:Type="String">Жимсний ургамал, жимсний сөөг, самар болон бусад жимсний тариалалт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">538</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Сод Монгол групп ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4730</Data></Cell>
+    <Cell><Data ss:Type="String">Шатахууны жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">104</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Сод Монгол ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">G4730</Data></Cell>
+    <Cell><Data ss:Type="String">Шатахууны жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">45</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Солонгын гэгээ ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">54116866</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Автомашины засвар үйлчилгээ</Data></Cell>
+    <Cell ss:StyleID="s38"><Data ss:Type="String">Солонгын гэгээн туяа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">422</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Солохаяау ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">182</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Сонор трейд ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">B0990</Data></Cell>
+    <Cell><Data ss:Type="String">Уул уурхай, олборлолтын туслах бусад үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">177</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Сонор Холдинг ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">L6810</Data></Cell>
+    <Cell><Data ss:Type="String">Өөрийн болон лизингийн үл хөдлөх хөрөнгийн үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">281</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Сор Кашимер ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">2547287</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ноолуурын үйлдвэр</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">46</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Стар Авто Трейд ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">O8421</Data></Cell>
+    <Cell><Data ss:Type="String">Гадаад харилцааны үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">156</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Стар Авто Трейд ХХК</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell><Data ss:Type="String">O8421</Data></Cell>
+    <Cell><Data ss:Type="String">Гадаад харилцааны үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">563</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Стар эстэйтс ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">N7723</Data></Cell>
+    <Cell><Data ss:Type="String">Орон сууцны түрээсийн үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">221</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Сэлбэ дулаан ХХК </Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">O8421</Data></Cell>
+    <Cell><Data ss:Type="String">Гадаад харилцааны үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">586</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">Сэлэнгэ алтанговь ХХК</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell><Data ss:Type="String">A0161</Data></Cell>
+    <Cell><Data ss:Type="String">Газар тариалангийн үйлдвэрлэлийг дэмжсэн туслах үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">113</Data></Cell>
+    <Cell ss:StyleID="s41"><Data ss:Type="String">Сэлэнгэ констракшн ХХК</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2642271</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Дулаан үйлдвэрлэх, дамжуулах, борлуулах</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">292</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Сэлэнгэ Оюу ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">37365598</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Барилгын материал үйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">68</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Сэргэн мандал ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">G4771</Data></Cell>
+    <Cell><Data ss:Type="String">Хувцас, гутал, савхин болон эсгий эдлэлийн төрөлжсөн барааны жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">115</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Сэргэн мандалт групп</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+    <Cell><Data ss:Type="String">F4100</Data></Cell>
+    <Cell><Data ss:Type="String">Барилга угсралт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">Сэтгэшгүй дриллинг ХХК </Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">5503094</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Хайгуул, өрөмдлөг</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">245</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Сэтгэшгүй трейд ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">H5221</Data></Cell>
+    <Cell><Data ss:Type="String">Хуурай замын тээврийн туслах үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Сэтгэшгүй ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">2095882</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ховс гипноз, бариа засал</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">134</Data></Cell>
+    <Cell ss:StyleID="s31"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#252525">Сэтгэшгүй</Font><Font
+       html:Face="Vrinda" x:Family="Swiss" html:Color="#333333"> </Font><Font
+       html:Color="#333333">эмнэлэг</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">2095882</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ховс гипноз, бариа засал</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">73</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Т энд Ч ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">2045052</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Уул уурхай, гадаад худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">468</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Таван трейд</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">2021765</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Гоймон үйлдвэрлэл, барилга угсралт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">328</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Таван эрдэнийн чулуу</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row ss:Height="24.75">
+    <Cell><Data ss:Type="Number">362</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Тавантолгой нисэх              буудал ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">3614476</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Агаарын тээвэрлэлт</Data></Cell>
+   </Row>
+   <Row ss:Height="24.75">
+    <Cell><Data ss:Type="Number">267</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Тавантолгой нисэх буудал  ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">3614476</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Агаарын тээвэрлэлт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">385</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Тайгам-Алтай ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">F4100</Data></Cell>
+    <Cell><Data ss:Type="String">Барилга угсралт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">247</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Тахь-Ко ХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">G4651</Data></Cell>
+    <Cell><Data ss:Type="String">Компьютер, түүний дагалдах тоног төхөөрөмж ба програм хангамж түүний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">480</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">ТБД Андууд ХХК</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">2041251</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Гадаад, дотоод худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">604</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">ТБД Андууд ХХК</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">2041251</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Гадаад, дотоод худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">44</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">ТБМТ ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">L6810</Data></Cell>
+    <Cell><Data ss:Type="String">Өөрийн болон лизенгийн үл хөдлөх хөрөнгийн үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">164</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">ТЕАРО Хаус ХХК</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">325</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Технологийн зоорь ХХК</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">27</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Ти Эн Ти Эм Эн ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">H4923</Data></Cell>
+    <Cell><Data ss:Type="String">Хуурай замаар хийгдэх ачаа тээвэр</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">293</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Тинк танк идеа ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">C1820</Data></Cell>
+    <Cell><Data ss:Type="String">Дуу бичлэг хуулбарлах үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">141</Data></Cell>
+    <Cell ss:StyleID="s31"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#252525">ТМОБ</Font><Font
+       html:Face="Vrinda" x:Family="Swiss" html:Color="#333333"> </Font><Font
+       html:Color="#333333">ХХК</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">A0114</Data></Cell>
+    <Cell><Data ss:Type="String">Чихрийн нишингэ тариалалт</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">139</Data></Cell>
+    <Cell ss:StyleID="s17"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#252525">ТНИО</Font><Font
+       html:Face="Vrinda" x:Family="Swiss" html:Color="#333333"> </Font><Font
+       html:Color="#333333">ХХК</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">N8121</Data></Cell>
+    <Cell><Data ss:Type="String">Байшин, барилгын дотор цэвэрлэгээний үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">442</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Топ бласт ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">449</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Төмөрт транс ХХК </Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">B0710</Data></Cell>
+    <Cell><Data ss:Type="String">Төмрийн хүдэр олборлолт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">450</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Төмөрт-Өргөө ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">441</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Транс маш ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">262</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Трансгоби ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">5254159</Data></Cell>
+    <Cell><Data ss:Type="String">A0114</Data></Cell>
+    <Cell><Data ss:Type="String">Чихрийн нишингэ тариалалт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">343</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Трансгоби ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">5254159</Data></Cell>
+    <Cell><Data ss:Type="String">A0114</Data></Cell>
+    <Cell><Data ss:Type="String">Чихрийн нишингэ тариалалт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">356</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Трансгоби ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">5254159</Data></Cell>
+    <Cell><Data ss:Type="String">A0114</Data></Cell>
+    <Cell><Data ss:Type="String">Чихрийн нишингэ тариалалт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">411</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Трансгоби ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">5254159</Data></Cell>
+    <Cell><Data ss:Type="String">A0114</Data></Cell>
+    <Cell><Data ss:Type="String">Чихрийн нишингэ тариалалт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">456</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Трансгоби ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">5254159</Data></Cell>
+    <Cell><Data ss:Type="String">A0114</Data></Cell>
+    <Cell><Data ss:Type="String">Чихрийн нишингэ тариалалт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">559</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Трансгоби ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">5254159</Data></Cell>
+    <Cell><Data ss:Type="String">A0114</Data></Cell>
+    <Cell><Data ss:Type="String">Чихрийн нишингэ тариалалт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">597</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Трансгоби ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">5254159</Data></Cell>
+    <Cell><Data ss:Type="String">A0114</Data></Cell>
+    <Cell><Data ss:Type="String">Чихрийн нишингэ тариалалт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">190</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Тридум компани</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">2888025</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Системийн нууцлалын талаарх үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">243</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Тулгатчандмань баян ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">397</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Туллайн ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">G4540</Data></Cell>
+    <Cell><Data ss:Type="String">Мотоцикл, түүний эд анги, сэлбэг хэрэгслийн худалдаа, засвар үйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">87</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Тундерклап ХХК</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+    <Cell><Data ss:Type="String">B0990</Data></Cell>
+    <Cell><Data ss:Type="String">Уул уурхай, олборлолтын туслах бусад үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Тус-Гер-Мон-Тур ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">2698544</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">99124587 461473</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">394</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Түвшин Ирээдүй ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">589</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">Түм аравжих ХХК</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell><Data ss:Type="String">F4210</Data></Cell>
+    <Cell><Data ss:Type="String">Төмөр зам болон автозамын байгууламж барих үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">278</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Түмэн шувуут ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">A0146</Data></Cell>
+    <Cell><Data ss:Type="String">Шувууны аж ахуйн үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Түмэн-Импекс ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">O8421</Data></Cell>
+    <Cell><Data ss:Type="String">Гадаад харилцааны үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">484</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Түшиг ХХК</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell><Data ss:Type="String">G4690</Data></Cell>
+    <Cell><Data ss:Type="String">Төрөлжсөн бус барааны бөөний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">448</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Тэгш тэмүүлэн </Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">5332508</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Хувцас захиалга</Data></Cell>
+   </Row>
+   <Row ss:Height="24">
+    <Cell><Data ss:Type="Number">556</Data></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="String">Тэлмүүнлхам констракшн ХХК</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">3554104</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Барилга засвар, угсралт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">573</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Тэлмэн групп ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">490</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Тэмүгэлоу ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">235</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Тэнхээт хүлэг ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">203</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Тэргүүн оюун  ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4649</Data></Cell>
+    <Cell><Data ss:Type="String">Гэр ахуйн бусад барааны бөөний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">496</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Тэргүүн оюун ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4649</Data></Cell>
+    <Cell><Data ss:Type="String">Гэр ахуйн бусад барааны бөөний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">365</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Тэргүүн оюун ХХК </Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4649</Data></Cell>
+    <Cell><Data ss:Type="String">Гэр ахуйн бусад барааны бөөний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">157</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Тэргэл Ундрах ХХК</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell><Data ss:Type="String">G4782</Data></Cell>
+    <Cell><Data ss:Type="String">Захиалга, загвар танилцуулгаар хийгддэг нэхмэл бүтээгдэхүүн, хувцас, гутлын жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">544</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Тэсо ХХК</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell><Data ss:Type="String">C1050</Data></Cell>
+    <Cell><Data ss:Type="String">Сүү сүүн бүтээгдэхүүний үйлдвэр</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">276</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Тэч ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4721</Data></Cell>
+    <Cell><Data ss:Type="String">Хүнсний төрөлжсөн дэлгүүрийн жижиглэнгийн худалдаа</Data></Cell>
+    <Cell><Data ss:Type="String">ЦТЭЧ гэж байгаа</Data></Cell>
+   </Row>
+   <Row ss:Height="24.75">
+    <Cell><Data ss:Type="Number">272</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">Тюлип ХХК-ийн Гран-При эмнэлэг</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">2765225</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Эмнэлэг - 99198683</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">129</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">УБТ ХХК</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+    <Cell><Data ss:Type="String">H4922</Data></Cell>
+    <Cell><Data ss:Type="String">Хуурай замын зорчигч тээвэр бусад төрлийн үйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">584</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">УБТ ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">H4922</Data></Cell>
+    <Cell><Data ss:Type="String">Хуурай замын зорчигч тээвэр бусад төрлийн үйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">214</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">УБТТС ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">O8421</Data></Cell>
+    <Cell><Data ss:Type="String">Гадаад харилцааны үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">401</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Увс-Март ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">388</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Улаанбаатар Аудит ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">M6920</Data></Cell>
+    <Cell><Data ss:Type="String">Бүртгэл, нябо бүртгэл болон аудитын үйл ажиллагаа, татварын асуудлаар зөвлөлгөө өгөх</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">76</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">Улбаа ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">Ундарга принт ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">132</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">Ундарга принт ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">224</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Ундаргын эх ХХК </Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">2624265</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">491</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Уорлд фунитур ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">O8421</Data></Cell>
+    <Cell><Data ss:Type="String">Гадаад харилцааны үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">158</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Уран Ундрам ХХК</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row ss:Height="24">
+    <Cell><Data ss:Type="Number">595</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">Уул уурхайн үндэсний олборлогч ХХК</Data></Cell>
+    <Cell ss:StyleID="s27"/>
+    <Cell><Data ss:Type="String">B0990</Data></Cell>
+    <Cell><Data ss:Type="String">Уул уурхай, олборлолтын туслах бусад үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">371</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Ухаа худаг ус хангамж ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">3614085</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ус хангамж</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">159</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Фандерболт</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell><Data ss:Type="String">O8421</Data></Cell>
+    <Cell><Data ss:Type="String">Гадаад харилцааны үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">436</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Фокус металл майнинг</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">B0990</Data></Cell>
+    <Cell><Data ss:Type="String">Уул уурхай, олборлолтын туслах бусад үйл ажиллагаа</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="String">Гадаад хөрөнгө оруулалттай</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Хаан брой ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">C1103</Data></Cell>
+    <Cell><Data ss:Type="String">Шар айрагны үйлдвэр</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">169</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Хазаар бат  ХХК</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell><Data ss:Type="String">C1079</Data></Cell>
+    <Cell><Data ss:Type="String">Дээрх ангилалд ороогүй хүнсний бусад бүтээгдэхүүний үйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">246</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Хазара хивс ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Хайлантай ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:Index="7"><Data ss:Type="String">Их хайлаантай гэж байгаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">114</Data></Cell>
+    <Cell ss:StyleID="s41"><Data ss:Type="String">Халиун уул ХХК</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2000857</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Дэлгүүр</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">415</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Хангад эксплорейшн ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">2887134</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Уул уурхай</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">427</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Хангад эксплорейшн ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">2887134</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Уул уурхай</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">327</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Хантеч ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">H4923</Data></Cell>
+    <Cell><Data ss:Type="String">Хуурай замаар хийгдэх ачаа тээвэр</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">93</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="String">Ханхув ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">O8421</Data></Cell>
+    <Cell><Data ss:Type="String">Гадаад харилцааны үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">523</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Хар шүр</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">471</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Хараа сүмбэр</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">2069261</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">274</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Хархорин ХК</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">2169339</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">84</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Хасвуу ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">2022424</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Гадаад, дотоод худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">231</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">Хатан бошиго ХХК </Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">5403723</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Нотариат, хууль зүйн зөвлөлгөө өгөх</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">528</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Хатан тулга ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">2089378</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">8 нэрийн хүнсний дэлгүүр</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">99</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Хера инвестмент ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">N7710</Data></Cell>
+    <Cell><Data ss:Type="String">Моторт тээврийн хэрэгслийн түрээсийн болон лизингийн үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">420</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Хера холдинг ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4719</Data></Cell>
+    <Cell><Data ss:Type="String">Төрөлжсөн бус барааны бусад дэлгүүрийн жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">447</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Хивэн Өндөр ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4721</Data></Cell>
+    <Cell><Data ss:Type="String">Хүнсний төрөлжсөн дэлгүүрийн жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row ss:Height="24">
+    <Cell><Data ss:Type="Number">582</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Хишиг арвин индустриал ХХК</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell><Data ss:Type="String">N7723</Data></Cell>
+    <Cell><Data ss:Type="String">Орон сууцны түрээсийн үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">522</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Холбоо буян нуур</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">386</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Хорол Чойндэ ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">88</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Хотгор шанага ХХК</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+    <Cell><Data ss:Type="String">B0510</Data></Cell>
+    <Cell><Data ss:Type="String">Чулуун нүүрс олборлолт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">530</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Хөвсгөл зам ХХК</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+    <Cell><Data ss:Type="String">F4210</Data></Cell>
+    <Cell><Data ss:Type="String">Төмөр зам болон автозамын байгууламж барих үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">474</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Хөвсгөл Трейвел ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">N7911</Data></Cell>
+    <Cell><Data ss:Type="String">Аялал жуучлалын агентлагийн үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">437</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Хөх шаргачин ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">108</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Хурдны зам ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">2628481</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Зам засвар</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">160</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Хуур Магнай ХХК</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell><Data ss:Type="String">G4721</Data></Cell>
+    <Cell><Data ss:Type="String">Хүнсний төрөлжсөн дэлгүүрийн жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">ХҮА</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">107</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Хүрд ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">2593092</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">хүрд трэйд</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">574</Data></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="String">Хүрээ инвест ХХК</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">2763176</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Гадаад худалдаа, туслах аж ахуй, газар тариалан</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">64</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Хүсэл өөд ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">G4721</Data></Cell>
+    <Cell><Data ss:Type="String">Хүнсний төрөлжсөн дэлгүүрийн жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Цайдам ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">A0161</Data></Cell>
+    <Cell><Data ss:Type="String">Газар тариалангийн үйлдвэрлэлийг дэмжсэн туслах үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Цаст Импекс ХХк</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">F4390</Data></Cell>
+    <Cell><Data ss:Type="String">Барилгын бусад тусгай үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">354</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Централ Экспресс ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">O8421</Data></Cell>
+    <Cell><Data ss:Type="String">Гадаад харилцааны үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">161</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Цогт студи</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">531</Data></Cell>
+    <Cell ss:StyleID="s41"><Data ss:Type="String">Цолмон хээр ХХК</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">5073529</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Хурдны морины тэжээл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">91</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">Цуу тайж ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Цэвэр Монгол ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">B0899</Data></Cell>
+    <Cell><Data ss:Type="String">Дээрх ангилалд ороогүй бусад ашигт малтмалын олборлолт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">270</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">Цэцүүх Трэйд ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">2066521</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Эмнэлгийн тоног төхөөрөмжийн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">96</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Чиглүүлэгч ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">G4530</Data></Cell>
+    <Cell><Data ss:Type="String">Моторт тээврийн хэрэгслийн сэлбэг эд ангийн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">346</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Чингис эко тур ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">5008565</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">430</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Чингис эко тур ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">5008565</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">296</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Чойр Хайрхан ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">C3290</Data></Cell>
+    <Cell><Data ss:Type="String">Боловсруулах үйлдвэрийн бусад бүтээгдэхүүний үйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">461</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Чойр хайрхан ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">C3290</Data></Cell>
+    <Cell><Data ss:Type="String">Боловсруулах үйлдвэрийн бусад бүтээгдэхүүний үйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">232</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Чойр Хайрхан ХХК </Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">C3290</Data></Cell>
+    <Cell><Data ss:Type="String">Боловсруулах үйлдвэрийн бусад бүтээгдэхүүний үйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">536</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Чоно ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">2069881</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Түрээсийн үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Шандас групп</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">G4719</Data></Cell>
+    <Cell><Data ss:Type="String">Төрөлжсөн бус барааны бусад дэлгүүрийн жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">564</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Шарын гол ХК                                                                          </Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">B0510</Data></Cell>
+    <Cell><Data ss:Type="String"> Чулуун нүүрсний олборлолт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">225</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">ШБНТ ХХК </Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">Шидэт-Од ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">2884259</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Шүдний эмнэлэг</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">472</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Шинэ зуун политик ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">521</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Шинэ их говь</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">102</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Шинэ төгрөг ХХК</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+    <Cell><Data ss:Type="String">K6419</Data></Cell>
+    <Cell><Data ss:Type="String">Мөнгөний зуучлалын бусад үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell><Data ss:Type="Number">121</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">Шунхлай</Font><Font
+       html:Face="Vrinda" x:Family="Swiss" html:Color="#000000"> ХХ</Font><Font
+       html:Color="#000000">К</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s20"/>
+    <Cell><Data ss:Type="String">G4730</Data></Cell>
+    <Cell><Data ss:Type="String">Шатахууны жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">48</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Эгэлмон ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">2679043</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Зочид буудал</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">Эд Эрдэнэ ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">173</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Эддиока ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">165</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Эйшн ТЕРРА ХХК</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">Эко ертөнц ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Эко констракшн ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">F4100</Data></Cell>
+    <Cell><Data ss:Type="String">Барилга угсралт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">526</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Эксплор Монголия ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">N7911</Data></Cell>
+    <Cell><Data ss:Type="String">Аялал жуулчлалын агентлагийн үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">446</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Элсэн далай ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">2552078</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Худалдаа үйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">389</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Эм Ай Ай Эс ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4649</Data></Cell>
+    <Cell><Data ss:Type="String">Гэр ахуйн бусад барааны бөөний худалдаа</Data></Cell>
+   </Row>
+   <Row ss:Height="24.75">
+    <Cell><Data ss:Type="Number">489</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Эм Ди Эс Энд Ассошэйтс ЗБН</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">265</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Эм си эс кола ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">C1104</Data></Cell>
+    <Cell><Data ss:Type="String">Хийжүүлсэн ундаа, савласан рашаан болон бусад усны үйлдвэрлэл</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">382</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Эм эм жи даатгал ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">330</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">ЭМ ЭН БИ ЭС ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">321</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Эм Эн Эс Жи ХХК</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell><Data ss:Type="String">G4719</Data></Cell>
+    <Cell><Data ss:Type="String">Төрөлжсөн бус барааны бусад дэлгүүрийн жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">282</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">ЭМЖЖ ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">Q8610</Data></Cell>
+    <Cell><Data ss:Type="String">Эмнэлгийн үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">481</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Эмээлт прогресс ХХК</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell><Data ss:Type="String">O8421</Data></Cell>
+    <Cell><Data ss:Type="String">Гадаад харилцааны үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Энгүй тал ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">B0990</Data></Cell>
+    <Cell><Data ss:Type="String">Уул уурхай, олборлолтыг туслах бусад үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">94</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Энергосервис Монтаж</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">F4220</Data></Cell>
+    <Cell><Data ss:Type="String">Нийтийн аж ахуйн барилга угсралт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">568</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Энержи интернэшнл ХХК</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell><Data ss:Type="String">G4620</Data></Cell>
+    <Cell><Data ss:Type="String">ХАА-н түүхий эд болон мал, амьтны бөөний худалдаа</Data></Cell>
+   </Row>
+   <Row ss:Height="24.75">
+    <Cell><Data ss:Type="Number">306</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Энержи ресурс майнинг ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">5277647</Data></Cell>
+   </Row>
+   <Row ss:Height="24.75">
+    <Cell><Data ss:Type="Number">366</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Энержи Ресурс майнинг ХХК</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">5277647</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">310</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Энержи ресурс орд ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">367</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Энержи Ресурс рейл ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">O8421</Data></Cell>
+    <Cell><Data ss:Type="String">Гадаад харилцааны үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">370</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Энержи Ресурс роуд ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">307</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Энержи ресурс рэйл ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">O8421</Data></Cell>
+    <Cell><Data ss:Type="String">Гадаад харилцааны үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">368</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Энержи Ресурс ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">B0990</Data></Cell>
+    <Cell><Data ss:Type="String">Уул уурхай, олборлолтын туслах бусад үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">558</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Энержи ресурс ХХК</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell><Data ss:Type="String">B0990</Data></Cell>
+    <Cell><Data ss:Type="String">Уул уурхай, олборлолтын туслах бусад үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">598</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Энержи ресурс ХХК</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+    <Cell><Data ss:Type="String">B0990</Data></Cell>
+    <Cell><Data ss:Type="String">Уул уурхай, олборлолтын туслах бусад үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">309</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Энержи ресурс ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">B0990</Data></Cell>
+    <Cell><Data ss:Type="String">Уул уурхай, олборлолтын туслах бусад үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">345</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Энрестехнологи ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">3614107</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Дотоодын үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">355</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Энрестехнологи ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">3614107</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Дотоодын үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">451</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Энрестехнологи ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">3614107</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Дотоодын үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">260</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">ЭнрестехнологиХХК</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">3614107</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Дотоодын үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">47</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">Энх Тамир Тэлмэн ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">403</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">Энэрэл-Интернэйшнл ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">G4510</Data></Cell>
+    <Cell><Data ss:Type="String">Моторт тээврийн хэрэгслийн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">162</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">Энэрэлт үйлс ХХК</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">2059223</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Эмэгтэйчүүдийн хувийн эмнэлэг</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">37</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">Эрдэнэ рашаан ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">283</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Эрдэнэбулган ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">2090031</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Бөмбөгөр Зах</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">106</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Эрдэнэзам ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">F4210</Data></Cell>
+    <Cell><Data ss:Type="String">Төмөр зам болон автозамын байгууламж барих үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">483</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Эрдэнэт прогресс ХХК</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell><Data ss:Type="String">C1010</Data></Cell>
+    <Cell><Data ss:Type="String">Мах махан бүтээгдэхүүний үйлдвэрлэл болон хадгалалт</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">253</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Эрдэс групп ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">N8130</Data></Cell>
+    <Cell><Data ss:Type="String">Газар хамгаалах, арчлах үйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">166</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Эрхэт Стандарт ХХК</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell><Data ss:Type="String">C2396</Data></Cell>
+    <Cell><Data ss:Type="String">Чулуу засах, өнгөлөх, зүсэх, тэгшлэх үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">86</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">Эрчим анд ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:Index="6"><Data ss:Type="String">Эрчим ард гэж байдаг</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">82</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Эрчим маш ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">C3312</Data></Cell>
+    <Cell><Data ss:Type="String">Тоног төхөөрөмжийн засвар үйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">288</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Эрчим маш ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">C3312</Data></Cell>
+    <Cell><Data ss:Type="String">Тоног төхөөрөмжийн засвар үйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">455</Data></Cell>
+    <Cell ss:StyleID="s45"><Data ss:Type="String">Эрчим сүжээ ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">D3510</Data></Cell>
+    <Cell><Data ss:Type="String">Цахилгаан эрчим хүч үйлдвэрлэх, дамжуулах, түгээх үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">429</Data></Cell>
+    <Cell ss:StyleID="s45"><Data ss:Type="String">Эрчим сүлжээ ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">D3510</Data></Cell>
+    <Cell><Data ss:Type="String">Цахилгаан эрчим хүч үйлдвэрлэх, дамжуулах, түгээх үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">364</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Эрчим ХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">269</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Эрчис тал ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">5415071</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Хөөсөнцөрийн үйлдвэр</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">581</Data></Cell>
+    <Cell ss:StyleID="s55"><Data ss:Type="String">Эрэл Холдинг ХХК</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">435</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Эс Жи Майнинг эрдэс</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">B0990</Data></Cell>
+    <Cell><Data ss:Type="String">Уул уурхай, олборлолтын бусад үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">529</Data></Cell>
+    <Cell ss:StyleID="s41"><Data ss:Type="String">Эс пи эс ХХК</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">5335876</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Гадаад худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">201</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Эсто ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">F4210</Data></Cell>
+    <Cell><Data ss:Type="String">Төмөр зам болон авто замын барилга байгууламж барих үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">305</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Эсто ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">F4210</Data></Cell>
+    <Cell><Data ss:Type="String">Төмөр зам болон авто замын барилга байгууламж барих үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">167</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Эф Ди Эс Консалтинг ХХК</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">423</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Эх Монгол ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4719</Data></Cell>
+    <Cell><Data ss:Type="String">Төрөлжсөн бус барааны бусад дэлгүүрийн жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">390</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Эх-Алтай Сан ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">72</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">ЭХБУТрест ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell><Data ss:Type="String">D3510</Data></Cell>
+    <Cell><Data ss:Type="String">Цахилшаан эрчим хүч үйлдвэрлэх, дамжуулах, түгээх үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">131</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">ЭЧХН</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:Index="5"><Data ss:Type="String">Улс төрийн нам</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">458</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Юнайтед</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G4663</Data></Cell>
+    <Cell><Data ss:Type="String">Барилгын материал, техник, сантехник, халаалт, ус түгээх төхөөрөмж болон тэдгээрийн туслах төхөөрөмжийн бөөний худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">412</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Юнайтед пауэр ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">264</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Юнайтэд пауэр ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">358</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Юнайтэд пауэр ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">485</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">Юниворк ХХК</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">454</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Юнивишн ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">G6190</Data></Cell>
+    <Cell><Data ss:Type="String">Цахилгаан холбооны бусад үйл ажиллагаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">432</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Юнисервис Солюшн ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">2878593</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Үйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">418</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Юнисервис Солюшн ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">2878593</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Үйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">357</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Юнисервис Солюшн ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">2878593</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Үйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">172</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Юнисервис Солюшн ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">2878593</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Үйлчилгээ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">360</Data></Cell>
+    <Cell ss:StyleID="s45"><Data ss:Type="String">Юнител ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">5036895</Data></Cell>
+    <Cell><Data ss:Type="String">J6120</Data></Cell>
+    <Cell><Data ss:Type="String">Утасгүй холбоо</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">557</Data></Cell>
+    <Cell ss:StyleID="s45"><Data ss:Type="String">Юнител ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">5036895</Data></Cell>
+    <Cell><Data ss:Type="String">J6120</Data></Cell>
+    <Cell><Data ss:Type="String">Утасгүй холбоо</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">599</Data></Cell>
+    <Cell ss:StyleID="s47"><Data ss:Type="String">Юнител ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">5036895</Data></Cell>
+    <Cell><Data ss:Type="String">J6120</Data></Cell>
+    <Cell><Data ss:Type="String">Утасгүй холбоо</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">266</Data></Cell>
+    <Cell ss:StyleID="s47"><Data ss:Type="String">Юнител ХХК</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">5036895</Data></Cell>
+    <Cell><Data ss:Type="String">J6120</Data></Cell>
+    <Cell><Data ss:Type="String">Утасгүй холбоо</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">408</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">ЮТМ ХХК</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell><Data ss:Type="String">G4721</Data></Cell>
+    <Cell><Data ss:Type="String">Хүнсний төрөлжсөн дэлгүүрийн жижиглэн худалдаа</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">31</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">Яруу санаа ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">Яруу сум ХХК</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>0</VerticalResolution>
+   </Print>
+   <Zoom>150</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>579</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="mail">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="26" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Row>
+    <Cell ss:StyleID="s16" ss:HRef="mailto:munkhbat.b@mta.mn"><Data
+      ss:Type="String">munkhbat.b@mta.mn</Data></Cell>
+   </Row>
+   <Row ss:Index="26">
+    <Cell ss:Index="2"><Data ss:Type="String">t</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>5</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="ND">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="4" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Row ss:Index="2">
+    <Cell><Data ss:Type="String">АН</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">МАН</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ИЗНН</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>4</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet4">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet5">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
