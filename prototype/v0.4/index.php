@@ -3,7 +3,7 @@
 <head>
 	<?php
 		include 'backend/DB_CN.php';
-		include 'backend/helper.php';
+		include 'backend/functions.php';
 	?>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,7 +25,7 @@
 	<![endif]-->
 </head>
 <body>
-	
+
 	<header>
 		<?php
 			include "templates/header.php";
@@ -61,7 +61,7 @@
 					<?php
 					}
 					echo "</div>";
-					
+
                 }
             ?>
 		</div>
@@ -150,7 +150,7 @@
 			include "templates/footer.php";
 		?>
 	</footer>
-		
+
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="js/jquery-1.11.2.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->

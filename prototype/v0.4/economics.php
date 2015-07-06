@@ -3,7 +3,7 @@
     <head>
         <?php
         include 'backend/DB_CN.php';
-        include 'backend/helper.php';
+        include 'backend/functions.php';
         ?>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -40,7 +40,7 @@
                         <li <?php if ($tab === "1") { echo "class='active'"; } ?>><a data-toggle="tab" href="#party-economics-tab-songuuli">Сонгуулийн санхүүжилт</a></li>
                         <li <?php if ($tab === "2") { echo "class='active'"; } ?>><a data-toggle="tab" href="#party-economics-tab-nam">Намуудын санхүүжилт</a></li>
                         <li <?php if ($tab === "3") { echo "class='active'"; } ?>><a href="#party-economics-tab-ediinzasag" data-toggle="tab">Эдийн засгийн ангилал</a></li>
-                        <!-- 
+                        <!--
                         <li><a data-toggle='tab' href="#party-economics-tab-income">Income</a></li>
                         <li><a data-toggle='tab' href="#party-economics-tab-outcome">Income</a></li> -->
                     </ul>
@@ -347,7 +347,7 @@
                             ?>
                         </div>
                         <div id="party-economics-tab-nam" class="tab-pane fade in <?php if ($tab === "2") { echo "active"; } ?>">
-                            
+
                         </div>
                         <div id="party-economics-tab-ediinzasag" class="tab-pane fade in <?php if ($tab === "3") { echo "active"; } ?> ediin-zasag">
                             <section class="col-lg-12">
@@ -363,11 +363,26 @@
                                     <ul class="list-group hide" data-toggle="input-search-result"></ul>
                                 </div>
                             </section>
-                            
+
                             <section class="col-lg-12 company-list">
+                              <table class="table">
+
+                                <tr>
+                                  <th>Нам</th><th>Байгуулгын тоо</th><th>Нийт мөнгөн дүн</th>
+                                </tr>
+
                                 <?php
                                 $sector_code = isset($_GET['sector_code']) ? $_GET['sector_code'] : "";
+
+                                // Requirement 1 : party_name
+                                // Requirement 2 : count_of_companies
+                                // Requirement 3 : donation_of_companies
+
                                 if (!empty($sector_code)) {
+
+                                    $party = new db_cn\Table("party");
+                                    $parties = $party->select("*");
+
                                     $companies = new db_cn\Table("companies");
                                     $results = $companies->select("*", "sector_code = '$sector_code'");
                                     foreach ($results as $res) {
@@ -377,8 +392,47 @@
                                         </div>
                                         <?php
                                     }
+                                } else {
+                                  $irged_aan = new db_cn\Table("irged_aan");
+                                  $irged_res = $irged_aan->select("*", "type = 'c'");
+
+                                  $party_name = "";
+                                  $count_of_companies = 0;
+                                  $donation_of_companies = 0;
+                                  $broke = break_into($irged_res, 'party');
+                                  foreach ($broke as $arr) {
+                                    foreach ($arr as $res) {
+                                      $party_name = $res['party'];
+                                      $count_of_companies++;
+                                      $donation_of_companies += intval($res['hemjee']);
+                                    }
+                                    if (strpos($party_name, "тойрог") !== false || $party_name == "") {
+                                      continue;
+                                    }
+                                    ?>
+                                    <tr>
+                                      <td>
+                                        <a href="#">
+                                          <?php echo $party_name; ?>
+                                        </a>
+                                      </td>
+                                      <td>
+                                        <a href="#">
+                                          <?php echo $count_of_companies; ?>
+                                        </a>
+                                      </td>
+                                      <td>
+                                          <?php echo $donation_of_companies; ?>
+                                      </td>
+                                    </tr>
+                                    <?php
+                                    $party_name = "";
+                                    $count_of_companies = 0;
+                                    $donation_of_companies = 0;
+                                  }
                                 }
                                 ?>
+                                </table>
                             </section>
                             <div class="clearfix"></div>
                         </div>
@@ -436,22 +490,22 @@
         <script src="js/bootstrap.min.js"></script>
         <!-- Custom Global Javascript and Jquery -->
         <script src="js/global.js"></script>
-        
+
         <script type="text/javascript">
             $(document).ready(function () {
                 $('[data-toggle=input-search-field]').keyup(function () {
                     if ($(this).val()) {
                         $('[data-toggle=input-search-result]').removeClass('hide');
-                        
+
                         $.post("backend/getResultsEdiin.php", {action: "search_ediin", keyword : $(this).val()}, function(data) {
                             $('[data-toggle=input-search-result]').html(data);
                         });
-                        
+
                     } else {
                         $('[data-toggle=input-search-result]').addClass('hide');
                     }
                 });
-                
+
             });
         </script>
     </body>

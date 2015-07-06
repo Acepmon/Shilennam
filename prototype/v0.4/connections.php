@@ -3,7 +3,7 @@
     <head>
         <?php
         include 'backend/DB_CN.php';
-        include 'backend/helper.php';
+        include 'backend/functions.php';
         ?>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -158,7 +158,7 @@
                             <a target="_blank" href="http://www.new.mn/News/Detail?news_code=32113">Улс төрийн намууд хаанаас санхүүждэг вэ</a>
                         </blockquote>
                     </div>
-                    
+
                 </div>
             </div>
         </div>

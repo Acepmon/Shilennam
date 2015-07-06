@@ -34,7 +34,6 @@ function getOrganizedList($content = []) {
         }
     }
 
-
     $total_results = [];
     for ($i = 0; $i < count($first_chars); $i++) {
         $list = array();
@@ -88,7 +87,7 @@ function deep_organize($content = []) {
 
 function organizeInCharacters($list = []) {
     for ($i = 0; $i < count($list); $i++) {
-        
+
     }
 }
 
