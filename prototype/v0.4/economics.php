@@ -353,10 +353,10 @@
                             <section class="col-lg-12">
                                 <div class="custom-search">
                                     <div class="input-group">
-                                        <input type="text" class="form-control" data-toggle="input-search-field" placeholder="Эдийн засгийн ангилалаар хайх..." />
-                                        <div class="input-group-addon">
-                                            <a href="">
-                                                <span class="caret"></span>
+                                        <input type="text" class="form-control" data-toggle="input-search-field" placeholder="Эдийн засгийн ангилалаар хайх..." <?php if (isset($_GET['search_query'])) { echo "value='".$_GET['search_query']."'"; }?>/>
+                                        <div class="input-group-addon" style="cursor: pointer" data-toggle="input-search-caret-button">
+                                            <a href="#eco">
+                                                <span class="glyphicon glyphicon-chevron-down" data-toggle="input-search-caret-drop"></span>
                                             </a>
                                         </div>
                                     </div>
@@ -364,42 +364,358 @@
                                 </div>
                             </section>
 
+                            <section class="col-lg-12" style="margin-top: 15px;">
+                              <a href="economics.php?tab=3&year=all&sector_code=%20#eco" class="btn btn-primary">Бүх мэдэээлэл харах</a>
+                            </section>
+
                             <section class="col-lg-12 company-list">
-                              <table class="table">
-
-                                <tr>
-                                  <th>Нам</th><th>Байгуулгын тоо</th><th>Нийт мөнгөн дүн</th>
-                                </tr>
-
                                 <?php
                                 $sector_code = isset($_GET['sector_code']) ? $_GET['sector_code'] : "";
+                                if (!empty($sector_code) && empty($_GET['ediin_action'])) {
+                                  $companies = new db_cn\Table("companies");
+                                  $irged = new db_cn\Table("irged_aan");
+                                  $comp = $companies->select("company", "sector_code = '$sector_code'");
+                                  $list = [];
+                                  $for_counting = [];
+                                  foreach ($comp as $com) {
+                                    $c = $com['company'];
+                                    $tmp_arr = $irged->select("*", "ner = '$c' && type = 'c'");
+                                    foreach ($tmp_arr as $tmp) {
+                                      array_push($list, $tmp);
+                                      array_push($for_counting, $tmp['party']);
+                                    }
+                                  }
+                                  // echo "<pre>", print_r($for_counting), "</pre>";
+                                  // echo "<pre>", print_r(array_count_values($for_counting)), "</pre>";
+                                  // echo "<pre>", print_r($list), "</pre>";
+                                  usort($list, function($a1, $a2) {
+                                    return strnatcmp($a1['party'], $a2['party']);
+                                  });
+
+                                  $by_parties = [];
+                                  $tmp_item = "";
+                                  $tmp_arr = [];
+                                  for ($i = 0; $i < count($list); $i++) {
+                                    if ($i == 0) {
+                                      $tmp_item = $list[$i]['party'];
+                                      array_push($tmp_arr, $list[$i]);
+                                      if ($i == (count($list) - 1)) {
+                                        array_push($by_parties, $tmp_arr);
+                                      }
+                                    } else if ($i == (count($list) - 1)) {
+                                      if ($tmp_item == $list[$i]['party']) {
+                                        array_push($tmp_arr, $list[$i]);
+                                        array_push($by_parties, $tmp_arr);
+                                      } else {
+                                        array_push($by_parties, $tmp_arr);
+                                        $tmp_arr = [];
+                                        array_push($tmp_arr, $list[$i]);
+                                        array_push($by_parties, $tmp_arr);
+                                      }
+                                    } else {
+                                      if ($tmp_item == $list[$i]['party']) {
+                                        array_push($tmp_arr, $list[$i]);
+                                        $tmp_item = $list[$i]['party'];
+                                      } else {
+                                        array_push($by_parties, $tmp_arr);
+                                        $tmp_arr = [];
+                                        $tmp_item = $list[$i]['party'];
+                                        array_push($tmp_arr, $list[$i]);
+                                      }
+                                    }
+                                  }
+
+                                  ?>
+                                  <h3>Нэгтгэсэн хандив мэдээлэл</h3>
+                                  <hr>
+                                  <table class="table table-striped table-bordered">
+                                    <tr>
+                                      <th>
+                                        Нам
+                                      </th>
+                                      <th>
+                                        Байгуулгын тоо
+                                      </th>
+                                      <th>
+                                        Мөнгөн дүн<br>
+                                        <?php
+                                        $mon = 0;
+                                        foreach ($by_parties as $parties) {
+                                          foreach ($parties as $party) {
+                                            $mon += intval($party['hemjee']);
+                                          }
+                                        }
+                                        echo "Нийт: ".$mon;
+                                        $mon = 0;
+                                        ?>
+                                      </th>
+                                    </tr>
+
+                                  <?php
+
+                                  foreach ($by_parties as $parties) {
+                                    $party_name = "";
+                                    $count = 0;
+                                    $mon = 0;
+
+                                    $party_name = $parties[0]['party'];
+                                    if (strpos($party_name, "тойрог")) {
+                                      // continue;
+                                    }
+                                    $count = count($parties);
+                                    foreach ($parties as $par) {
+                                      $mon += intval($par['hemjee']);
+                                    }
+                                    ?>
+                                    <tr>
+                                      <td>
+                                        <a href="economics.php?tab=3&year=all&sector_code=<?php echo $sector_code; ?>&ediin_action=in_party&ediin_data=<?php echo $party_name; ?>#eco">
+                                        <?php echo $party_name; ?>
+                                        </a>
+                                      </td>
+                                      <td>
+                                        <a href="economics.php?tab=3&year=all&sector_code=<?php echo $sector_code; ?>&ediin_action=in_party&ediin_data=<?php echo $party_name; ?>#eco">
+                                        <?php echo $count; ?>
+                                        </a>
+                                      </td>
+                                      <td>
+                                        <?php echo $mon; ?>
+                                      </td>
+                                    </tr>
+                                    <?php
+                                    $party_name = "";
+                                    $count = 0;
+                                    $mon = 0;
+                                  }
+                                  ?>
+
+                                  </table>
+                                  <?php
+
+
+                                } else {
 
                                 // Requirement 1 : party_name
                                 // Requirement 2 : count_of_companies
                                 // Requirement 3 : donation_of_companies
 
-                                if (!empty($sector_code)) {
-
-                                    $party = new db_cn\Table("party");
-                                    $parties = $party->select("*");
-
-                                    $companies = new db_cn\Table("companies");
-                                    $results = $companies->select("*", "sector_code = '$sector_code'");
-                                    foreach ($results as $res) {
-                                        ?>
-                                        <div class="company-list-item">
-                                            <h3><?php echo $res['company']; ?></h3>
-                                        </div>
-                                        <?php
-                                    }
-                                } else {
                                   $irged_aan = new db_cn\Table("irged_aan");
                                   $irged_res = $irged_aan->select("*", "type = 'c'");
 
+                                  $i = 0;
                                   $party_name = "";
                                   $count_of_companies = 0;
                                   $donation_of_companies = 0;
                                   $broke = break_into($irged_res, 'party');
+
+                                  $ediin_action = isset($_GET['ediin_action']) ? $_GET['ediin_action'] : "";
+                                  $ediin_data = isset($_GET['ediin_data']) ? $_GET['ediin_data'] : "";
+
+                                  if (!empty($ediin_action) && !empty($ediin_data)) {
+
+                                    if ($ediin_action == "in_party") {
+                                      $sector_code = $_GET['sector_code'];
+                                      $companies = new db_cn\Table("companies");
+                                      $irged = new db_cn\Table("irged_aan");
+                                      $comp = $companies->select("company", "sector_code = '$sector_code'");
+                                      $list = [];
+                                      foreach ($comp as $com) {
+                                        $c = $com['company'];
+                                        $tmp_arr = $irged->select("*", "ner = '$c' && type = 'c'");
+                                        foreach ($tmp_arr as $tmp) {
+                                          if ($tmp['party'] == $ediin_data) {
+                                            array_push($list, $tmp);
+                                          }
+                                        }
+                                      }
+                                      ?>
+                                      <h3>Дэлгэрэнгүй хандив мэдээлэл <a href="#eco" class="btn btn-primary" onclick="history.back();">Буцах</a></h3>
+                                      <hr>
+                                      <table class="table table-striped table-bordered">
+                                        <tr>
+                                          <th>
+                                            Байгууллага
+                                          </th>
+                                          <th>
+                                            Нам
+                                          </th>
+                                          <th>
+                                            Мөнгөн дүн<br>
+                                            <?php
+                                            $mon = 0;
+                                            foreach ($list as $l) {
+                                              if ($l['party'] == $ediin_data) {
+                                                $mon += intval($l['hemjee']);
+                                              }
+                                            }
+                                            echo "Нийт: ".$mon;
+                                            $mon = 0;
+                                            ?>
+                                          </th>
+                                        </tr>
+                                      <?php
+                                      foreach ($list as $l) {
+                                        ?>
+                                        <tr>
+                                          <td>
+                                            <?php echo $l['ner']; ?>
+                                          </td>
+                                          <td>
+                                            <?php echo $l['party']; ?>
+                                          </td>
+                                          <td>
+                                            <?php echo $l['hemjee']; ?>
+                                          </td>
+                                        </tr>
+                                        <?php
+                                      }?></table><?php
+                                    } else if ($ediin_action == "in_company") {
+                                      $sector_code = $_GET['sector_code'];
+                                      $companies = new db_cn\Table("companies");
+                                      $irged = new db_cn\Table("irged_aan");
+                                      $comp = $companies->select("company", "sector_code = '$sector_code'");
+                                      $list = [];
+                                      foreach ($comp as $com) {
+                                        $c = $com['company'];
+                                        $tmp_arr = $irged->select("*", "ner = '$c' && type = 'c'");
+                                        foreach ($tmp_arr as $tmp) {
+                                          if ($tmp['party'] == $ediin_data) {
+                                            array_push($list, $tmp);
+                                          }
+                                        }
+                                      }
+                                      ?>
+                                      <h3>Дэлгэрэнгүй хандив мэдээлэл <a href="#eco" class="btn btn-primary" onclick="history.back();">Буцах</a></h3>
+                                      <hr>
+                                      <table class="table table-striped table-bordered">
+                                        <tr>
+                                          <th>
+                                            Байгууллага
+                                          </th>
+                                          <th>
+                                            Нам
+                                          </th>
+                                          <th>
+                                            Мөнгөн дүн<br>
+                                            <?php
+                                            $mon = 0;
+                                            foreach ($list as $l) {
+                                              if ($l['party'] == $ediin_data) {
+                                                $mon += intval($l['hemjee']);
+                                              }
+                                            }
+                                            echo "Нийт: ".$mon;
+                                            $mon = 0;
+                                            ?>
+                                          </th>
+                                        </tr>
+                                      <?php
+                                      foreach ($list as $l) {
+                                        ?>
+                                        <tr>
+                                          <td>
+                                            <?php echo $l['ner']; ?>
+                                          </td>
+                                          <td>
+                                            <?php echo $l['party']; ?>
+                                          </td>
+                                          <td>
+                                            <?php echo $l['hemjee']; ?>
+                                          </td>
+                                        </tr>
+                                        <?php
+                                      }?></table><?php
+                                    } else if ($ediin_action == "party") {
+                                      ?>
+                                      <h3>Дэлгэрэнгүй хандив мэдээлэл</h3>
+                                      <hr>
+                                      <table class="table table-striped table-bordered">
+                                        <tr>
+                                          <th>
+                                            Байгууллага
+                                          </th>
+                                          <th>
+                                            Нам
+                                          </th>
+                                          <th>
+                                            Мөнгөн дүн<br>
+                                            <?php
+                                            $index = ($ediin_data == "0") ? 0 : intval($ediin_data);
+                                            $index--;
+                                            $mon = 0;
+                                            foreach ($broke[$index] as $res) {
+                                              $mon += intval($res['hemjee']);
+                                            }
+                                            echo "Нийт: ".$mon;
+                                            $mon = 0;
+                                            ?>
+                                          </th>
+                                        </tr>
+                                      <?php
+                                      $index = ($ediin_data == "0") ? 0 : intval($ediin_data);
+                                      $index--;
+                                      foreach ($broke[$index] as $res) {
+                                        ?>
+                                        <tr>
+                                          <td>
+                                            <?php echo $res['ner']; ?>
+                                          </td>
+                                          <td>
+                                            <?php echo $res['party']; ?>
+                                          </td>
+                                          <td>
+                                            <?php echo $res['hemjee']; ?>
+                                          </td>
+                                        </tr>
+                                        <?php
+                                      }?></table><?php
+                                    } else if ($ediin_action == "company") {
+                                      ?>
+                                      <h3>Дэлгэрэнгүй хандив мэдээлэл</h3>
+                                      <hr>
+                                      <table class="table table-striped table-bordered">
+                                        <tr>
+                                          <th>
+                                            Байгууллага
+                                          </th>
+                                          <th>
+                                            Нам
+                                          </th>
+                                          <th>
+                                            Мөнгөн дүн
+                                          </th>
+                                        </tr>
+                                      <?php
+                                      $index = ($ediin_data == "0") ? 0 : intval($ediin_data);
+                                      $index--;
+                                      foreach ($broke[$index] as $res) {
+                                        ?>
+                                        <tr>
+                                          <td>
+                                            <?php echo $res['ner']; ?>
+                                          </td>
+                                          <td>
+                                            <?php echo $res['party']; ?>
+                                          </td>
+                                          <td>
+                                            <?php echo $res['hemjee']; ?>
+                                          </td>
+                                        </tr>
+                                        <?php
+                                      }
+                                    }
+                                    ?></table><?php
+                                  } else {
+                                  ?>
+                                  <h3 class="text-info">Бүх мэдээлэл</h3>
+                                  <table class="table">
+
+                                    <tr>
+                                      <th>Нам</th>
+                                      <th>Байгуулгын тоо</th>
+                                      <th>Нийт мөнгөн дүн</th>
+                                    </tr>
+                                  <?php
                                   foreach ($broke as $arr) {
                                     foreach ($arr as $res) {
                                       $party_name = $res['party'];
@@ -412,12 +728,12 @@
                                     ?>
                                     <tr>
                                       <td>
-                                        <a href="#">
+                                        <a href="economics.php?tab=3&year=all&ediin_action=party&ediin_data=<?php echo $i+1; ?>#eco">
                                           <?php echo $party_name; ?>
                                         </a>
                                       </td>
                                       <td>
-                                        <a href="#">
+                                        <a href="economics.php?tab=3&year=all&ediin_action=company&ediin_data=<?php echo $i+1; ?>#eco">
                                           <?php echo $count_of_companies; ?>
                                         </a>
                                       </td>
@@ -426,13 +742,15 @@
                                       </td>
                                     </tr>
                                     <?php
+                                    $i++;
                                     $party_name = "";
                                     $count_of_companies = 0;
                                     $donation_of_companies = 0;
+                                    }
+                                    ?></table><?php
                                   }
                                 }
                                 ?>
-                                </table>
                             </section>
                             <div class="clearfix"></div>
                         </div>
@@ -484,11 +802,8 @@
             ?>
         </footer>
 
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="js/jquery-1.11.2.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
-        <!-- Custom Global Javascript and Jquery -->
         <script src="js/global.js"></script>
 
         <script type="text/javascript">
@@ -505,7 +820,21 @@
                         $('[data-toggle=input-search-result]').addClass('hide');
                     }
                 });
+                $('[data-toggle=input-search-caret-button]').click(function() {
+                  if ($('[data-toggle=input-search-result]').hasClass('hide')) {
+                    $('[data-toggle=input-search-result]').removeClass('hide');
+                    $('[data-toggle=input-search-caret-drop]').removeClass('glyphicon-chevron-down');
+                    $('[data-toggle=input-search-caret-drop]').addClass('glyphicon-chevron-up');
+                    $.post("backend/getResultsEdiin.php", {action: "search_ediin", keyword : '^all^'}, function(data) {
+                        $('[data-toggle=input-search-result]').html(data);
+                    });
+                  } else {
+                    $('[data-toggle=input-search-result]').addClass('hide');
+                    $('[data-toggle=input-search-caret-drop]').removeClass('glyphicon-chevron-up');
+                    $('[data-toggle=input-search-caret-drop]').addClass('glyphicon-chevron-down');
+                  }
 
+                });
             });
         </script>
     </body>
