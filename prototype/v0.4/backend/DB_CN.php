@@ -121,7 +121,7 @@ namespace db_cn {
     }
 
     class Database {
-        
+
     }
 
     class Table implements Select, Insert{
@@ -146,7 +146,7 @@ namespace db_cn {
             $condition_set = false;
             $sort_set = false;
             $rows_set = false;
-            
+
             if (isset($columns)) {
                 $this->columns = $columns;
                 $columns_set = true;
@@ -172,7 +172,7 @@ namespace db_cn {
                 $this->rows = $rows;
                 $rows_set = true;
             }
-            
+
             if ($columns_set) {
                 $this->query .= " ".$this->columns." FROM ".$this->table;
                 if ($condition_set) {
@@ -189,14 +189,14 @@ namespace db_cn {
                 return $this->connect->resultset();
             }
         }
-        
+
         public function selectFirst($columns = "*", $condition = null, $sort = null, $sort_type = null, $rows = null) {
             $this->query = "SELECT";
             $columns_set = false;
             $condition_set = false;
             $sort_set = false;
             $rows_set = false;
-            
+
             if (isset($columns)) {
                 $this->columns = $columns;
                 $columns_set = true;
@@ -222,7 +222,7 @@ namespace db_cn {
                 $this->rows = $rows;
                 $rows_set = true;
             }
-            
+
             if ($columns_set) {
                 $this->query .= " ".$this->columns." FROM ".$this->table;
                 if ($condition_set) {
@@ -247,25 +247,25 @@ namespace db_cn {
                 $cols = strtolower($cols);
                 $this->query .= $cols . ") VALUES ";
                 $this->query .= "(";
-                
+
                 for ($i = 0; $i < count($values); $i++) {
                     $this->query .= $values[$i].", ";
                 }
-                
+
                 $this->query = substr($this->query, 0, -2);
                 $this->query .= ");";
                 $this->connect->query($this->query);
                 $this->connect->execute();
             }
         }
-        
+
         public function rawQuery($query) {
             if (isset($query)) {
                 $this->connect->query($query);
                 return $this->connect->resultset();
             }
         }
-        
+
         public function debug() {
             return $this->connect->debugDumpParams();
         }

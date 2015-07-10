@@ -1,7 +1,7 @@
 <?php
 
 function getTagForResult($code, $content = "", $count = "") {
-    $data = "<a href='economics.php?tab=3&year=all&sector_code=$code&search_query=$content#eco'><li class='list-group-item'>";
+    $data = "<a href='economics.php?tab=3&year=all&sector_code=$code&search_query=$content#eco'><li class='list-group-item' style='border: 1px solid lightgray; border-top: 0px; border-radius: 0px;'>";
     $data .= $content;
     $data .= "<span class='badge'>$count</span></li></a>";
     return $data;
@@ -23,7 +23,7 @@ if (!empty($action) && !empty($keyword)) {
           $results = $eza->select("*", "type COLLATE UTF8_GENERAL_CI like '%$keyword%'");
 
         $full_data = "";
-        $full_data .= "<a href='economics.php?tab=3&year=all&sector_code= #eco'><li class='list-group-item no-type'><b>Ангилалд орогдоогүйг хайх</b></li></a>";
+        $full_data .= "<a href='economics.php?tab=3&year=all&sector_code= #eco'><li class='list-group-item no-type' style='border: 1px solid lightgray; border-top: 0px; border-radius: 0px;'><b>Ангилалд орогдоогүйг хайх</b></li></a>";
         foreach ($results as $res) {
             $companies = new db_cn\Table("companies");
             $irged = new db_cn\Table("irged_aan");

@@ -350,25 +350,37 @@
 
                         </div>
                         <div id="party-economics-tab-ediinzasag" class="tab-pane fade in <?php if ($tab === "3") { echo "active"; } ?> ediin-zasag">
-                            <section class="col-lg-12">
-                                <div class="custom-search">
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" data-toggle="input-search-field" placeholder="Эдийн засгийн ангилалаар хайх..." <?php if (isset($_GET['search_query'])) { echo "value='".$_GET['search_query']."'"; }?>/>
-                                        <div class="input-group-addon" style="cursor: pointer" data-toggle="input-search-caret-button">
-                                            <a href="#eco">
-                                                <span class="glyphicon glyphicon-chevron-down" data-toggle="input-search-caret-drop"></span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <ul class="list-group hide" data-toggle="input-search-result"></ul>
-                                </div>
+                            <section class="col-sm-12">
+                                  <div class="input-group">
+                                      <div class="input-group-addon" style="padding: 0px;">
+                                        <select class="" name="" style="width: 250px; height: 100%; border: none; outline: none;">
+                                          <option>Бүх мэдээлэл харах</option>
+                                          <option><span class="text-primary">2013</span> - <i>Ерөнхийлөгчийн сонгууль</i></option>
+                                          <option><span class="text-primary">2012</span> - <i>УИХ-ын сонгууль</i></option>
+                                          <option><span class="text-primary">2009</span> - <i>Ерөнхийлөгчийн сонгууль</i></option>
+                                          <option><span class="text-primary">2008</span> - <i>УИХ-ын сонгууль</i></option>
+                                        </select>
+                                      </div>
+                                      <input type="text" class="form-control" data-toggle="input-search-field" placeholder="Эдийн засгийн ангилалаар хайх..." <?php if (isset($_GET['search_query'])) { echo "value='".$_GET['search_query']."'"; }?>/>
+                                      <div class="input-group-addon" style="cursor: pointer" data-toggle="input-search-caret-button">
+                                          <a href="#eco">
+                                              <span class="glyphicon glyphicon-chevron-down" data-toggle="input-search-caret-drop"></span>
+                                          </a>
+                                      </div>
+                                      <div class="input-group-addon" style="cursor: pointer">
+                                          <span class="glyphicon glyphicon-search"></span>
+                                      </div>
+                                  </div>
+                                  <ul class="list-group hide" data-toggle="input-search-result" style="position: absolute; z-index: 3; max-height: 250px; overflow: auto; width: 96%; background-color: #eee; border: 1px solid #eee;"></ul>
                             </section>
 
-                            <section class="col-lg-12" style="margin-top: 15px;">
-                              <a href="economics.php?tab=3&year=all&sector_code=%20#eco" class="btn btn-primary">Бүх мэдэээлэл харах</a>
+                            <section class="col-sm-12" style="margin-top: 25px;">
+                              <a href="economics.php?tab=3&year=all&sector_code=%20#eco" class="btn btn-primary pull-left">Бүх мэдэээлэл харах</a>
+
+                              <div class="clearfix"></div>
                             </section>
 
-                            <section class="col-lg-12 company-list">
+                            <section class="col-sm-12 company-list">
                                 <?php
                                 $sector_code = isset($_GET['sector_code']) ? $_GET['sector_code'] : "";
                                 if (!empty($sector_code) && empty($_GET['ediin_action'])) {
@@ -457,6 +469,7 @@
                                     $party_name = "";
                                     $count = 0;
                                     $mon = 0;
+                                    $year = "";
 
                                     $party_name = $parties[0]['party'];
                                     if (strpos($party_name, "тойрог")) {
@@ -464,6 +477,7 @@
                                     }
                                     $count = count($parties);
                                     foreach ($parties as $par) {
+                                      $year = $par['year'];
                                       $mon += intval($par['hemjee']);
                                     }
                                     ?>
@@ -528,11 +542,22 @@
                                           }
                                         }
                                       }
+                                      usort($list, function($a1, $a2) {
+                                        if ($a1['year'] > $a2['year']) {
+                                          return -1;
+                                        } else if ($a1['year'] < $a2['year']) {
+                                          return 1;
+                                        }
+                                        return 0;
+                                      });
                                       ?>
                                       <h3>Дэлгэрэнгүй хандив мэдээлэл <a href="#eco" class="btn btn-primary" onclick="history.back();">Буцах</a></h3>
                                       <hr>
                                       <table class="table table-striped table-bordered">
                                         <tr>
+                                          <th>
+                                            Огноо
+                                          </th>
                                           <th>
                                             Байгууллага
                                           </th>
@@ -557,6 +582,9 @@
                                       foreach ($list as $l) {
                                         ?>
                                         <tr>
+                                          <td>
+                                            <?php echo $l['year']; ?>
+                                          </td>
                                           <td>
                                             <?php echo $l['ner']; ?>
                                           </td>
@@ -590,6 +618,9 @@
                                       <table class="table table-striped table-bordered">
                                         <tr>
                                           <th>
+                                            Огноо
+                                          </th>
+                                          <th>
                                             Байгууллага
                                           </th>
                                           <th>
@@ -614,6 +645,9 @@
                                         ?>
                                         <tr>
                                           <td>
+                                            <?php echo $l['year']; ?>
+                                          </td>
+                                          <td>
                                             <?php echo $l['ner']; ?>
                                           </td>
                                           <td>
@@ -627,10 +661,13 @@
                                       }?></table><?php
                                     } else if ($ediin_action == "party") {
                                       ?>
-                                      <h3>Дэлгэрэнгүй хандив мэдээлэл</h3>
+                                      <h3>Дэлгэрэнгүй хандив мэдээлэл <a href="#eco" class="btn btn-primary" onclick="history.back();">Буцах</a></h3>
                                       <hr>
                                       <table class="table table-striped table-bordered">
                                         <tr>
+                                          <th>
+                                            Огноо
+                                          </th>
                                           <th>
                                             Байгууллага
                                           </th>
@@ -654,9 +691,20 @@
                                       <?php
                                       $index = ($ediin_data == "0") ? 0 : intval($ediin_data);
                                       $index--;
+                                      usort($broke[$index], function($a1, $a2) {
+                                        if ($a1['year'] > $a2['year']) {
+                                          return -1;
+                                        } else if ($a1['year'] < $a2['year']) {
+                                          return 1;
+                                        }
+                                        return 0;
+                                      });
                                       foreach ($broke[$index] as $res) {
                                         ?>
                                         <tr>
+                                          <td>
+                                            <?php echo $res['year']; ?>
+                                          </td>
                                           <td>
                                             <?php echo $res['ner']; ?>
                                           </td>
@@ -706,48 +754,129 @@
                                     }
                                     ?></table><?php
                                   } else {
-                                  ?>
-                                  <h3 class="text-info">Бүх мэдээлэл</h3>
-                                  <table class="table">
+                                  // Home contents
 
-                                    <tr>
-                                      <th>Нам</th>
-                                      <th>Байгуулгын тоо</th>
-                                      <th>Нийт мөнгөн дүн</th>
-                                    </tr>
-                                  <?php
-                                  foreach ($broke as $arr) {
-                                    foreach ($arr as $res) {
-                                      $party_name = $res['party'];
-                                      $count_of_companies++;
-                                      $donation_of_companies += intval($res['hemjee']);
+                                  $sector_code = isset($_GET['sector_code']) ? $_GET['sector_code'] : "";
+                                  if (empty($_GET['ediin_action'])) {
+                                    $companies = new db_cn\Table("companies");
+                                    $irged = new db_cn\Table("irged_aan");
+                                    $comp = $companies->select("company", "sector_code = '$sector_code'");
+                                    $list = [];
+                                    $for_counting = [];
+                                    foreach ($comp as $com) {
+                                      $c = $com['company'];
+                                      $tmp_arr = $irged->select("*", "ner = '$c' && type = 'c'");
+                                      foreach ($tmp_arr as $tmp) {
+                                        array_push($list, $tmp);
+                                        array_push($for_counting, $tmp['party']);
+                                      }
                                     }
-                                    if (strpos($party_name, "тойрог") !== false || $party_name == "") {
-                                      continue;
+                                    // echo "<pre>", print_r($for_counting), "</pre>";
+                                    // echo "<pre>", print_r(array_count_values($for_counting)), "</pre>";
+                                    // echo "<pre>", print_r($list), "</pre>";
+                                    usort($list, function($a1, $a2) {
+                                      return strnatcmp($a1['party'], $a2['party']);
+                                    });
+
+                                    $by_parties = [];
+                                    $tmp_item = "";
+                                    $tmp_arr = [];
+                                    for ($i = 0; $i < count($list); $i++) {
+                                      if ($i == 0) {
+                                        $tmp_item = $list[$i]['party'];
+                                        array_push($tmp_arr, $list[$i]);
+                                        if ($i == (count($list) - 1)) {
+                                          array_push($by_parties, $tmp_arr);
+                                        }
+                                      } else if ($i == (count($list) - 1)) {
+                                        if ($tmp_item == $list[$i]['party']) {
+                                          array_push($tmp_arr, $list[$i]);
+                                          array_push($by_parties, $tmp_arr);
+                                        } else {
+                                          array_push($by_parties, $tmp_arr);
+                                          $tmp_arr = [];
+                                          array_push($tmp_arr, $list[$i]);
+                                          array_push($by_parties, $tmp_arr);
+                                        }
+                                      } else {
+                                        if ($tmp_item == $list[$i]['party']) {
+                                          array_push($tmp_arr, $list[$i]);
+                                          $tmp_item = $list[$i]['party'];
+                                        } else {
+                                          array_push($by_parties, $tmp_arr);
+                                          $tmp_arr = [];
+                                          $tmp_item = $list[$i]['party'];
+                                          array_push($tmp_arr, $list[$i]);
+                                        }
+                                      }
                                     }
+
                                     ?>
-                                    <tr>
-                                      <td>
-                                        <a href="economics.php?tab=3&year=all&ediin_action=party&ediin_data=<?php echo $i+1; ?>#eco">
-                                          <?php echo $party_name; ?>
-                                        </a>
-                                      </td>
-                                      <td>
-                                        <a href="economics.php?tab=3&year=all&ediin_action=company&ediin_data=<?php echo $i+1; ?>#eco">
-                                          <?php echo $count_of_companies; ?>
-                                        </a>
-                                      </td>
-                                      <td>
-                                          <?php echo $donation_of_companies; ?>
-                                      </td>
-                                    </tr>
+                                    <h3>Нэгтгэсэн хандив мэдээлэл</h3>
+                                    <hr>
+                                    <table class="table table-striped table-bordered">
+                                      <tr>
+                                        <th>
+                                          Нам
+                                        </th>
+                                        <th>
+                                          Байгуулгын тоо
+                                        </th>
+                                        <th>
+                                          Мөнгөн дүн<br>
+                                          <?php
+                                          $mon = 0;
+                                          foreach ($by_parties as $parties) {
+                                            foreach ($parties as $party) {
+                                              $mon += intval($party['hemjee']);
+                                            }
+                                          }
+                                          echo "Нийт: ".$mon;
+                                          $mon = 0;
+                                          ?>
+                                        </th>
+                                      </tr>
+
                                     <?php
-                                    $i++;
-                                    $party_name = "";
-                                    $count_of_companies = 0;
-                                    $donation_of_companies = 0;
+
+                                    foreach ($by_parties as $parties) {
+                                      $party_name = "";
+                                      $count = 0;
+                                      $mon = 0;
+                                      $year = "";
+
+                                      $party_name = $parties[0]['party'];
+                                      if (strpos($party_name, "тойрог")) {
+                                        // continue;
+                                      }
+                                      $count = count($parties);
+                                      foreach ($parties as $par) {
+                                        $year = $par['year'];
+                                        $mon += intval($par['hemjee']);
+                                      }
+                                      ?>
+                                      <tr>
+                                        <td>
+                                          <a href="economics.php?tab=3&year=all&sector_code=<?php echo $sector_code; ?>&ediin_action=in_party&ediin_data=<?php echo $party_name; ?>#eco">
+                                          <?php echo $party_name; ?>
+                                          </a>
+                                        </td>
+                                        <td>
+                                          <a href="economics.php?tab=3&year=all&sector_code=<?php echo $sector_code; ?>&ediin_action=in_party&ediin_data=<?php echo $party_name; ?>#eco">
+                                          <?php echo $count; ?>
+                                          </a>
+                                        </td>
+                                        <td>
+                                          <?php echo $mon; ?>
+                                        </td>
+                                      </tr>
+                                      <?php
+                                      $party_name = "";
+                                      $count = 0;
+                                      $mon = 0;
                                     }
                                     ?></table><?php
+                                  }
                                   }
                                 }
                                 ?>

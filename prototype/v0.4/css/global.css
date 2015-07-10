@@ -35,8 +35,8 @@ body {
     background-image: url("../res/logo/08.png");
     background-repeat: no-repeat;
     background-size: 120px auto;
-    width: 120px; 
-    height: 65px; 
+    width: 120px;
+    height: 65px;
     padding: 0px;
 }
 #logo:hover {
@@ -47,7 +47,7 @@ body {
 .navbar-md {}
 .navbar-md .navbar-brand,
 .navbar-md .navbar-nav>li>a {padding-top:10px; padding-bottom:10px}
-.navbar-md .navbar-brand {height: 40px}  
+.navbar-md .navbar-brand {height: 40px}
 .navbar-md .navbar-toggle {margin: 6px 12px 6px 0px; padding: 6px 7px 6px 7px;}
 .navbar-md .navbar-toggle .icon-bar {width: 19px;}
 
@@ -62,7 +62,7 @@ body {
 
 .navbar-default {
     background-color: #4A85D1;
-    border: 0px;  
+    border: 0px;
     border-radius: 0px;
 }
 .navbar-default .navbar-brand {
@@ -170,7 +170,7 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-#laws blockquote { 
+#laws blockquote {
     transition: border 0.2s;
 }
 #laws blockquote:hover {
@@ -183,7 +183,7 @@ body {
 #party {
 
 }
-#party #date_list { 
+#party #date_list {
     margin: 25px 0px;
     max-height: 500px;
     overflow: auto;
@@ -332,6 +332,10 @@ body {
 .row-gov-party-eco > .container .table tr,
 .content > .economics > .col-lg-9 .tab-pane .table tr {
     background-color: #F5F5F5;
+}
+.row-gov-party-eco > .container .table tr:hover,
+.content > .economics > .col-lg-9 .tab-pane .table tr:hover {
+    background-color: #EBF0F5;
 }
 .row-gov-party-eco > .container .table tr:first-child,
 .content > .economics > .col-lg-9 .tab-pane .table tr:first-child {
@@ -703,10 +707,10 @@ body {
     border-bottom-right-radius: 0px;
 }
 .ediin-zasag .filter .input-field-result {
-    padding: 0px; 
-    width: 100%; 
-    max-height: 250px; 
-    overflow: auto; 
+    padding: 0px;
+    width: 100%;
+    max-height: 250px;
+    overflow: auto;
     box-shadow: 2px 2px 3px 0px #DBDBDB;
     border: none;
     background-color: transparent;
@@ -714,7 +718,7 @@ body {
     border-bottom-right-radius: 4px;
 }
 .ediin-zasag .filter .input-field-result .list-group-item {
-    border-top-left-radius: 0px; 
+    border-top-left-radius: 0px;
     border-top-right-radius: 0px;
 }
 
