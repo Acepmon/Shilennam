@@ -12,7 +12,7 @@ namespace db_cn {
 
         private $host = "localhost";
         private $user = "root";
-        private $pass = "acep123";
+        private $pass = "";
         private $dbname = "prototype";
         private $dbh;
         private $error;

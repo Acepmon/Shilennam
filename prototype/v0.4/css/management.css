@@ -1,0 +1,48 @@
+.management {
+
+}
+.management > aside,
+.management > main {
+  padding: 10px 10px;
+}
+.management > nav {
+  border-radius: 0px;
+}
+.management > aside {
+}
+.management > main {
+}
+.panel-group .panel-group-item {
+  margin: 0px !important;
+  border-radius: 0px;
+  border-top: none;
+}
+.panel-group .panel-group-item:first-child {
+  border-top: 1px solid #ddd;
+}
+.panel-group .panel-group-item .panel-dropdown {
+}
+.panel-group .panel-group-item .panel-heading {
+  cursor: pointer;;
+}
+.panel-group .panel-group-item .list-group .list-group-item:first-child {
+  border-top: 1px solid #ddd;
+}
+.panel-group .panel-group-item .list-group .list-group-item:hover {
+  background-color: #F9F7FA;
+}
+
+.panel-heading span
+{
+    margin-top: -24px;
+    font-size: 15px;
+    margin-right: -12px;
+}
+
+.clickable {
+    background: rgba(0, 0, 0, 0.15);
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}

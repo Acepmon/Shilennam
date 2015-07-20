@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 06, 2015 at 10:56 AM
+-- Generation Time: Jul 20, 2015 at 07:54 PM
 -- Server version: 5.6.17
 -- PHP Version: 5.5.12
 
@@ -13273,6 +13273,31 @@ INSERT INTO `laws` (`id`, `text`, `sanctions`, `source`, `section`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `news`
+--
+
+CREATE TABLE IF NOT EXISTS `news` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(150) COLLATE utf8_bin NOT NULL,
+  `date` date DEFAULT NULL,
+  `img_upload_id` int(11) DEFAULT NULL,
+  `thumb_upload_id` int(11) DEFAULT NULL,
+  `description` text COLLATE utf8_bin,
+  PRIMARY KEY (`id`),
+  KEY `FK_Uploads_id` (`img_upload_id`),
+  KEY `FK_Uploads_thumb_id` (`thumb_upload_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=2 ;
+
+--
+-- Dumping data for table `news`
+--
+
+INSERT INTO `news` (`id`, `title`, `date`, `img_upload_id`, `thumb_upload_id`, `description`) VALUES
+(1, 'Тэнгэрлэг сайхан ээжүүд баярын арга хэмжээ боллоо', '2015-03-08', 1, 2, 'Тэнгэрлэг сайхан ээжүүд баярын арга хэмжээ боллоо Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `outcome`
 --
 
@@ -14297,9 +14322,37 @@ INSERT INTO `said_sanhuu` (`id`, `code`, `ner`, `alban_tushaal`, `xo_ner`, `xo_c
 (801, 244, 'С.Бүрэнбат', 'Сэлэнгэ аймгийн Засаг дарга', 'Золко ХХК', '', '', '', '100'),
 (802, 244, 'С.Бүрэнбат', 'Сэлэнгэ аймгийн Засаг дарга', '', '', '', '317167,34', '');
 
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `uploads`
+--
+
+CREATE TABLE IF NOT EXISTS `uploads` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) COLLATE utf8_bin NOT NULL,
+  `path` varchar(255) COLLATE utf8_bin NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=3 ;
+
+--
+-- Dumping data for table `uploads`
+--
+
+INSERT INTO `uploads` (`id`, `name`, `path`) VALUES
+(1, 'Мэдээ 1 том зураг', 'article1_img1.jpg'),
+(2, 'Мэдээ 1 жижиг зураг', 'article1_img1_thumb.jpg');
+
 --
 -- Constraints for dumped tables
 --
+
+--
+-- Constraints for table `news`
+--
+ALTER TABLE `news`
+  ADD CONSTRAINT `FK_Uploads_thumb_id` FOREIGN KEY (`thumb_upload_id`) REFERENCES `uploads` (`id`),
+  ADD CONSTRAINT `FK_Uploads_id` FOREIGN KEY (`img_upload_id`) REFERENCES `uploads` (`id`);
 
 --
 -- Constraints for table `party_financial_list`

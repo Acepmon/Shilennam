@@ -2,7 +2,7 @@
 <html ng-app>
 <head>
     <?php
-        require_once "../backend/init.php";    
+        require_once "../backend/init.php";
     ?>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -135,7 +135,7 @@
                     </div>
                     <div class="panel-body">
                         <p class="text-warning">
-                            Diagrams are essential to integraty of the system. Remember that any changes to the system might cause fadality so be sure to draw purposeful diagrams and analyze with professional people. 
+                            Diagrams are essential to integraty of the system. Remember that any changes to the system might cause fadality so be sure to draw purposeful diagrams and analyze with professional people.
                             If the team agrees that there will be no errors or bugs backup
                             your whole system and implement it in seperate server so the team
                             can test it.
@@ -150,7 +150,7 @@
                         </p>Or more complex like this.</p>
                         <img src="../res/diagrams/dg2.gif" class="img-thumbnail">
                         <p>
-                            If you want to analyze the real database diagrams <a href="diagrams.php">click here</a> 
+                            If you want to analyze the real database diagrams <a href="diagrams.php">click here</a>
                             to view every diagrams.
                         </p>
                     </div>
