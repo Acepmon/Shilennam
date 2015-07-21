@@ -31,7 +31,6 @@
 .panel-group .panel-group-item .list-group .list-group-item:hover {
   background-color: #F9F7FA;
 }
-
 .panel-heading span
 {
     margin-top: -24px;
@@ -45,4 +44,32 @@
     padding: 4px 10px;
     border-radius: 4px;
     cursor: pointer;
+}
+
+
+
+#all_news td img {
+    display: block;
+    max-width: 180px;
+    max-height: 90px;
+    width: auto;
+    height: auto;
+}
+#all_news td h5{
+    font-size: 16px;
+    font-family: Arial;
+}
+#all_news td p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: Arial;
+    font-style: italic;
+}
+#all_news td .btn {
+    margin-top: 5px;
+}
+
+#all_uploads tr td:first-child {
+    max-width: 250px;
+    min-width: auto;
 }

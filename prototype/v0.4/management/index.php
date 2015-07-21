@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="../css/management.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/management.css" media="screen" title="no title" charset="utf-8">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
     <script type="text/javascript" src="../js/jquery-1.11.2.min.js"></script>
@@ -125,7 +125,7 @@
               <h3 class="panel-title">Бүх мэдээ</h3>
               <span class="pull-right clickable" data-effect="fadeOut"><i class="fa fa-times"></i></span>
             </div>
-              <table class="table">
+              <table class="table" id="all_news">
                 <tr>
                   <th>Зураг</th>
                   <th>Гарчиг</th>
@@ -140,9 +140,9 @@
               foreach ($result as $res) {
                 $path = $uploads->selectFirst("path", "id = "+$res['img_upload_id'])['path'];
                 echo "<tr>";
-                echo "<td><img src='../uploads/$path' class='img-responsive'></td>";
+                echo "<td><img src='../uploads/$path' class='img-thumbnail'></td>";
                 echo "<td><h5>".$res['title']."</h5></td>";
-                echo "<td><i>".$res['date']."</i></td>";
+                echo "<td><p>".$res['date']."</p></td>";
                 echo "<td>
                 <a href='' class='btn btn-default'><span class='glyphicon glyphicon-eye-open'></span></a>
                 <a href='' class='btn btn-default'><span class='glyphicon glyphicon-pencil'></span></a>
@@ -160,7 +160,7 @@
               <h3 class="panel-title">Бүх зураг</h3>
               <span class="pull-right clickable" data-effect="fadeOut"><i class="fa fa-times"></i></span>
             </div>
-            <table class="table table-hover table-bordered">
+            <table class="table table-hover table-bordered" id="all_uploads">
               <tr>
                 <th>Зураг</th>
                 <th>Нэр</th>
@@ -172,7 +172,7 @@
               // echo "<pre>", print_r($result), "</pre>";
               foreach ($result as $res) {
                 echo "<tr>";
-                echo "<td><img src='../uploads/".$res['path']."' class='img-responsive'></td>";
+                echo "<td><img src='../uploads/".$res['path']."' class='img-responsive img-thumbnail'></td>";
                 echo "<td><h5>".$res['name']."</h5></td>";
                 echo "<td><i>".$res['path']."</i></td>";
                 echo "</tr>";
@@ -183,7 +183,7 @@
         </div>
       </div>
       <div class="row">
-
+          
       </div>
     </main>
   </body>
