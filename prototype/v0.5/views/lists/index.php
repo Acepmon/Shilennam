@@ -1,5 +1,5 @@
-<?php include "../../models/db_cn.php"; ?>
-<?php include "../../controllers/helper-functions.php"; ?>
+<?php include_once "../../models/DB_CN.php"; ?>
+<?php include_once "../../controllers/helper-functions.php"; ?>
 
 <div class="lists" ng-controller="listsCtrl">
   <div class="container row-fluid">

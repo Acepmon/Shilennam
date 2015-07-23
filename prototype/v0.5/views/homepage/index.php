@@ -1,5 +1,5 @@
-<?php include "../../models/db_cn.php"; ?>
-<?php include "../../controllers/helper-functions.php"; ?>
+<?php include_once "../../models/DB_CN.php"; ?>
+<?php include_once "../../controllers/helper-functions.php"; ?>
 
 <!-- Homepage content -->
 <div class="row-gov-party">
