@@ -1,3 +1,6 @@
+<?php include_once "models/DB_CN.php"; ?>
+<?php include_once "controllers/helper-functions.php"; ?>
+
 <div class="row-quick-link">
     <div class="container">
         <div class="pull-left">
