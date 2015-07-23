@@ -4,39 +4,43 @@
   <li class="active">Шинэ мэдээ оруулах</li>
 </ol>
 <hr>
-<div class="row">
-  <div class="col-md-4" ng-controller="managementPublishNewsCtrl">
-    <div class="panel panel-success">
+<div class="row" ng-controller="managementPublishNewsCtrl">
+  <div class="col-md-4">
+    <div class="panel panel-primary">
       <div class="panel-heading">
         <h3 class="panel-title">Шинэ мэдээ оруулах</h3>
       </div>
       <div class="panel-body">
-        <form action="">
-          <fieldset class="form-group">
+        <form ng-submit="insertNews()">
+          <div class="alert alert-success" ng-show="message">
+            {{message}}
+          </div>
+          <div class="alert alert-danger" ng-show="errorProcess">
+            {{errorProcess}}
+          </div>
+          <fieldset class="form-group" ng:class="errorTitle ? 'has-error' : ''">
             <label for="">Гарчиг</label>
-            <input type="text" class="form-control" name="title">
+            <input type="text" class="form-control" name="title" ng-model="newsInsertData.title">
           </fieldset>
-          <fieldset class="form-group" id="publish_news_date_picker">
+          <fieldset class="form-group" id="publish_news_date_picker" ng:class="errorDate ? 'has-error' : ''">
             <label for="">Огноо</label>
-            <input type="text" class="form-control" placeholder="yyyy-mm-dd" name="date">
+            <input type="text" class="form-control" placeholder="yyyy-mm-dd" name="date" ng-model="newsInsertData.date">
           </fieldset>
-          <fieldset class="form-group">
+          <fieldset class="form-group" ng:class="errorImgUpload ? 'has-error' : ''">
             <label for="">Нүүр зураг</label>
-            <select name="img_upload" id="" class="form-control">
-              <option></option>
-              <option ng-repeat="upload in uploads" name="large_upload_id" value="{{upload.id}}">{{upload.name}}</option>
+            <select class="form-control" name="img_upload" ng-model="newsInsertData.img_upload" ng-options="upload.id as upload.name for upload in uploads">
             </select>
           </fieldset>
-          <fieldset class="form-group">
+          <fieldset class="form-group" ng:class="errorThumbUpload ? 'has-error' : ''">
             <label for="">Бага хэмжээний зураг</label>
-            <select name="thumb_upload" id="" class="form-control">
+            <select id="" class="form-control" name="thumb_upload" ng-model="newsInsertData.thumb_upload">
               <option></option>
               <option ng-repeat="upload in uploads" name="thumb_upload_id" value="{{upload.id}}">{{upload.name}}</option>
             </select>
           </fieldset>
-          <fieldset class="form-group">
+          <fieldset class="form-group" ng:class="errorDesc ? 'has-error' : ''">
             <label for="">Дэлгэрэнгүй тайлбар</label>
-            <textarea name="desc" id="" cols="30" rows="10" class="form-control"></textarea>
+            <textarea cols="30" rows="10" class="form-control" name="desc" ng-model="newsInsertData.desc"></textarea>
           </fieldset>
           <fieldset class="form-group">
             <input type="reset" value="Цэвэрлэх" class="btn btn-default">
@@ -46,10 +50,18 @@
       </div>
     </div>
   </div>
-  <div class="col-md-6" ng-controller="managementPublishUpdatedNewsCtrl">
+  <div class="col-md-8">
     <div class="panel panel-info">
       <div class="panel-heading">
         <h3 class="panel-title">Бүх мэдээ</h3>
+      </div>
+      <div class="panel-body" ng-show="newslistError == false || newslistError == true">
+        <div class="alert alert-success" ng-show="newslistError == false">
+          {{newslistMessage}}
+        </div>
+        <div class="alert alert-danger" ng-show="newslistError == true">
+          {{newslistMessage}}
+        </div>
       </div>
         <table class="table" id="all_news">
           <tr>
@@ -63,9 +75,9 @@
             <td>{{news.title}}</td>
             <td>{{news.date}}</td>
             <td>
-              <a href='' class='btn btn-default'><span class='glyphicon glyphicon-eye-open'></span></a>
-              <a href='' class='btn btn-default'><span class='glyphicon glyphicon-pencil'></span></a>
-              <a href='' class='btn btn-default'><span class='glyphicon glyphicon-trash'></span></a>
+              <button class='btn btn-default'><span class='glyphicon glyphicon-eye-open'></span></button>
+              <button class='btn btn-default'><span class='glyphicon glyphicon-pencil'></span></button>
+              <button ng-click="deleteNews(news.id, $index)" ng-confirm-click="Are you sure want to delete?" class='btn btn-default'><span class='glyphicon glyphicon-trash'></span></button>
             </td>
           </tr>
 

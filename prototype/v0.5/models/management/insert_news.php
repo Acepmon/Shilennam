@@ -6,19 +6,19 @@ $errors = array();
 $data = array();
 
 if (empty($_POST['title'])) {
-  $errors['title'] = "Гарчиг хоосон байна!";
+  $errors['title'] = true;
 }
 if (empty($_POST['date'])) {
-  $errors['date'] = "Огноо хоосон байна!";
+  $errors['date'] = true;
 }
 if (empty($_POST['img_upload'])) {
-  $errors['img_upload'] = "Том хэмжээний зурагнаас сонгоно уу!";
+  $errors['img_upload'] = true;
 }
 if (empty($_POST['thumb_upload'])) {
-  $errors['thumb_upload'] = "Бага хэмжээний зурагнаас сонгоно уу!";
+  $errors['thumb_upload'] = true;
 }
 if (empty($_POST['desc'])) {
-  $errors['desc'] = "Тайлбар хоосон байна!";
+  $errors['desc'] = true;
 }
 
 if (empty($errors)) {
@@ -29,7 +29,7 @@ if (empty($errors)) {
   $db->bind(":img_upload_id", $_POST['img_upload']);
   $db->bind(":thumb_upload_id", $_POST['thumb_upload']);
   $db->bind(":description", $_POST['desc']);
-  
+
   if ($db->execute()) {
 
   } else {
@@ -45,6 +45,6 @@ if (!empty($errors)) {
   $data['message'] = "Амжилттай хийгдлээ!";
 }
 
-echo json_decode($data);
+echo json_encode($data);
 
 ?>

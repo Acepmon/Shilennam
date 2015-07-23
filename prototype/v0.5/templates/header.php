@@ -28,14 +28,14 @@
                             <li><a href="economics.php?tab=1&year=all#eco" style="text-transform: uppercase;">Сонгуулийн санхүүжилт</a></li>
                             <li><a href="economics.php?tab=2&year=all#eco" style="text-transform: uppercase;">Намуудын санхүүжилт</a></li>
                             <li><a href="economics.php?tab=3&year=all#eco" style="text-transform: uppercase;">Эдийн засгийн ангилал</a></li>
-                            <li><a href="economics.php?tab=1&year=all#eco">БУСАД</a></li>
+                            <li><a href="#/economics">БУСАД</a></li>
                         </ul>
                     </li>
                     <li><a href="#/news">МЭДЭЭ МЭДЭЭЛЭЛ</a></li>
-                    <li><a href="laws.php#laws">ХУУЛИАС</a></li>
+                    <li><a href="#/laws">ХУУЛИАС</a></li>
                     <li style="margin-top: -11px;"><a href="#/" style="padding: 0px;"><div id="logo"></div></a></li>
-                    <li><a href="#">УЛС ТӨРЧДИЙН ХАМААРАЛ</a></li>
-                    <li><a href="connections.php#connection">ХОЛБООСУУД</a></li>
+                    <li><a href="#/uls_connections">УЛС ТӨРЧДИЙН ХАМААРАЛ</a></li>
+                    <li><a href="#/connection">ХОЛБООСУУД</a></li>
                     <li><a href="#">БУСАД</a></li>
                 </ul>
             </div>

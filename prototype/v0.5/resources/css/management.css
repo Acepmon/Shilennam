@@ -76,3 +76,8 @@
     max-width: 250px;
     min-width: auto;
 }
+
+
+.separate-btns .btn {
+  margin-top: 5px;
+}

@@ -10,9 +10,26 @@ angular.module('app', [
     }).state('news', {
         url: '/news',
         templateUrl: 'views/news/index.php'
-    }).state('news-article', {
-        url: '/news/news-article',
-        templateUrl: 'view/news/index.php'
+    }).state('article', {
+        url: '/news/article',
+        templateUrl: 'views/news/article/index.php'
+    }).state('laws', {
+        url: '/laws',
+        templateUrl: 'views/laws/index.php'
+    }).state('connection', {
+        url: '/connection',
+        templateUrl: 'views/connection/index.php'
+    }).state('lists', {
+        url: '/lists',
+        templateUrl: 'views/lists/index.php'
+    }).state('economics', {
+        url: '/economics',
+        templateUrl: 'views/economics/index.php',
+        controller: 'economicsCtrl'
+    }).state('uls_connections', {
+        url: '/uls_connections',
+        templateUrl: 'views/uls_connections/index.php',
+        controller: 'ulsConnectionsCtrl'
     })
 }])
 angular.module('management', [
@@ -30,7 +47,7 @@ angular.module('management', [
       url: '/news/publish_news',
       templateUrl: '../views/management/news/publish_news/index.php'
     }).state('view_parties', {
-      url: '/party/',
+      url: '/party',
       templateUrl: '../views/management/party/index.php'
     }).state('view_irged_aan', {
       url: '/irged_aan',

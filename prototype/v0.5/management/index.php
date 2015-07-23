@@ -16,15 +16,12 @@
     <!-- Font Awesome CDN -->
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
-    <!-- Bootstrap Datepicker css file -->
-    <link rel="stylesheet" href="/prototype/v0.5/bower_components/bootstrap-datepicker/css/bootstrap-datepicker.min.css">
-
   </head>
   <body class="management">
 
     <nav class="navbar navbar-default">
       <div class="container-fluid">
-        <a href="#" class="navbar-brand">Шилэн нам</a>
+        <a href="/" class="navbar-brand">Шилэн нам</a>
         <ul class="nav navbar-nav navbar-right">
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admin <span class="caret"></span></a>
@@ -97,9 +94,6 @@
 
     <!-- Bootstrap js file -->
     <script type="text/javascript" src="/prototype/v0.5/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-
-    <!-- Bootstrap datepicker js file -->
-    <script type="text/javascript" src="/prototype/v0.5/bower_components/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
 
     <!-- AngularJS one page application api -->
     <script type="text/javascript" src="/prototype/v0.5/bower_components/angular/angular.min.js"></script>

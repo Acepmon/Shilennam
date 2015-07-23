@@ -20,6 +20,41 @@
 <!-- Custom global js file -->
 <script type="text/javascript" src="/prototype/v0.5/resources/js/global.js"></script>
 
+<!-- Cytoscape visualization tool -->
+<script type="text/javascript" src="/prototype/v0.5/bower_components/cytoscape/cytoscape.min.js"></script>
+
 <!-- Angular app for the website -->
 <script type="text/javascript" src="/prototype/v0.5/resources/js/app.js"></script>
-<script type="text/javascript" src="/prototype/v0.5/resources/js/controllers/homeCtrl.js"></script>
+<script type="text/javascript" src="/prototype/v0.5/resources/js/controllers/rootCtrl.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('[data-toggle=input-search-field]').keyup(function () {
+            if ($(this).val()) {
+                $('[data-toggle=input-search-result]').removeClass('hide');
+
+                $.post("backend/getResultsEdiin.php", {action: "search_ediin", keyword : $(this).val()}, function(data) {
+                    $('[data-toggle=input-search-result]').html(data);
+                });
+
+            } else {
+                $('[data-toggle=input-search-result]').addClass('hide');
+            }
+        });
+        $('[data-toggle=input-search-caret-button]').click(function() {
+          if ($('[data-toggle=input-search-result]').hasClass('hide')) {
+            $('[data-toggle=input-search-result]').removeClass('hide');
+            $('[data-toggle=input-search-caret-drop]').removeClass('glyphicon-chevron-down');
+            $('[data-toggle=input-search-caret-drop]').addClass('glyphicon-chevron-up');
+            $.post("backend/getResultsEdiin.php", {action: "search_ediin", keyword : '^all^'}, function(data) {
+                $('[data-toggle=input-search-result]').html(data);
+            });
+          } else {
+            $('[data-toggle=input-search-result]').addClass('hide');
+            $('[data-toggle=input-search-caret-drop]').removeClass('glyphicon-chevron-up');
+            $('[data-toggle=input-search-caret-drop]').addClass('glyphicon-chevron-down');
+          }
+
+        });
+    });
+</script>

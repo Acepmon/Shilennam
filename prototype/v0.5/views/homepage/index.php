@@ -4,35 +4,21 @@
 <!-- Homepage content -->
 <div class="row-gov-party">
     <div class="container-fluid">
-        <h3 class="text-center"><a href="list.php?list=party">{{title}}</a></h3>
-        <?php
-        $party = new db_cn\Table("party");
-        $results = $party->select("id,title,acronym, logo_url");
-        $broken_results = break_array($results, 11);
-        foreach ($broken_results as $result) {
-            echo "<div class='row-centered'>";
+        <h3 class="text-center"><a href="#/lists">Улс төрийн намууд</a></h3>
 
-            foreach ($result as $res) {
-                $party_img = "res/png/img_error.jpg";
-                if (empty($res['logo_url'])) {
-                    $party_img = "resources/images/png/img_error.jpg";
-                } else {
-                    $party_img = "resources/images/party/logos/" . $res['logo_url'];
-                }
-                ?>
-                <div class="gov-party col-sm-1 col-centered">
-                    <div class="well well-xs center-block">
-                        <div class="gov-party-img-holder">
-                            <img src="<?php echo $party_img; ?>" alt="">
-                        </div>
-                        <h4><a href="party.php?p_id=<?php echo $res['id']; ?>" title="<?php echo $res['title']; ?>"><?php echo $res['acronym']; ?></a></h4>
-                    </div>
-                </div>
-                <?php
-            }
-            echo "</div>";
-        }
-        ?>
+        <div class="row-centered" ng-repeat="lists in partyLists">
+          <div class="gov-party col-sm-1 col-centered" ng-repeat="party in lists">
+            <div class="well well-xs center-block">
+              <div class="gov-party-img-holder">
+                <img src="resources/images/{{party.img}}" />
+              </div>
+              <h4>
+                <a href="{{party.id}}" title="{{party.title}}">{{party.acronym}}</a>
+              </h4>
+            </div>
+          </div>
+        </div>
+
     </div>
 </div>
 

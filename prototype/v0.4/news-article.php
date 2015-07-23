@@ -24,7 +24,7 @@
 	<![endif]-->
 </head>
 <body>
-	
+
 	<header>
 		<?php
 			include "templates/header.php";
@@ -53,14 +53,14 @@
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</section>
 				<footer>
-					
+
 				</footer>
 			</div>
 			<div class="col-lg-3">
 				<div class="panel panel-primary tweets">
 					<div class="panel-heading text-center">
 						<img src="res/png/twitter-white.png" alt="twitter" class="left-block">
-						<span>ХЭН ЮУ ГЭЖ ЖИРГЭВ?</span>	
+						<span>ХЭН ЮУ ГЭЖ ЖИРГЭВ?</span>
 					</div>
 					<div class="panel-body">
 						<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/shilennam" data-widget-id="577928259876225024">Tweets by @shilennam</a>

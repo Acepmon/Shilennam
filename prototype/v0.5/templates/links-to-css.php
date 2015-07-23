@@ -3,3 +3,6 @@
 
 <!-- Link rel to custom global css file -->
 <link rel="stylesheet" href="/prototype/v0.5/resources/css/global.css"/>
+
+<!-- Vertical bootstrap tabs -->
+<link rel="stylesheet" href="resources/css/bootstrap.vertical-tabs.min.css">
