@@ -13,7 +13,7 @@
                 <img src="resources/images/{{party.img}}" />
               </div>
               <h4>
-                <a href="{{party.id}}" title="{{party.title}}">{{party.acronym}}</a>
+                <a href="#/party" title="{{party.title}}">{{party.acronym}}</a>
               </h4>
             </div>
           </div>

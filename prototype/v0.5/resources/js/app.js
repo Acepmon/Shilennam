@@ -22,6 +22,9 @@ angular.module('app', [
     }).state('lists', {
         url: '/lists',
         templateUrl: 'views/lists/index.php'
+    }).state('party', {
+        url: '/party',
+        templateUrl: 'views/lists/party/index.php'
     }).state('economics', {
         url: '/economics',
         templateUrl: 'views/economics/index.php',

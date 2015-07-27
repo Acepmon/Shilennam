@@ -73,7 +73,7 @@
                 <div class="carousel-caption">
                     <?php
                     echo "<h3>" . $result[$randomIndex]['source'] . "</h3>";
-                    echo "<blockquote><a href='laws.php'>" . $result[$randomIndex]['text'] . "</a></blockquote>";
+                    echo "<blockquote><a href='#/laws'>" . $result[$randomIndex]['text'] . "</a></blockquote>";
                     echo "<blockquote><p>" . $result[$randomIndex]['sanctions'] . "</p></blockquote>";
                     ?>
 
