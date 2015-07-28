@@ -12,7 +12,7 @@
 <script type="text/javascript" src="/prototype/v0.5/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
 <!-- AngularJS one page application api -->
-<script type="text/javascript" src="/prototype/v0.5/bower_components/angular/angular.min.js"></script>
+<!-- <script type="text/javascript" src="/prototype/v0.5/bower_components/angular/angular.min.js"></script> -->
 
 <!-- Angular UI Router -->
 <script type="text/javascript" src="/prototype/v0.5/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
@@ -24,8 +24,8 @@
 <script type="text/javascript" src="/prototype/v0.5/bower_components/cytoscape/cytoscape.min.js"></script>
 
 <!-- Angular app for the website -->
-<script type="text/javascript" src="/prototype/v0.5/resources/js/app.js"></script>
-<script type="text/javascript" src="/prototype/v0.5/resources/js/controllers/rootCtrl.js"></script>
+<!-- <script type="text/javascript" src="/prototype/v0.5/resources/js/app.js"></script> -->
+<!-- <script type="text/javascript" src="/prototype/v0.5/resources/js/controllers/rootCtrl.js"></script> -->
 
 <script type="text/javascript">
     $(document).ready(function () {

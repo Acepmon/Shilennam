@@ -24,17 +24,16 @@
 	<![endif]-->
 </head>
 <body>
-	
+
 	<header>
 		<?php
 			include "templates/header.php";
 		?>
 	</header>
 
-	
-	<!-- Party detailed information goes here! -->
 
-	<?php 
+	<!-- Party detailed information goes here! -->
+	<?php
 
 		if (isset($_GET['p_id'])) {
 			$p_id = $_GET['p_id'];
@@ -58,9 +57,9 @@
 				<a href="list.php?list=party" class="btn btn-default">Бүх намууд</a>
 			</div>
 		</div>
-		
+
 		<div class="row">
-			<?php 
+			<?php
 				$party_res = $party->selectFirst("*", "id = ".$p_id);
 				$party_title = $party_res['title'];
 				$party_acronym = $party_res['acronym'];
@@ -228,7 +227,7 @@
 								$incomes_ids = $party_financial_list->select("incomeid", "partyid = ".$p_id);
 								foreach ($incomes_ids as $incomes_id) {
 									?>
-									
+
 										<?php
 											foreach ($income->select("*", "id = ".$incomes_id['incomeid']) as $row) {
 												echo "<tr>";
@@ -270,7 +269,7 @@
 									$outcomes_ids = $party_financial_list->select("outcomeid", "partyid = ".$p_id);
 									foreach ($outcomes_ids as $outcomes_id) {
 										?>
-										
+
 											<?php
 												foreach ($outcome->select("*", "id = ".$outcomes_id['outcomeid']) as $row) {
 													echo "<tr>";
@@ -362,7 +361,7 @@
 												echo "<td>".$row['total']."</td>";
 												echo "</tr>";
 											}
-											
+
 										}
 									?>
 								</table>
@@ -399,7 +398,7 @@
 												echo "<td>".$row['total']."</td>";
 												echo "</tr>";
 											}
-											
+
 										}
 									?>
 								</table>
@@ -457,7 +456,7 @@
 			</div>
 		</div>
 	</div>
-	<?php 
+	<?php
 	}
 	?>
 
