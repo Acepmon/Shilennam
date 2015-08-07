@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 24, 2015 at 02:09 AM
+-- Generation Time: Aug 07, 2015 at 06:08 AM
 -- Server version: 5.6.17
 -- PHP Version: 5.5.12
 
@@ -1329,6 +1329,20 @@ INSERT INTO `finance` (`id`, `year`, `month`, `day`, `name`, `debt`, `remaining`
 (45, '2013', NULL, NULL, 'АН\r\n', 0, 17.7),
 (46, '2013', NULL, NULL, 'МАН\r\n', 1838274.5, 305.7),
 (47, '2013', NULL, NULL, 'МАХН\r\n', 0, 84.9);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `gishuun`
+--
+
+CREATE TABLE IF NOT EXISTS `gishuun` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) COLLATE utf8_bin NOT NULL,
+  `upload_pic` int(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `FKGishuunUpload` (`upload_pic`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
 
@@ -13286,7 +13300,7 @@ CREATE TABLE IF NOT EXISTS `news` (
   PRIMARY KEY (`id`),
   KEY `FK_Uploads_id` (`img_upload_id`),
   KEY `FK_Uploads_thumb_id` (`thumb_upload_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=17 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=13 ;
 
 --
 -- Dumping data for table `news`
@@ -14334,7 +14348,7 @@ CREATE TABLE IF NOT EXISTS `uploads` (
   `name` varchar(255) COLLATE utf8_bin NOT NULL,
   `path` varchar(255) COLLATE utf8_bin NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=18 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=93 ;
 
 --
 -- Dumping data for table `uploads`
@@ -14343,11 +14357,93 @@ CREATE TABLE IF NOT EXISTS `uploads` (
 INSERT INTO `uploads` (`id`, `name`, `path`) VALUES
 (1, 'Мэдээ 1 том зураг', 'article1_img1.jpg'),
 (2, 'Мэдээ 1 жижиг зураг', 'article1_img1_thumb.jpg'),
-(15, 'Turshiltiin tom zurag', '1429525340302.jpg');
+(15, 'Turshiltiin tom zurag', '1429525340302.jpg'),
+(17, 'Н. Алтанхуяг', 'AltanhuaygN.jpg'),
+(18, 'Р. Амаржаргал', 'AmarjargalR.jpg'),
+(19, 'Д. Арвин', 'ArvinD.jpg'),
+(20, 'О. Баасанхүү', 'BaasankhuuO.png'),
+(21, 'А. Бакэй', 'BakeiA.jpg'),
+(22, 'Н. Батбаяр', 'BatbayarN1.jpg'),
+(23, 'Батболдсүх', 'BatboldSukh.jpg'),
+(24, 'Су. Батболд', 'BatboldSy.jpg'),
+(25, 'М. Батчимэг', 'BatchimegM.jpg'),
+(26, 'Б. Бат-Эрдэнэ', 'BatErdeneB.jpg'),
+(27, 'Д. Бат-Эрдэнэ', 'BatErdeneD.jpg'),
+(28, 'Г. Батхүү', 'BathuuG.jpg'),
+(29, 'Ж. Бацуурь', 'BatsuuriJ.jpg'),
+(30, 'Н. Батцэрэг', 'BattseregN.jpg'),
+(31, 'Д. Батцогт', 'BattsogtD.jpg'),
+(32, 'Х. Баттулга', 'BattulgaH.jpg'),
+(33, 'Ж. Батзандан', 'BatzandanJ.jpg'),
+(34, 'З. Баянсэлэнгэ', 'BayanselengeZ.jpg'),
+(35, 'Г. Баярсайхан', 'BayarsaikhanG.jpg'),
+(36, 'Ц. Баярсайхан', 'BayarsaikhanTs.jpg'),
+(37, 'Ц. Баярцогт', 'BayartsogtS.jpg'),
+(38, 'Лу. Болд', 'BoldLu.jpg'),
+(39, 'Б. Болор', 'BolorB.jpg'),
+(40, 'Болорчулуун', 'Bolorchuluun.jpg'),
+(41, 'Р. Бурмаа', 'BurmaaR.jpg'),
+(42, 'Ц. Бямбацогт', 'ByambatsogtS.jpg'),
+(43, 'Б. Чойжилсүрэн', 'ChoijilsurenB.jpg'),
+(44, 'Ц. Дашдорж', 'DashdorjTs.jpg'),
+(45, 'Ц. Даваасүрэн', 'DavaasurenTs.jpg'),
+(46, 'Д. Дэмбэрэл', 'DemberelD.jpg'),
+(47, 'С. Дэмбэрэл', 'DemberelS.jpg'),
+(48, 'Л. Энхамгалан', 'EnkhamgalanL.jpg'),
+(49, 'Ж. Энхбаяр', 'EnkhbayarJ.jpg'),
+(50, 'М. Энхболд', 'EnkhboldM.jpg'),
+(51, 'Н. Энхболд', 'EnkhboldN.jpg'),
+(52, 'З. Энхболд', 'EnkhboldZ.jpg'),
+(53, 'У. Энхтүвшин', 'EnkhtuvshinU.jpg'),
+(54, 'Д. Эрдэнэбат', 'ErdenebatD.jpg'),
+(55, 'Ж. Эрдэнэбат', 'ErdenebatJ.jpg'),
+(56, 'Л. Эрдэнэчимэг', 'ErdenechimegL.jpg'),
+(57, 'С. Эрдэнэ', 'ErdeneS.jpg'),
+(58, 'С. Ганбаатар', 'GanbaatarS.jpg'),
+(59, 'Д. Ганбат', 'GanbatD.jpg'),
+(60, 'Д. Ганхуяг', 'GankhuyagD.jpg'),
+(61, 'Л. Гантөмөр', 'GantumurL.jpg'),
+(62, 'Б. Гарамгайбаатар', 'GaramgaibaatarB.jpg'),
+(63, 'Р. Гончигдорж', 'GonchigdorjR.jpg'),
+(64, 'Д. Хаянхууарваа', 'HayanhyyarvaaD.jpg'),
+(65, 'Ч. Хүрэлбаатар', 'KhurelbaatarCh.jpg'),
+(66, 'Д. Лүндээжанцан', 'LundeejantsanD.jpg'),
+(67, 'Б. Наранхүү', 'NarankhuuB.jpg'),
+(68, 'Н. Номтойбаяр', 'NomtoibayarN.jpg'),
+(69, 'Ц. Нямдорж', 'NyamdorjTs.jpg'),
+(70, 'С. Одонтуяа', 'OdontuyaS.jpg'),
+(71, 'Ё. Отгонбаяр', 'OtgonbayarYo.jpg'),
+(72, 'Ц. Оюунбаатар', 'OyunbaatarTs.jpg'),
+(73, 'Ц. Оюунгэрэл', 'OyungerelTs.jpg'),
+(74, 'Д. Оюунхорол', 'OyunkhorolD.jpg'),
+(75, 'С. Оюун', 'OyunS.jpg'),
+(76, 'Ч. Сайханбилэг', 'SaikhanbilegCh.jpg'),
+(77, 'Я. Санжимятав', 'SanjmyatavYa.jpg'),
+(78, 'Д. Сарангэрэл', 'SarangerelD.jpg'),
+(79, 'Я. Содбаатар', 'SodbaatarYa.jpg'),
+(80, 'О. Содбилэг', 'SodbilegO.jpg'),
+(81, 'М. Содномпил', 'SodnompilM.jpg'),
+(82, 'Д. Сумяабазар', 'SumiyabazarD.jpg'),
+(83, 'Х. Тэмүүжин', 'TemujinH.jpg'),
+(84, 'Д. Тэрбишдагва', 'TerbishdagvaD.jpg'),
+(85, 'А. Тлехан', 'TleikhanA.jpg'),
+(86, 'Л. Цог', 'TsogL.jpg'),
+(87, 'Ц. Цолмон', 'TsolmonTs.jpg'),
+(88, 'Түвдэндорж', 'Tuvdendorj.jpg'),
+(89, 'Ч. Улаан', 'UlaanCh.jpg'),
+(90, 'Г. Уянга', 'UyangaG.jpg'),
+(91, 'Д. Зоригт', 'ZorigtD.jpg'),
+(92, 'М. Зоригт', 'ZorigtM.jpg');
 
 --
 -- Constraints for dumped tables
 --
+
+--
+-- Constraints for table `gishuun`
+--
+ALTER TABLE `gishuun`
+  ADD CONSTRAINT `FKGishuunUpload` FOREIGN KEY (`upload_pic`) REFERENCES `uploads` (`id`);
 
 --
 -- Constraints for table `news`

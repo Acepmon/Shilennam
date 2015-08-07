@@ -175,4 +175,7 @@ angular.module('management').controller('managementUploadsCtrl',
         }
       })
     };
+  }]).controller('viewMembersCtrl',
+  ['$scope', '$http', function($scope, $http) {
+    
   }])

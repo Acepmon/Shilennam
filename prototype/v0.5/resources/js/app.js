@@ -67,5 +67,8 @@ angular.module('management', [
     }).state('upload_new', {
       url: '/uploads/upload_new',
       templateUrl: '../views/management/uploads/upload_new/index.php'
+    }).state('members', {
+      url: '/members',
+      templateUrl: '../views/management/members/index.php'
     })
 }]);

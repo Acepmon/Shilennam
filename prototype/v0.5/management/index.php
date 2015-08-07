@@ -57,6 +57,7 @@
             <h3 class="panel-title">Улс төрийн нам</h3>
           </div>
           <ul class="list-group collapse" id="party_menu">
+            <li class="list-group-item"><a href="#/members">Улс төрийн гишүүд</a></li>
             <li class="list-group-item"><a href="#/party">Намуудын жагсаалт</a></li>
             <li class="list-group-item"><a href="#/irged_aan">Иргэд аж ахуй нам</a></li>
           </ul>

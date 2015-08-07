@@ -6,8 +6,8 @@
       <!-- <a href="manage/" class="btn btn-sm">Менежмент</a> -->
     </div>
     <div class="pull-right">
-      <a href="https://www.facebook.com/pages/Shilennam/633649973430676" target="_blank" class="btn btn-sm"><img class='img-responsive' src="res/png/fb-white.png" alt="png"></a>
-      <a href="https://twitter.com/shilennam" target="_blank" class="btn btn-sm"><img class='img-responsive' src="res/png/twitter-white.png" alt="png"></a>
+      <a href="https://www.facebook.com/pages/Shilennam/633649973430676" target="_blank" class="btn btn-sm"><img class='img-responsive' src="resources/images/png/fb-white.png" alt="png"></a>
+      <a href="https://twitter.com/shilennam" target="_blank" class="btn btn-sm"><img class='img-responsive' src="resources/images/png/twitter-white.png" alt="png"></a>
       <a href="#" class="btn btn-sm">
         <span class="glyphicon glyphicon-search"></span>
       </a>
@@ -60,7 +60,7 @@
     $result = $laws->select("text,sanctions,source", "sanctions is not null");
     for ($a = 0; $a < 4; $a++) {
       $randomIndex = rand(0, sizeof($result)-1);
-      $random3 = rand(1, 8);
+      $random3 = rand(1, 17);
   ?>
     <div class="item <?php if ($for_once == false) { echo "active"; $for_once = true; } ?>">
           <img src="resources/images/uugand_imgs/img<?php echo $random3; ?>.jpg" alt="Steppe" class="img-responsive">
