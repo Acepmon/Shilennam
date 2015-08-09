@@ -67,9 +67,9 @@
 
       				$party_img = "res/png/img_error.jpg";
                   	if (empty($party_logo)) {
-                  		$party_img = "res/png/img_error.jpg";
+                  		$party_img = "resources/images/png/img_error.jpg";
                   	} else {
-                  		$party_img = "res/party/logos/".$party_logo;
+                  		$party_img = "resources/images/party/logos/".$party_logo;
                   	}
       				?>
       			<!-- Party logo goes here -->

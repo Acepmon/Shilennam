@@ -38,9 +38,9 @@
       			                foreach ($results as $res) {
       			                	$party_img = "res/png/img_error.jpg";
       			                	if (empty($res['logo_url'])) {
-      			                		$party_img = "res/png/img_error.jpg";
+      			                		$party_img = "resources/images/png/img_error.jpg";
       			                	} else {
-      			                		$party_img = "res/party/logos/".$res['logo_url'];
+      			                		$party_img = "resources/images/party/logos/".$res['logo_url'];
       			                	}
       						?>
 

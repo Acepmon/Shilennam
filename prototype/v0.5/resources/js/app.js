@@ -70,5 +70,8 @@ angular.module('management', [
     }).state('members', {
       url: '/members',
       templateUrl: '../views/management/members/index.php'
+    }).state('add_members', {
+      url: '/members/add_members',
+      templateUrl: '../views/management/members/add_members/index.php'
     })
 }]);

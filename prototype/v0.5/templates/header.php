@@ -58,16 +58,34 @@
     $for_once = false;
     $laws = new db_cn\Table("laws");
     $result = $laws->select("text,sanctions,source", "sanctions is not null");
+    $rand_headers = [0,0,0,0];
+    $i = 0;
+    while (true) {
+      $random3 = rand(1, 17);
+      $fsom = true;
+      foreach ($rand_headers as $rh) {
+        if ($random3 == $rh) {
+          $fsom = false;
+        }
+      }
+      if ($fsom) {
+        $rand_headers[$i] = $random3;
+        $i++;
+        if ($i > 4) {
+          break;
+        }
+      }
+    }
     for ($a = 0; $a < 4; $a++) {
       $randomIndex = rand(0, sizeof($result)-1);
-      $random3 = rand(1, 17);
+      $rand = $rand_headers[$a];
   ?>
     <div class="item <?php if ($for_once == false) { echo "active"; $for_once = true; } ?>">
-          <img src="resources/images/uugand_imgs/img<?php echo $random3; ?>.jpg" alt="Steppe" class="img-responsive">
+          <img src="resources/images/uugand_imgs/img<?php echo $rand; ?>.jpg" alt="Steppe" class="img-responsive blur-img">
           <div class="carousel-caption">
         <?php
           echo "<h3>".$result[$randomIndex]['source']."</h3>";
-          echo "<blockquote><a href='laws.php'>".$result[$randomIndex]['text']."</a></blockquote>";
+          echo "<blockquote><a href='laws.php'>".substr($result[$randomIndex]['text'], 0, 500)."...</a></blockquote>";
           echo "<blockquote><p>".$result[$randomIndex]['sanctions']."</p></blockquote>";
         ?>
 

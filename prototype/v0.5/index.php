@@ -37,11 +37,11 @@
                         }
                         ?>
                         <div class="gov-party col-sm-1 col-centered">
-                            <div class="well well-xs center-block">
+                            <div class="well well-xs center-block" onclick="location.href='party.php?p_id=<?php echo $res['id']; ?>#party'">
                                 <div class="gov-party-img-holder">
                                     <img src="<?php echo $party_img; ?>" alt="">
                                 </div>
-                                <h4><a href="party.php?p_id=<?php echo $res['id']; ?>" title="<?php echo $res['title']; ?>"><?php echo $res['acronym']; ?></a></h4>
+                                <h4><a href="party.php?p_id=<?php echo $res['id']; ?>#party" title="<?php echo $res['title']; ?>"><?php echo $res['acronym']; ?></a></h4>
                             </div>
                         </div>
                         <?php

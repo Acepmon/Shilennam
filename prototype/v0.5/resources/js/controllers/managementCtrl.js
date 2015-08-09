@@ -177,5 +177,32 @@ angular.module('management').controller('managementUploadsCtrl',
     };
   }]).controller('viewMembersCtrl',
   ['$scope', '$http', function($scope, $http) {
-    
+    $http.get("/prototype/v0.5/models/management/json_get_members.php").success(function(response) {
+      $scope.members = response;
+      console.log($scope.members);
+    });
+  }]).controller('insertMembersCtrl',
+  ['$scope', '$http', function($scope, $http) {
+    $scope.insertMember = function() {
+      $http({
+        method  : "POST",
+        url     : "/prototype/v0.5/models/management/insert_member.php",
+        data    : $.param($scope.newsInsertData),
+        headers : {'Content-Type':'application/x-www-form-urlencoded'}
+      }).success(function(data) {
+        if (!data.success) {
+          // $scope.errorTitle = data.errors.title;
+          // $scope.errorDate = data.errors.date;
+          // $scope.errorImgUpload = data.errors.img_upload;
+          // $scope.errorThumbUpload = data.errors.thumb_upload;
+          // $scope.errorDesc = data.errors.desc;
+          // $scope.errorProcess = data.errors.process;
+        } else {
+          // $scope.message = data.message;
+          $http.get("/prototype/v0.5/models/management/json_get_members.php").success(function(response) {
+            $scope.members = response;
+          });
+        }
+      });
+    };
   }])

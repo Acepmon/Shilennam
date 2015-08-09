@@ -5,7 +5,24 @@ html {
 body {
     margin-bottom: 60px;
 }
-
+.clickable-panel {
+  cursor: pointer;
+}
+.clickable-panel:hover {
+  border-color: #D3E5F5;
+  background-color: #FAFBFF;
+  box-shadow: 0px 0px 5px 1px #D3E5F5;
+}
+.jumbotron {
+  background-image: url("patt/wavegrid.png");
+}
+.blur-img {
+  -webkit-filter: blur(0.07em) brightness(0.5);
+  -moz-filter: blur(0.07em) brightness(0.5);
+  -o-filter: blur(0.07em) brightness(0.5);
+  -ms-filter: blur(0.07em) brightness(0.5);
+  filter: blur(0.07em) brightness(0.5);
+}
 .col-center{
     margin:0 auto;
 }
@@ -36,7 +53,7 @@ body {
     background-repeat: no-repeat;
     background-size: 120px auto;
     width: 120px;
-    height: 65px;
+    height: 70px;
     padding: 0px;
 }
 #logo:hover {
@@ -44,7 +61,9 @@ body {
 }
 
 /* Create a medium height at 40px */
-.navbar-md {}
+.navbar-md {
+  padding-top: 5px;
+}
 .navbar-md .navbar-brand,
 .navbar-md .navbar-nav>li>a {padding-top:10px; padding-bottom:10px}
 .navbar-md .navbar-brand {height: 40px}
@@ -61,9 +80,13 @@ body {
 .navbar-sm .navbar-toggle .icon-bar {width: 16px;}
 
 .navbar-default {
-    background-color: #4A85D1;
+    /*background-color: #4A85D1;*/
+    background-color: #2A5285;
     border: 0px;
     border-radius: 0px;
+    /*border-bottom: 2px solid #0C3469;*/
+    box-shadow: 0px 1px 4px 2px #292B2E;
+    z-index: 3;
 }
 .navbar-default .navbar-brand {
     color: #ffffff;
@@ -88,7 +111,8 @@ body {
 }
 .navbar-default .navbar-nav > li > .dropdown-menu {
     margin-top: 0px;
-    background-color: #6a95fd;
+    /*background-color: #6a95fd;*/
+    background-color: #3C6499;
     border: none;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a {
@@ -98,18 +122,22 @@ body {
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
     color: #ffffff;
     font-weight: bold;
-    background-color: #6a95fd;
+    /*background-color: #6a95fd;*/
+    background-color: #245696;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
-    background-color: #6a95fd;
+    /*background-color: #6a95fd;*/
+    background-color: #245696;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #ffffff;
-    background-color: #6a95fd;
+    /*background-color: #6a95fd;*/
+    background-color: #245696;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
     color: #ffffff;
-    background-color: #6a95fd;
+    /*background-color: #6a95fd;*/
+    background-color: #245696;
 }
 .navbar-default .navbar-toggle {
     border-color: #6a95fd;
@@ -158,6 +186,10 @@ body {
     float: none;
 }
 
+#slide {
+  margin-top: -1px;
+  margin-left: -1px;
+}
 #slide blockquote {
     border-left: none;
 }
@@ -175,6 +207,7 @@ body {
 }
 #laws blockquote:hover {
     border-color: gray;
+    background-color: #f4f4f4;
 }
 #laws ul {
     list-style-type: none;
@@ -209,6 +242,8 @@ body {
 
 .row-quick-link {
     background-color: #242E51;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .row-quick-link a {
     color: #fff;
@@ -246,25 +281,50 @@ body {
 }
 .carousel-inner > .item > .carousel-caption blockquote {
     padding: 15px;
-    background: rgba(60, 60, 60, 0.80);
-    border: 1px solid #787E94;
+    background: rgba(63, 65, 69, 0.70);
+    border: 1px solid #686B6E;
     border-radius: 5px;
     font-size: 16px;
     margin-top: 25px;
+    font-family: Arial;
+    font-weight: 100;
+    font-size: 16px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.carousel-inner > .item > .carousel-caption blockquote:hover a{
+    color: #95C1DE;
 }
 .carousel-inner > .item > .carousel-caption blockquote a {
     color: #EDEDED;
-    font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    transition: color 0.2s;
+    font-family: Arial;
+    font-weight: 100;
+    font-size: 16px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.carousel-inner > .item > .carousel-caption blockquote a:hover {
+    text-decoration: none;
 }
 .carousel-inner > .item > .carousel-caption blockquote p {
     text-shadow: none;
     margin: 0px;
     color: #EDEDED;
+    font-family: Arial;
+    font-weight: 100;
+    font-size: 16px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 .carousel-inner > .item > .carousel-caption p {
     margin-top: 40px;
     text-shadow:1px 1px 4px #0D0D0D;
-    font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-family: Arial;
+    font-weight: 100;
+    font-size: 16px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 .carousel-inner > .item > .carousel-caption a {
     text-shadow: 0px 0px 0px;
@@ -285,8 +345,14 @@ body {
 }
 .row-gov-party > .container-fluid .gov-party .well {
     background-color: #fff;
-    min-height: 150px;
-    max-height: 150px;
+    /*min-height: 150px;
+    max-height: 150px;*/
+    cursor: pointer;
+}
+.row-gov-party > .container-fluid .gov-party .well:hover {
+    border-color: #D3E5F5;
+    background-color: #FAFBFF;
+    box-shadow: 0px 0px 5px 1px #D3E5F5;
 }
 .row-gov-party > .container-fluid .gov-party .gov-party-img-holder {
     min-height: 80px;

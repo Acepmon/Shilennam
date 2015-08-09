@@ -27,7 +27,7 @@
 
       		<ul class='list-group'>
       			<li class='list-group-item'>
-      				<h4 style="font-size: 16px;"><a href='#' data-toggle="collapse" data-target="#country_laws" aria-expanded="false">УЛС ТӨРИЙН НАМЫН ТУХАЙ</a></h4>
+      				<h4 style="font-size: 16px;"><a href='#laws' data-toggle="collapse" data-target="#country_laws" aria-expanded="false">УЛС ТӨРИЙН НАМЫН ТУХАЙ</a></h4>
       				<div id="country_laws" class='collapse out'>
       					<ul class="nav nav-list">
       					<?php
@@ -46,7 +46,7 @@
       		  		</div>
       			</li>
       			<li class='list-group-item'>
-      				<h4 style="font-size: 16px;"><a href='#' data-toggle="collapse" data-target="#congress_laws" aria-expanded="false">МОНГОЛ УЛСЫН ИХ ХУРЛЫН СОНГУУЛИЙН ТУХАЙ</a></h4>
+      				<h4 style="font-size: 16px;"><a href='#laws' data-toggle="collapse" data-target="#congress_laws" aria-expanded="false">МОНГОЛ УЛСЫН ИХ ХУРЛЫН СОНГУУЛИЙН ТУХАЙ</a></h4>
       		  		<div id="congress_laws" class='collapse out'>
       		  			<ul class="nav nav-list">
       		  			<?php
