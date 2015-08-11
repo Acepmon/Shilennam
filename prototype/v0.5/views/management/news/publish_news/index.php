@@ -80,7 +80,6 @@
               <button ng-click="deleteNews(news.id, $index)" ng-confirm-click="Are you sure want to delete?" class='btn btn-default'><span class='glyphicon glyphicon-trash'></span></button>
             </td>
           </tr>
-
         </table>
     </div>
   </div>

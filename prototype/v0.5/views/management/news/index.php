@@ -42,7 +42,6 @@
               <button ng-click="deleteNews(news.id, $index)" ng-confirm-click="Та устгамаар байгаадаа итгэлтэй байна уу?" class='btn btn-default'><span class='glyphicon glyphicon-trash'></span></button>
             </td>
           </tr>
-
         </table>
     </div>
   </div>

@@ -1,3 +1,3 @@
 <?php
 
-header("Location: prototype/v0.5");
+header("Location: prototype/v0.6");

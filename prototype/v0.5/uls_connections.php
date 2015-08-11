@@ -13,10 +13,21 @@
 
         <script src="bower_components/cytoscape/cytoscape.min.js"></script>
         <script src="resources/js/cycode.js"></script>
+        <script>
+        $(document).ready(function() {
+          function setDatasOfCy() {
+            var eles = cy.add([
+              { group: "nodes", data: { id: "n0" }, position: { x: 100, y: 100 } },
+              { group: "nodes", data: { id: "n1" }, position: { x: 200, y: 200 } },
+              { group: "edges", data: { id: "e0", source: "n0", target: "n1" } }
+            ]);
+          }
+        });
+        </script>
         <style>
         #cy {
           background-color: #FFF;
-          min-height: 800px;
+          min-height: 500px;
         }
         </style>
     </head>
@@ -29,86 +40,88 @@
         <div class="row-connections">
             <div class="container">
                 <div class="some-links" id="uls_connections">
-                    <div class="jumbotron" style="margin-bottom:0px;">
+                    <div class="jumbotron">
                         <h2 class="text-center">
                             Улс төрчдийн холбоо хамаарал
                         </h2>
                     </div>
+                    <br>
                     <div class="row">
                       <div class="col-md-12">
-                        <div class="col-md-6" style="background-color: #FAFAFA; border-top: 1px solid lightgray; outline: 1px solid lightgray;">
-                          <h3 class="text-center text-primary">Улс төрийн нам</h3>
-                          <br>
-                          <?php
+                        <?php
 
-                          $party = new db_cn\Table("party");
-                          $result = $party->select("id, acronym, logo_url");
-                          $broke = break_array($result, 3);
-                          foreach ($broke as $results) {
-                            echo "<div class='row'>";
-                          foreach ($results as $res) {
-                            $id = $res['id'];
-                            $acronym = $res['acronym'];
+                          if (!empty($_GET['expand'])) {
+                            ?>
+                            <div class="col-md-10">
+                              <a href="uls_connections.php#uls_connections" class="btn btn-primary">Буцах</a>
+                              <button class="btn btn-info" onclick="setDatasOfCy()">ASD</button>
+                            </div>
+                            <div class="clearfix"></div>
+                            <br>
+                            <?php
 
-                            $party_img = "resources/images/png/img_error.jpg";
-                            if (empty($res['logo_url'])) {
-                                $party_img = "resources/images/png/img_error.jpg";
-                            } else {
-                                $party_img = "resources/images/party/logos/" . $res['logo_url'];
-                            }
+                            $g_id = $_GET['id'];
+                            $db = new db_cn\Connector();
+                            $db->query("select * from gishuun where id = :id");
+                            $db->bind(":id", $g_id);
+                            $gishuun = $db->single();
+                            $name = $gishuun['name'];
+                            $db->query("select path from uploads where id = :id");
+                            $db->bind(":id", $gishuun['upload_pic']);
+                            $img = $db->single()['path'];
                             ?>
                             <div class="col-md-4">
-                              <div class="panel panel-default clickable-panel">
-                                <div class="panel-heading">
-                                  <h4 class="panel-title text-center"><?php echo $acronym; ?></h4>
-                                </div>
-                                <div class="panel-body">
-                                  <img src="<?php echo $party_img; ?>" alt="" class="img-responsive">
-                                </div>
+                            <div class="panel panel-default clickable-panel" onclick="location.href='uls_connections.php?expand=true&id=<?php echo $g_id; ?>#uls_connections'">
+                              <div class="panel-body" style="padding: 0px;">
+                                <img src="resources/uploads/<?php echo $img; ?>" alt="" class="img-responsive img-thumbnail">
                               </div>
+                              <div class="panel-footer">
+                                <h4 class="panel-title">
+                                  <?php echo $name; ?>
+                                </h4>
+                              </div>
+                            </div>
+                            </div>
+                            <div class="col-md-8">
+                              <div id="cy"></div>
+
                             </div>
                             <?php
-                          }
-                          echo "</div>";
-                          }
-                          ?>
-                        </div>
-                        <div class="col-md-6" style="background-color: #FAFAFA; border-top: 1px solid lightgray; outline: 1px solid lightgray;">
-                          <h3 class="text-center text-primary">Хувийн байгууллага</h3>
-                          <br>
-                          <?php
-              							$companies = new db_cn\Table("companies");
-              							$result = $companies->select("*");
-              							$broke = break_array($result, 3);
-                            foreach ($broke as $results) {
+                          } else {
+                            $db = new db_cn\Connector();
+                            $db->query("select * from gishuun");
+                            $result = $db->resultset();
+                            $broke = break_array($result, 6);
+                            foreach ($broke as $resu) {
                               echo "<div class='row'>";
-              							foreach ($results as $res) {
-              						?>
-
-                          <div class="col-md-4">
-                            <div class="panel panel-default clickable-panel">
-                              <div class="panel-heading">
-                                <h4 class="panel-title text-center"><?php echo $res['company']; ?></h4>
+                              foreach ($resu as $res) {
+                              $db->query("select path from uploads where id = :id");
+                              $db->bind(":id", $res['upload_pic']);
+                              $img = $db->single()['path'];
+                              ?>
+                              <div class="col-md-2">
+                              <div class="panel panel-default clickable-panel" data-target="<?php echo $res['name']; ?>" data-toggle="get_connected_gishuun" onclick="location.href='uls_connections.php?expand=true&id=<?php echo $res['id']; ?>#uls_connections'">
+                                <div class="panel-body" style="padding: 0px;">
+                                  <img src="resources/uploads/<?php echo $img; ?>" alt="" class="img-responsive img-thumbnail">
+                                </div>
+                                <div class="panel-footer">
+                                  <h4 class="panel-title">
+                                    <?php echo $res['name']; ?>
+                                  </h4>
+                                </div>
                               </div>
-                              <!-- <ul class="list-group">
-                                <li class="list-group-item"><?php echo $res['sector_code']; ?></li>
-                                <li class="list-group-item"><?php echo $res['sector_name']; ?></li>
-                              </ul> -->
-                            </div>
-                          </div>
-
-              						<?php
-              							}
+                              </div>
+                              <?php
+                            }
                             echo "</div>";
+                            }
                           }
-              						?>
-                        </div>
+                        ?>
                       </div>
                     </div>
                 </div>
             </div>
         </div>
-
 
         <footer class="footer navbar navbar-fixed-bottom">
             <?php include "templates/footer.php"; ?>
