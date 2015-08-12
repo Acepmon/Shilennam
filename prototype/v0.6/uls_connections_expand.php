@@ -42,7 +42,6 @@
                             ?>
                             <div class="col-md-10">
                               <a href="uls_connections.php#uls_connections" class="btn btn-primary">Буцах</a>
-                              <button class="btn btn-info" onclick="setDatasOfCy()">ASD</button>
                             </div>
                             <div class="clearfix"></div>
                             <br>
