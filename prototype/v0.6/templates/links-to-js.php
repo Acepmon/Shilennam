@@ -6,19 +6,19 @@
 <![endif]-->
 
 <!-- JQuery javascript api -->
-<script type="text/javascript" src="/prototype/v0.5/bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="/prototype/v0.6/bower_components/jquery/dist/jquery.min.js"></script>
 
 <!-- Bootstrap js file -->
-<script type="text/javascript" src="/prototype/v0.5/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/prototype/v0.6/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
 <!-- AngularJS one page application api -->
 <!-- <script type="text/javascript" src="/prototype/v0.5/bower_components/angular/angular.min.js"></script> -->
 
 <!-- Angular UI Router -->
-<script type="text/javascript" src="/prototype/v0.5/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script type="text/javascript" src="/prototype/v0.6/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
 
 <!-- Custom global js file -->
-<script type="text/javascript" src="/prototype/v0.5/resources/js/global.js"></script>
+<script type="text/javascript" src="/prototype/v0.6/resources/js/global.js"></script>
 
 <!-- Angular app for the website -->
 <!-- <script type="text/javascript" src="/prototype/v0.5/resources/js/app.js"></script> -->
